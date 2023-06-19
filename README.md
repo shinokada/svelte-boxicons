@@ -19,7 +19,7 @@
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
 <p align="center">
-<img width="650" src="/static/images/boxicons.webp" />
+<img width="650" src="/static/images/boxicons-450.webp" />
 </p>
 
 ## Installation
@@ -36,10 +36,11 @@ npm i -D svelte-boxicons
 
 [Icon images](/icon-images.md)
 
-## REPL
+## Installation
 
-- [Demo 1](https://svelte.dev/repl/55ccaffe3d414235a6bb554ffd98f4bc)
-- [Demo 2](https://svelte.dev/repl/b63ed92a79a047bdb2017fac63624130)
+```
+pnpm i -D svelte-boxicons
+```
 
 ## Usages
 
@@ -47,11 +48,10 @@ In a svelte file:
 
 ```html
 <script>
-  import { Folders, GitMerge } from 'svelte-boxicons';
+  import { BxAbacus } from 'svelte-boxicons';
 </script>
 
-<Folders />
-<GitMerge />
+<BxAbacus />
 ```
 
 ## Faster compiling
@@ -60,18 +60,16 @@ If you need only a few icons from this library in your Svelte app, import them d
 
 ```html
 <script>
-  import Folders from 'svelte-boxicons/Folders.svelte';
+  import BxAbacus from 'svelte-boxicons/BxAbacus.svelte';
 </script>
 
-<Folders />
+<BxAbacus />
 ```
 
 If you are a TypeScript user, install **typescript version 5.0.0 or above**.
 
-As of March 2023, the `typescript@beta` version is now available:
-
 ```sh
-pnpm i -D typescript@beta
+pnpm i -D typescript@latest
 ```
 
 To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
@@ -88,8 +86,9 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 
 ## Props
 
-- size = '16';
+- viewBox: string = '0 0 24 24';
 - role = 'img';
+- strokeWidth = '1.5';
 - color = 'currentColor';
 - ariaLabel = 'icon file name';
 
@@ -102,7 +101,7 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 Use the `size` prop to change the size of icons.
 
 ```html
-<Folders size="40" /> <GitMerge size="40" />
+<BxAbacus size="40" /> 
 ```
 
 ## CSS HEX Colors
@@ -110,7 +109,7 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<Folders color="#c61515" /> <GitMerge color="#3759e5" />
+<BxAbacus color="#c61515" /> 
 ```
 
 ## CSS framworks suport
@@ -120,13 +119,13 @@ Use the `class` prop to change size, colors and add additional css.
 Tailwind CSS example:
 
 ```html
-<Folders class="h-24 w-24 text-blue-700 mr-4" />
+<BxAbacus class="h-24 w-24 text-blue-700 mr-4" />
 ```
 
 Bootstrap examples:
 
 ```html
-<Folders class="position-absolute top-0 px-1" />
+<BxAbacus class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -136,16 +135,16 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<Folders class="text-blue-700 dark:text-red-500" />
+<BxAbacus class="text-blue-700 dark:text-red-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `FolderMinus` has `aria-label="folder minux"`.
+All icons have aria-label. For example `BxAbacus` has `aria-label="bx abacus"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<FolderMinus ariaLabel="folder minux svg icon" />
+<BxAbacus ariaLabel="abacus svg icon" />
 ```
 
 ## Unfocusable icon
@@ -153,7 +152,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<FolderMinus tabindex="-1" />
+<BxAbacus tabindex="-1" />
 ```
 
 ## Events
@@ -175,31 +174,31 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<FolderMinus tabindex="0" />
+<BxAbacus tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
 <script>
-  import { FolderMinus } from 'svelte-boxicons';
+  import { BxAbacus } from 'svelte-boxicons';
 </script>
 
-<svelte:component this="{FolderMinus}" />
+<svelte:component this="{BxAbacus}" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { FolderMinus } from 'svelte-boxicons';
+  import { BxAbacus } from 'svelte-boxicons';
   import { onMount } from 'svelte';
   const props = {
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new FolderMinus({ target: document.body, props });
+    const icon = new BxAbacus({ target: document.body, props });
   });
 </script>
 ```
@@ -213,19 +212,16 @@ Use `import * as Icon from 'svelte-boxicons`.
   import * as Icon from 'svelte-boxicons';
 </script>
 
-<Icon.FolderMinus />
-<Icon.GitMerge />
+<Icon.BxAbacus />
 
 <h1>Size</h1>
-<Icon.FolderMinus size="30" />
-<Icon.GitMerge size="40" />
+<Icon.BxAbacus size="30" />
 
 <h1>CSS HEX color</h1>
-<Icon.GitMerge color="#c61515" size="40" />
+<Icon.BxAbacus color="#c61515" size="40" />
 
 <h1>Tailwind CSS</h1>
-<Icon.FolderMinus class="text-blue-500" />
-<Icon.GitMerge class="text-pink-700" />
+<Icon.BxAbacus class="text-blue-500" />
 ```
 
 ## Other icons
