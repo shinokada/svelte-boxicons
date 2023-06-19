@@ -1,1635 +1,1634 @@
-BxAbacus.svelte
-BxAccessibility.svelte
-BxAddToQueue.svelte
-BxAdjust.svelte
-BxAlarm.svelte
-BxAlarmAdd.svelte
-BxAlarmExclamation.svelte
-BxAlarmOff.svelte
-BxAlarmSnooze.svelte
-BxAlbum.svelte
-BxAlignJustify.svelte
-BxAlignLeft.svelte
-BxAlignMiddle.svelte
-BxAlignRight.svelte
-BxAnalyse.svelte
-BxAnchor.svelte
-BxAngry.svelte
-BxAperture.svelte
-BxArch.svelte
-BxArchive.svelte
-BxArchiveIn.svelte
-BxArchiveOut.svelte
-BxArea.svelte
-BxArrowBack.svelte
-BxArrowFromBottom.svelte
-BxArrowFromLeft.svelte
-BxArrowFromRight.svelte
-BxArrowFromTop.svelte
-BxArrowToBottom.svelte
-BxArrowToLeft.svelte
-BxArrowToRight.svelte
-BxArrowToTop.svelte
-BxAt.svelte
-BxAtom.svelte
-BxAward.svelte
-BxBadge.svelte
-BxBadgeCheck.svelte
-BxBaguette.svelte
-BxBall.svelte
-BxBandAid.svelte
-BxBarChart.svelte
-BxBarChartAlt.svelte
-BxBarChartAlt2.svelte
-BxBarChartSquare.svelte
-BxBarcode.svelte
-BxBarcodeReader.svelte
-BxBaseball.svelte
-BxBasket.svelte
-BxBasketball.svelte
-BxBath.svelte
-BxBattery.svelte
-BxBed.svelte
-BxBeenHere.svelte
-BxBeer.svelte
-BxBell.svelte
-BxBellMinus.svelte
-BxBellOff.svelte
-BxBellPlus.svelte
-BxBible.svelte
-BxBitcoin.svelte
-BxBlanket.svelte
-BxBlock.svelte
-BxBluetooth.svelte
-BxBody.svelte
-BxBold.svelte
-BxBoltCircle.svelte
-BxBomb.svelte
-BxBone.svelte
-BxBong.svelte
-BxBook.svelte
-BxBookAdd.svelte
-BxBookAlt.svelte
-BxBookBookmark.svelte
-BxBookContent.svelte
-BxBookHeart.svelte
-BxBookOpen.svelte
-BxBookReader.svelte
-BxBookmark.svelte
-BxBookmarkAlt.svelte
-BxBookmarkAltMinus.svelte
-BxBookmarkAltPlus.svelte
-BxBookmarkHeart.svelte
-BxBookmarkMinus.svelte
-BxBookmarkPlus.svelte
-BxBookmarks.svelte
-BxBorderAll.svelte
-BxBorderBottom.svelte
-BxBorderInner.svelte
-BxBorderLeft.svelte
-BxBorderNone.svelte
-BxBorderOuter.svelte
-BxBorderRadius.svelte
-BxBorderRight.svelte
-BxBorderTop.svelte
-BxBot.svelte
-BxBowlHot.svelte
-BxBowlRice.svelte
-BxBowlingBall.svelte
-BxBox.svelte
-BxBracket.svelte
-BxBraille.svelte
-BxBrain.svelte
-BxBriefcase.svelte
-BxBriefcaseAlt.svelte
-BxBriefcaseAlt2.svelte
-BxBrightness.svelte
-BxBrightnessHalf.svelte
-BxBroadcast.svelte
-BxBrush.svelte
-BxBrushAlt.svelte
-BxBug.svelte
-BxBugAlt.svelte
-BxBuilding.svelte
-BxBuildingHouse.svelte
-BxBuildings.svelte
-BxBulb.svelte
-BxBullseye.svelte
-BxBuoy.svelte
-BxBus.svelte
-BxBusSchool.svelte
-BxCabinet.svelte
-BxCableCar.svelte
-BxCake.svelte
-BxCalculator.svelte
-BxCalendar.svelte
-BxCalendarAlt.svelte
-BxCalendarCheck.svelte
-BxCalendarEdit.svelte
-BxCalendarEvent.svelte
-BxCalendarExclamation.svelte
-BxCalendarHeart.svelte
-BxCalendarMinus.svelte
-BxCalendarPlus.svelte
-BxCalendarStar.svelte
-BxCalendarWeek.svelte
-BxCalendarX.svelte
-BxCamera.svelte
-BxCameraHome.svelte
-BxCameraMovie.svelte
-BxCameraOff.svelte
-BxCandles.svelte
-BxCapsule.svelte
-BxCaptions.svelte
-BxCar.svelte
-BxCard.svelte
-BxCaretDown.svelte
-BxCaretDownCircle.svelte
-BxCaretDownSquare.svelte
-BxCaretLeft.svelte
-BxCaretLeftCircle.svelte
-BxCaretLeftSquare.svelte
-BxCaretRight.svelte
-BxCaretRightCircle.svelte
-BxCaretRightSquare.svelte
-BxCaretUp.svelte
-BxCaretUpCircle.svelte
-BxCaretUpSquare.svelte
-BxCarousel.svelte
-BxCart.svelte
-BxCartAdd.svelte
-BxCartAlt.svelte
-BxCartDownload.svelte
-BxCast.svelte
-BxCategory.svelte
-BxCategoryAlt.svelte
-BxCctv.svelte
-BxCertification.svelte
-BxChair.svelte
-BxChalkboard.svelte
-BxChart.svelte
-BxChat.svelte
-BxCheck.svelte
-BxCheckCircle.svelte
-BxCheckDouble.svelte
-BxCheckShield.svelte
-BxCheckSquare.svelte
-BxCheckbox.svelte
-BxCheckboxChecked.svelte
-BxCheckboxMinus.svelte
-BxCheckboxSquare.svelte
-BxCheese.svelte
-BxChevronDown.svelte
-BxChevronDownCircle.svelte
-BxChevronDownSquare.svelte
-BxChevronLeft.svelte
-BxChevronLeftCircle.svelte
-BxChevronLeftSquare.svelte
-BxChevronRight.svelte
-BxChevronRightCircle.svelte
-BxChevronRightSquare.svelte
-BxChevronUp.svelte
-BxChevronUpCircle.svelte
-BxChevronUpSquare.svelte
-BxChevronsDown.svelte
-BxChevronsLeft.svelte
-BxChevronsRight.svelte
-BxChevronsUp.svelte
-BxChild.svelte
-BxChip.svelte
-BxChurch.svelte
-BxCircle.svelte
-BxCircleHalf.svelte
-BxCircleQuarter.svelte
-BxCircleThreeQuarter.svelte
-BxClinic.svelte
-BxClipboard.svelte
-BxCloset.svelte
-BxCloud.svelte
-BxCloudDownload.svelte
-BxCloudDrizzle.svelte
-BxCloudLightRain.svelte
-BxCloudLightning.svelte
-BxCloudRain.svelte
-BxCloudSnow.svelte
-BxCloudUpload.svelte
-BxCode.svelte
-BxCodeAlt.svelte
-BxCodeBlock.svelte
-BxCodeCurly.svelte
-BxCoffee.svelte
-BxCoffeeTogo.svelte
-BxCog.svelte
-BxCoin.svelte
-BxCoinStack.svelte
-BxCollapse.svelte
-BxCollapseAlt.svelte
-BxCollapseHorizontal.svelte
-BxCollapseVertical.svelte
-BxCollection.svelte
-BxColor.svelte
-BxColorFill.svelte
-BxColumns.svelte
-BxCommand.svelte
-BxComment.svelte
-BxCommentAdd.svelte
-BxCommentCheck.svelte
-BxCommentDetail.svelte
-BxCommentDots.svelte
-BxCommentEdit.svelte
-BxCommentError.svelte
-BxCommentMinus.svelte
-BxCommentX.svelte
-BxCompass.svelte
-BxConfused.svelte
-BxConversation.svelte
-BxCookie.svelte
-BxCool.svelte
-BxCopy.svelte
-BxCopyAlt.svelte
-BxCopyright.svelte
-BxCreditCard.svelte
-BxCreditCardAlt.svelte
-BxCreditCardFront.svelte
-BxCricketBall.svelte
-BxCrop.svelte
-BxCross.svelte
-BxCrosshair.svelte
-BxCrown.svelte
-BxCube.svelte
-BxCubeAlt.svelte
-BxCuboid.svelte
-BxCurrentLocation.svelte
-BxCustomize.svelte
-BxCut.svelte
-BxCycling.svelte
-BxCylinder.svelte
-BxData.svelte
-BxDesktop.svelte
-BxDetail.svelte
-BxDevices.svelte
-BxDialpad.svelte
-BxDialpadAlt.svelte
-BxDiamond.svelte
-BxDice1.svelte
-BxDice2.svelte
-BxDice3.svelte
-BxDice4.svelte
-BxDice5.svelte
-BxDice6.svelte
-BxDirections.svelte
-BxDisc.svelte
-BxDish.svelte
-BxDislike.svelte
-BxDizzy.svelte
-BxDna.svelte
-BxDockBottom.svelte
-BxDockLeft.svelte
-BxDockRight.svelte
-BxDockTop.svelte
-BxDollar.svelte
-BxDollarCircle.svelte
-BxDonateBlood.svelte
-BxDonateHeart.svelte
-BxDoorOpen.svelte
-BxDotsHorizontal.svelte
-BxDotsHorizontalRounded.svelte
-BxDotsVertical.svelte
-BxDotsVerticalRounded.svelte
-BxDoughnutChart.svelte
-BxDownArrow.svelte
-BxDownArrowAlt.svelte
-BxDownArrowCircle.svelte
-BxDownload.svelte
-BxDownvote.svelte
-BxDrink.svelte
-BxDroplet.svelte
-BxDumbbell.svelte
-BxDuplicate.svelte
-BxEdit.svelte
-BxEditAlt.svelte
-BxEnvelope.svelte
-BxEnvelopeOpen.svelte
-BxEqualizer.svelte
-BxEraser.svelte
-BxError.svelte
-BxErrorAlt.svelte
-BxErrorCircle.svelte
-BxEuro.svelte
-BxExclude.svelte
-BxExit.svelte
-BxExitFullscreen.svelte
-BxExpand.svelte
-BxExpandAlt.svelte
-BxExpandHorizontal.svelte
-BxExpandVertical.svelte
-BxExport.svelte
-BxExtension.svelte
-BxFace.svelte
-BxFastForward.svelte
-BxFastForwardCircle.svelte
-BxFemale.svelte
-BxFemaleSign.svelte
-BxFile.svelte
-BxFileBlank.svelte
-BxFileFind.svelte
-BxFilm.svelte
-BxFilter.svelte
-BxFilterAlt.svelte
-BxFingerprint.svelte
-BxFirstAid.svelte
-BxFirstPage.svelte
-BxFlag.svelte
-BxFolder.svelte
-BxFolderMinus.svelte
-BxFolderOpen.svelte
-BxFolderPlus.svelte
-BxFont.svelte
-BxFontColor.svelte
-BxFontFamily.svelte
-BxFontSize.svelte
-BxFoodMenu.svelte
-BxFoodTag.svelte
-BxFootball.svelte
-BxFork.svelte
-BxFridge.svelte
-BxFullscreen.svelte
-BxGame.svelte
-BxGasPump.svelte
-BxGhost.svelte
-BxGift.svelte
-BxGitBranch.svelte
-BxGitCommit.svelte
-BxGitCompare.svelte
-BxGitMerge.svelte
-BxGitPullRequest.svelte
-BxGitRepoForked.svelte
-BxGlasses.svelte
-BxGlassesAlt.svelte
-BxGlobe.svelte
-BxGlobeAlt.svelte
-BxGrid.svelte
-BxGridAlt.svelte
-BxGridHorizontal.svelte
-BxGridSmall.svelte
-BxGridVertical.svelte
-BxGroup.svelte
-BxHandicap.svelte
-BxHappy.svelte
-BxHappyAlt.svelte
-BxHappyBeaming.svelte
-BxHappyHeartEyes.svelte
-BxHardHat.svelte
-BxHash.svelte
-BxHdd.svelte
-BxHeading.svelte
-BxHeadphone.svelte
-BxHealth.svelte
-BxHeart.svelte
-BxHeartCircle.svelte
-BxHeartSquare.svelte
-BxHelpCircle.svelte
-BxHide.svelte
-BxHighlight.svelte
-BxHistory.svelte
-BxHive.svelte
-BxHome.svelte
-BxHomeAlt.svelte
-BxHomeAlt2.svelte
-BxHomeCircle.svelte
-BxHomeHeart.svelte
-BxHomeSmile.svelte
-BxHorizontalCenter.svelte
-BxHorizontalLeft.svelte
-BxHorizontalRight.svelte
-BxHotel.svelte
-BxHourglass.svelte
-BxIdCard.svelte
-BxImage.svelte
-BxImageAdd.svelte
-BxImageAlt.svelte
-BxImages.svelte
-BxImport.svelte
-BxInfinite.svelte
-BxInfoCircle.svelte
-BxInfoSquare.svelte
-BxInjection.svelte
-BxIntersect.svelte
-BxItalic.svelte
-BxJoystick.svelte
-BxJoystickAlt.svelte
-BxJoystickButton.svelte
-BxKey.svelte
-BxKnife.svelte
-BxLabel.svelte
-BxLandscape.svelte
-BxLaptop.svelte
-BxLastPage.svelte
-BxLaugh.svelte
-BxLayer.svelte
-BxLayerMinus.svelte
-BxLayerPlus.svelte
-BxLayout.svelte
-BxLeaf.svelte
-BxLeftArrow.svelte
-BxLeftArrowAlt.svelte
-BxLeftArrowCircle.svelte
-BxLeftDownArrowCircle.svelte
-BxLeftIndent.svelte
-BxLeftTopArrowCircle.svelte
-BxLemon.svelte
-BxLibrary.svelte
-BxLike.svelte
-BxLineChart.svelte
-BxLineChartDown.svelte
-BxLink.svelte
-BxLinkAlt.svelte
-BxLinkExternal.svelte
-BxLira.svelte
-BxListCheck.svelte
-BxListMinus.svelte
-BxListOl.svelte
-BxListPlus.svelte
-BxListUl.svelte
-BxLoader.svelte
-BxLoaderAlt.svelte
-BxLoaderCircle.svelte
-BxLocationPlus.svelte
-BxLock.svelte
-BxLockAlt.svelte
-BxLockOpen.svelte
-BxLockOpenAlt.svelte
-BxLogIn.svelte
-BxLogInCircle.svelte
-BxLogOut.svelte
-BxLogOutCircle.svelte
-BxLowVision.svelte
-BxMagnet.svelte
-BxMailSend.svelte
-BxMale.svelte
-BxMaleFemale.svelte
-BxMaleSign.svelte
-BxMap.svelte
-BxMapAlt.svelte
-BxMapPin.svelte
-BxMask.svelte
-BxMath.svelte
-BxMedal.svelte
-BxMeh.svelte
-BxMehAlt.svelte
-BxMehBlank.svelte
-BxMemoryCard.svelte
-BxMenu.svelte
-BxMenuAltLeft.svelte
-BxMenuAltRight.svelte
-BxMerge.svelte
-BxMessage.svelte
-BxMessageAdd.svelte
-BxMessageAlt.svelte
-BxMessageAltAdd.svelte
-BxMessageAltCheck.svelte
-BxMessageAltDetail.svelte
-BxMessageAltDots.svelte
-BxMessageAltEdit.svelte
-BxMessageAltError.svelte
-BxMessageAltMinus.svelte
-BxMessageAltX.svelte
-BxMessageCheck.svelte
-BxMessageDetail.svelte
-BxMessageDots.svelte
-BxMessageEdit.svelte
-BxMessageError.svelte
-BxMessageMinus.svelte
-BxMessageRounded.svelte
-BxMessageRoundedAdd.svelte
-BxMessageRoundedCheck.svelte
-BxMessageRoundedDetail.svelte
-BxMessageRoundedDots.svelte
-BxMessageRoundedEdit.svelte
-BxMessageRoundedError.svelte
-BxMessageRoundedMinus.svelte
-BxMessageRoundedX.svelte
-BxMessageSquare.svelte
-BxMessageSquareAdd.svelte
-BxMessageSquareCheck.svelte
-BxMessageSquareDetail.svelte
-BxMessageSquareDots.svelte
-BxMessageSquareEdit.svelte
-BxMessageSquareError.svelte
-BxMessageSquareMinus.svelte
-BxMessageSquareX.svelte
-BxMessageX.svelte
-BxMeteor.svelte
-BxMicrochip.svelte
-BxMicrophone.svelte
-BxMicrophoneOff.svelte
-BxMinus.svelte
-BxMinusBack.svelte
-BxMinusCircle.svelte
-BxMinusFront.svelte
-BxMobile.svelte
-BxMobileAlt.svelte
-BxMobileLandscape.svelte
-BxMobileVibration.svelte
-BxMoney.svelte
-BxMoneyWithdraw.svelte
-BxMoon.svelte
-BxMouse.svelte
-BxMouseAlt.svelte
-BxMove.svelte
-BxMoveHorizontal.svelte
-BxMoveVertical.svelte
-BxMovie.svelte
-BxMoviePlay.svelte
-BxMusic.svelte
-BxNavigation.svelte
-BxNetworkChart.svelte
-BxNews.svelte
-BxNoEntry.svelte
-BxNoSignal.svelte
-BxNote.svelte
-BxNotepad.svelte
-BxNotification.svelte
-BxNotificationOff.svelte
-BxObjectsHorizontalCenter.svelte
-BxObjectsHorizontalLeft.svelte
-BxObjectsHorizontalRight.svelte
-BxObjectsVerticalBottom.svelte
-BxObjectsVerticalCenter.svelte
-BxObjectsVerticalTop.svelte
-BxOutline.svelte
-BxPackage.svelte
-BxPaint.svelte
-BxPaintRoll.svelte
-BxPalette.svelte
-BxPaperPlane.svelte
-BxPaperclip.svelte
-BxParagraph.svelte
-BxParty.svelte
-BxPaste.svelte
-BxPause.svelte
-BxPauseCircle.svelte
-BxPen.svelte
-BxPencil.svelte
-BxPhone.svelte
-BxPhoneCall.svelte
-BxPhoneIncoming.svelte
-BxPhoneOff.svelte
-BxPhoneOutgoing.svelte
-BxPhotoAlbum.svelte
-BxPieChart.svelte
-BxPieChartAlt.svelte
-BxPieChartAlt2.svelte
-BxPin.svelte
-BxPlanet.svelte
-BxPlay.svelte
-BxPlayCircle.svelte
-BxPlug.svelte
-BxPlus.svelte
-BxPlusCircle.svelte
-BxPlusMedical.svelte
-BxPodcast.svelte
-BxPointer.svelte
-BxPoll.svelte
-BxPolygon.svelte
-BxPopsicle.svelte
-BxPound.svelte
-BxPowerOff.svelte
-BxPrinter.svelte
-BxPulse.svelte
-BxPurchaseTag.svelte
-BxPurchaseTagAlt.svelte
-BxPyramid.svelte
-BxQr.svelte
-BxQrScan.svelte
-BxQuestionMark.svelte
-BxRadar.svelte
-BxRadio.svelte
-BxRadioCircle.svelte
-BxRadioCircleMarked.svelte
-BxReceipt.svelte
-BxRectangle.svelte
-BxRecycle.svelte
-BxRedo.svelte
-BxReflectHorizontal.svelte
-BxReflectVertical.svelte
-BxRefresh.svelte
-BxRegistered.svelte
-BxRename.svelte
-BxRepeat.svelte
-BxReply.svelte
-BxReplyAll.svelte
-BxRepost.svelte
-BxReset.svelte
-BxRestaurant.svelte
-BxRevision.svelte
-BxRewind.svelte
-BxRewindCircle.svelte
-BxRfid.svelte
-BxRightArrow.svelte
-BxRightArrowAlt.svelte
-BxRightArrowCircle.svelte
-BxRightDownArrowCircle.svelte
-BxRightIndent.svelte
-BxRightTopArrowCircle.svelte
-BxRocket.svelte
-BxRotateLeft.svelte
-BxRotateRight.svelte
-BxRss.svelte
-BxRuble.svelte
-BxRuler.svelte
-BxRun.svelte
-BxRupee.svelte
-BxSad.svelte
-BxSave.svelte
-BxScan.svelte
-BxScatterChart.svelte
-BxScreenshot.svelte
-BxSearch.svelte
-BxSearchAlt.svelte
-BxSearchAlt2.svelte
-BxSelectMultiple.svelte
-BxSelection.svelte
-BxSend.svelte
-BxServer.svelte
-BxShapeCircle.svelte
-BxShapePolygon.svelte
-BxShapeSquare.svelte
-BxShapeTriangle.svelte
-BxShare.svelte
-BxShareAlt.svelte
-BxShekel.svelte
-BxShield.svelte
-BxShieldAlt.svelte
-BxShieldAlt2.svelte
-BxShieldMinus.svelte
-BxShieldPlus.svelte
-BxShieldQuarter.svelte
-BxShieldX.svelte
-BxShocked.svelte
-BxShoppingBag.svelte
-BxShow.svelte
-BxShowAlt.svelte
-BxShower.svelte
-BxShuffle.svelte
-BxSidebar.svelte
-BxSignal1.svelte
-BxSignal2.svelte
-BxSignal3.svelte
-BxSignal4.svelte
-BxSignal5.svelte
-BxSitemap.svelte
-BxSkipNext.svelte
-BxSkipNextCircle.svelte
-BxSkipPrevious.svelte
-BxSkipPreviousCircle.svelte
-BxSleepy.svelte
-BxSlider.svelte
-BxSliderAlt.svelte
-BxSlideshow.svelte
-BxSmile.svelte
-BxSort.svelte
-BxSortAZ.svelte
-BxSortAlt2.svelte
-BxSortDown.svelte
-BxSortUp.svelte
-BxSortZA.svelte
-BxSpa.svelte
-BxSpaceBar.svelte
-BxSpeaker.svelte
-BxSprayCan.svelte
-BxSpreadsheet.svelte
-BxSquare.svelte
-BxSquareRounded.svelte
-BxStar.svelte
-BxStation.svelte
-BxStats.svelte
-BxSticker.svelte
-BxStop.svelte
-BxStopCircle.svelte
-BxStopwatch.svelte
-BxStore.svelte
-BxStoreAlt.svelte
-BxStreetView.svelte
-BxStrikethrough.svelte
-BxSubdirectoryLeft.svelte
-BxSubdirectoryRight.svelte
-BxSun.svelte
-BxSupport.svelte
-BxSushi.svelte
-BxSwim.svelte
-BxSync.svelte
-BxTab.svelte
-BxTable.svelte
-BxTachometer.svelte
-BxTag.svelte
-BxTagAlt.svelte
-BxTargetLock.svelte
-BxTask.svelte
-BxTaskX.svelte
-BxTaxi.svelte
-BxTennisBall.svelte
-BxTerminal.svelte
-BxTestTube.svelte
-BxText.svelte
-BxTime.svelte
-BxTimeFive.svelte
-BxTimer.svelte
-BxTired.svelte
-BxToggleLeft.svelte
-BxToggleRight.svelte
-BxTone.svelte
-BxTrafficCone.svelte
-BxTrain.svelte
-BxTransfer.svelte
-BxTransferAlt.svelte
-BxTrash.svelte
-BxTrashAlt.svelte
-BxTrendingDown.svelte
-BxTrendingUp.svelte
-BxTrim.svelte
-BxTrip.svelte
-BxTrophy.svelte
-BxTv.svelte
-BxUnderline.svelte
-BxUndo.svelte
-BxUnite.svelte
-BxUniversalAccess.svelte
-BxUnlink.svelte
-BxUpArrow.svelte
-BxUpArrowAlt.svelte
-BxUpArrowCircle.svelte
-BxUpload.svelte
-BxUpsideDown.svelte
-BxUpvote.svelte
-BxUsb.svelte
-BxUser.svelte
-BxUserCheck.svelte
-BxUserCircle.svelte
-BxUserMinus.svelte
-BxUserPin.svelte
-BxUserPlus.svelte
-BxUserVoice.svelte
-BxUserX.svelte
-BxVector.svelte
-BxVerticalBottom.svelte
-BxVerticalCenter.svelte
-BxVerticalTop.svelte
-BxVial.svelte
-BxVideo.svelte
-BxVideoOff.svelte
-BxVideoPlus.svelte
-BxVideoRecording.svelte
-BxVoicemail.svelte
-BxVolume.svelte
-BxVolumeFull.svelte
-BxVolumeLow.svelte
-BxVolumeMute.svelte
-BxWalk.svelte
-BxWallet.svelte
-BxWalletAlt.svelte
-BxWater.svelte
-BxWebcam.svelte
-BxWifi.svelte
-BxWifi0.svelte
-BxWifi1.svelte
-BxWifi2.svelte
-BxWifiOff.svelte
-BxWind.svelte
-BxWindow.svelte
-BxWindowAlt.svelte
-BxWindowClose.svelte
-BxWindowOpen.svelte
-BxWindows.svelte
-BxWine.svelte
-BxWinkSmile.svelte
-BxWinkTongue.svelte
-BxWon.svelte
-BxWorld.svelte
-BxWrench.svelte
-BxX.svelte
-BxXCircle.svelte
-BxYen.svelte
-BxZoomIn.svelte
-BxZoomOut.svelte
-Bxl500px.svelte
-Bxl99designs.svelte
-BxlAdobe.svelte
-BxlAirbnb.svelte
-BxlAlgolia.svelte
-BxlAmazon.svelte
-BxlAndroid.svelte
-BxlAngular.svelte
-BxlApple.svelte
-BxlAudible.svelte
-BxlAws.svelte
-BxlBaidu.svelte
-BxlBehance.svelte
-BxlBing.svelte
-BxlBitcoin.svelte
-BxlBlender.svelte
-BxlBlogger.svelte
-BxlBootstrap.svelte
-BxlCPlusPlus.svelte
-BxlChrome.svelte
-BxlCodepen.svelte
-BxlCreativeCommons.svelte
-BxlCss3.svelte
-BxlDailymotion.svelte
-BxlDeezer.svelte
-BxlDevTo.svelte
-BxlDeviantart.svelte
-BxlDigg.svelte
-BxlDigitalocean.svelte
-BxlDiscord.svelte
-BxlDiscordAlt.svelte
-BxlDiscourse.svelte
-BxlDjango.svelte
-BxlDocker.svelte
-BxlDribbble.svelte
-BxlDropbox.svelte
-BxlDrupal.svelte
-BxlEbay.svelte
-BxlEdge.svelte
-BxlEtsy.svelte
-BxlFacebook.svelte
-BxlFacebookCircle.svelte
-BxlFacebookSquare.svelte
-BxlFigma.svelte
-BxlFirebase.svelte
-BxlFirefox.svelte
-BxlFlask.svelte
-BxlFlickr.svelte
-BxlFlickrSquare.svelte
-BxlFlutter.svelte
-BxlFoursquare.svelte
-BxlGit.svelte
-BxlGithub.svelte
-BxlGitlab.svelte
-BxlGmail.svelte
-BxlGoLang.svelte
-BxlGoogle.svelte
-BxlGoogleCloud.svelte
-BxlGooglePlus.svelte
-BxlGooglePlusCircle.svelte
-BxlGraphql.svelte
-BxlHeroku.svelte
-BxlHtml5.svelte
-BxlImdb.svelte
-BxlInstagram.svelte
-BxlInstagramAlt.svelte
-BxlInternetExplorer.svelte
-BxlInvision.svelte
-BxlJava.svelte
-BxlJavascript.svelte
-BxlJoomla.svelte
-BxlJquery.svelte
-BxlJsfiddle.svelte
-BxlKickstarter.svelte
-BxlKubernetes.svelte
-BxlLess.svelte
-BxlLinkedin.svelte
-BxlLinkedinSquare.svelte
-BxlMagento.svelte
-BxlMailchimp.svelte
-BxlMarkdown.svelte
-BxlMastercard.svelte
-BxlMastodon.svelte
-BxlMedium.svelte
-BxlMediumOld.svelte
-BxlMediumSquare.svelte
-BxlMessenger.svelte
-BxlMeta.svelte
-BxlMicrosoft.svelte
-BxlMicrosoftTeams.svelte
-BxlMongodb.svelte
-BxlNetlify.svelte
-BxlNodejs.svelte
-BxlOkRu.svelte
-BxlOpera.svelte
-BxlPatreon.svelte
-BxlPaypal.svelte
-BxlPeriscope.svelte
-BxlPhp.svelte
-BxlPinterest.svelte
-BxlPinterestAlt.svelte
-BxlPlayStore.svelte
-BxlPocket.svelte
-BxlPostgresql.svelte
-BxlProductHunt.svelte
-BxlPython.svelte
-BxlQuora.svelte
-BxlReact.svelte
-BxlRedbubble.svelte
-BxlReddit.svelte
-BxlRedux.svelte
-BxlSass.svelte
-BxlShopify.svelte
-BxlSketch.svelte
-BxlSkype.svelte
-BxlSlack.svelte
-BxlSlackOld.svelte
-BxlSnapchat.svelte
-BxlSoundcloud.svelte
-BxlSpotify.svelte
-BxlSpringBoot.svelte
-BxlSquarespace.svelte
-BxlStackOverflow.svelte
-BxlSteam.svelte
-BxlStripe.svelte
-BxlTailwindCss.svelte
-BxlTelegram.svelte
-BxlTiktok.svelte
-BxlTrello.svelte
-BxlTripAdvisor.svelte
-BxlTumblr.svelte
-BxlTux.svelte
-BxlTwitch.svelte
-BxlTwitter.svelte
-BxlTypescript.svelte
-BxlUnity.svelte
-BxlUnsplash.svelte
-BxlUpwork.svelte
-BxlVenmo.svelte
-BxlVimeo.svelte
-BxlVisa.svelte
-BxlVisualStudio.svelte
-BxlVk.svelte
-BxlVuejs.svelte
-BxlWhatsapp.svelte
-BxlWhatsappSquare.svelte
-BxlWikipedia.svelte
-BxlWindows.svelte
-BxlWix.svelte
-BxlWordpress.svelte
-BxlXing.svelte
-BxlYahoo.svelte
-BxlYelp.svelte
-BxlYoutube.svelte
-BxlZoom.svelte
-BxsAddToQueue.svelte
-BxsAdjust.svelte
-BxsAdjustAlt.svelte
-BxsAlarm.svelte
-BxsAlarmAdd.svelte
-BxsAlarmExclamation.svelte
-BxsAlarmOff.svelte
-BxsAlarmSnooze.svelte
-BxsAlbum.svelte
-BxsAmbulance.svelte
-BxsAnalyse.svelte
-BxsAngry.svelte
-BxsArch.svelte
-BxsArchive.svelte
-BxsArchiveIn.svelte
-BxsArchiveOut.svelte
-BxsArea.svelte
-BxsArrowFromBottom.svelte
-BxsArrowFromLeft.svelte
-BxsArrowFromRight.svelte
-BxsArrowFromTop.svelte
-BxsArrowToBottom.svelte
-BxsArrowToLeft.svelte
-BxsArrowToRight.svelte
-BxsArrowToTop.svelte
-BxsAward.svelte
-BxsBabyCarriage.svelte
-BxsBackpack.svelte
-BxsBadge.svelte
-BxsBadgeCheck.svelte
-BxsBadgeDollar.svelte
-BxsBaguette.svelte
-BxsBall.svelte
-BxsBalloon.svelte
-BxsBandAid.svelte
-BxsBank.svelte
-BxsBarChartAlt2.svelte
-BxsBarChartSquare.svelte
-BxsBarcode.svelte
-BxsBaseball.svelte
-BxsBasket.svelte
-BxsBasketball.svelte
-BxsBath.svelte
-BxsBattery.svelte
-BxsBatteryCharging.svelte
-BxsBatteryFull.svelte
-BxsBatteryLow.svelte
-BxsBed.svelte
-BxsBeenHere.svelte
-BxsBeer.svelte
-BxsBell.svelte
-BxsBellMinus.svelte
-BxsBellOff.svelte
-BxsBellPlus.svelte
-BxsBellRing.svelte
-BxsBible.svelte
-BxsBinoculars.svelte
-BxsBlanket.svelte
-BxsBolt.svelte
-BxsBoltCircle.svelte
-BxsBomb.svelte
-BxsBone.svelte
-BxsBong.svelte
-BxsBook.svelte
-BxsBookAdd.svelte
-BxsBookAlt.svelte
-BxsBookBookmark.svelte
-BxsBookContent.svelte
-BxsBookHeart.svelte
-BxsBookOpen.svelte
-BxsBookReader.svelte
-BxsBookmark.svelte
-BxsBookmarkAlt.svelte
-BxsBookmarkAltMinus.svelte
-BxsBookmarkAltPlus.svelte
-BxsBookmarkHeart.svelte
-BxsBookmarkMinus.svelte
-BxsBookmarkPlus.svelte
-BxsBookmarkStar.svelte
-BxsBookmarks.svelte
-BxsBot.svelte
-BxsBowlHot.svelte
-BxsBowlRice.svelte
-BxsBowlingBall.svelte
-BxsBox.svelte
-BxsBrain.svelte
-BxsBriefcase.svelte
-BxsBriefcaseAlt.svelte
-BxsBriefcaseAlt2.svelte
-BxsBrightness.svelte
-BxsBrightnessHalf.svelte
-BxsBrush.svelte
-BxsBrushAlt.svelte
-BxsBug.svelte
-BxsBugAlt.svelte
-BxsBuilding.svelte
-BxsBuildingHouse.svelte
-BxsBuildings.svelte
-BxsBulb.svelte
-BxsBullseye.svelte
-BxsBuoy.svelte
-BxsBus.svelte
-BxsBusSchool.svelte
-BxsBusiness.svelte
-BxsCabinet.svelte
-BxsCableCar.svelte
-BxsCake.svelte
-BxsCalculator.svelte
-BxsCalendar.svelte
-BxsCalendarAlt.svelte
-BxsCalendarCheck.svelte
-BxsCalendarEdit.svelte
-BxsCalendarEvent.svelte
-BxsCalendarExclamation.svelte
-BxsCalendarHeart.svelte
-BxsCalendarMinus.svelte
-BxsCalendarPlus.svelte
-BxsCalendarStar.svelte
-BxsCalendarWeek.svelte
-BxsCalendarX.svelte
-BxsCamera.svelte
-BxsCameraHome.svelte
-BxsCameraMovie.svelte
-BxsCameraOff.svelte
-BxsCameraPlus.svelte
-BxsCapsule.svelte
-BxsCaptions.svelte
-BxsCar.svelte
-BxsCarBattery.svelte
-BxsCarCrash.svelte
-BxsCarGarage.svelte
-BxsCarMechanic.svelte
-BxsCarWash.svelte
-BxsCard.svelte
-BxsCaretDownCircle.svelte
-BxsCaretDownSquare.svelte
-BxsCaretLeftCircle.svelte
-BxsCaretLeftSquare.svelte
-BxsCaretRightCircle.svelte
-BxsCaretRightSquare.svelte
-BxsCaretUpCircle.svelte
-BxsCaretUpSquare.svelte
-BxsCarousel.svelte
-BxsCart.svelte
-BxsCartAdd.svelte
-BxsCartAlt.svelte
-BxsCartDownload.svelte
-BxsCastle.svelte
-BxsCat.svelte
-BxsCategory.svelte
-BxsCategoryAlt.svelte
-BxsCctv.svelte
-BxsCertification.svelte
-BxsChalkboard.svelte
-BxsChart.svelte
-BxsChat.svelte
-BxsCheckCircle.svelte
-BxsCheckShield.svelte
-BxsCheckSquare.svelte
-BxsCheckbox.svelte
-BxsCheckboxChecked.svelte
-BxsCheckboxMinus.svelte
-BxsCheese.svelte
-BxsChess.svelte
-BxsChevronDown.svelte
-BxsChevronDownCircle.svelte
-BxsChevronDownSquare.svelte
-BxsChevronLeft.svelte
-BxsChevronLeftCircle.svelte
-BxsChevronLeftSquare.svelte
-BxsChevronRight.svelte
-BxsChevronRightCircle.svelte
-BxsChevronRightSquare.svelte
-BxsChevronUp.svelte
-BxsChevronUpCircle.svelte
-BxsChevronUpSquare.svelte
-BxsChevronsDown.svelte
-BxsChevronsLeft.svelte
-BxsChevronsRight.svelte
-BxsChevronsUp.svelte
-BxsChip.svelte
-BxsChurch.svelte
-BxsCircle.svelte
-BxsCircleHalf.svelte
-BxsCircleQuarter.svelte
-BxsCircleThreeQuarter.svelte
-BxsCity.svelte
-BxsClinic.svelte
-BxsCloud.svelte
-BxsCloudDownload.svelte
-BxsCloudLightning.svelte
-BxsCloudRain.svelte
-BxsCloudUpload.svelte
-BxsCoffee.svelte
-BxsCoffeeAlt.svelte
-BxsCoffeeBean.svelte
-BxsCoffeeTogo.svelte
-BxsCog.svelte
-BxsCoin.svelte
-BxsCoinStack.svelte
-BxsCollection.svelte
-BxsColor.svelte
-BxsColorFill.svelte
-BxsComment.svelte
-BxsCommentAdd.svelte
-BxsCommentCheck.svelte
-BxsCommentDetail.svelte
-BxsCommentDots.svelte
-BxsCommentEdit.svelte
-BxsCommentError.svelte
-BxsCommentMinus.svelte
-BxsCommentX.svelte
-BxsCompass.svelte
-BxsComponent.svelte
-BxsConfused.svelte
-BxsContact.svelte
-BxsConversation.svelte
-BxsCookie.svelte
-BxsCool.svelte
-BxsCopy.svelte
-BxsCopyAlt.svelte
-BxsCopyright.svelte
-BxsCoupon.svelte
-BxsCreditCard.svelte
-BxsCreditCardAlt.svelte
-BxsCreditCardFront.svelte
-BxsCricketBall.svelte
-BxsCrop.svelte
-BxsCrown.svelte
-BxsCube.svelte
-BxsCubeAlt.svelte
-BxsCuboid.svelte
-BxsCustomize.svelte
-BxsCylinder.svelte
-BxsDashboard.svelte
-BxsData.svelte
-BxsDetail.svelte
-BxsDevices.svelte
-BxsDiamond.svelte
-BxsDice1.svelte
-BxsDice2.svelte
-BxsDice3.svelte
-BxsDice4.svelte
-BxsDice5.svelte
-BxsDice6.svelte
-BxsDirectionLeft.svelte
-BxsDirectionRight.svelte
-BxsDirections.svelte
-BxsDisc.svelte
-BxsDiscount.svelte
-BxsDish.svelte
-BxsDislike.svelte
-BxsDizzy.svelte
-BxsDockBottom.svelte
-BxsDockLeft.svelte
-BxsDockRight.svelte
-BxsDockTop.svelte
-BxsDog.svelte
-BxsDollarCircle.svelte
-BxsDonateBlood.svelte
-BxsDonateHeart.svelte
-BxsDoorOpen.svelte
-BxsDoughnutChart.svelte
-BxsDownArrow.svelte
-BxsDownArrowAlt.svelte
-BxsDownArrowCircle.svelte
-BxsDownArrowSquare.svelte
-BxsDownload.svelte
-BxsDownvote.svelte
-BxsDrink.svelte
-BxsDroplet.svelte
-BxsDropletHalf.svelte
-BxsDryer.svelte
-BxsDuplicate.svelte
-BxsEdit.svelte
-BxsEditAlt.svelte
-BxsEditLocation.svelte
-BxsEject.svelte
-BxsEnvelope.svelte
-BxsEnvelopeOpen.svelte
-BxsEraser.svelte
-BxsError.svelte
-BxsErrorAlt.svelte
-BxsErrorCircle.svelte
-BxsEvStation.svelte
-BxsExit.svelte
-BxsExtension.svelte
-BxsEyedropper.svelte
-BxsFace.svelte
-BxsFaceMask.svelte
-BxsFactory.svelte
-BxsFastForwardCircle.svelte
-BxsFile.svelte
-BxsFileArchive.svelte
-BxsFileBlank.svelte
-BxsFileCss.svelte
-BxsFileDoc.svelte
-BxsFileExport.svelte
-BxsFileFind.svelte
-BxsFileGif.svelte
-BxsFileHtml.svelte
-BxsFileImage.svelte
-BxsFileImport.svelte
-BxsFileJpg.svelte
-BxsFileJs.svelte
-BxsFileJson.svelte
-BxsFileMd.svelte
-BxsFilePdf.svelte
-BxsFilePlus.svelte
-BxsFilePng.svelte
-BxsFileTxt.svelte
-BxsFilm.svelte
-BxsFilterAlt.svelte
-BxsFirstAid.svelte
-BxsFlag.svelte
-BxsFlagAlt.svelte
-BxsFlagCheckered.svelte
-BxsFlame.svelte
-BxsFlask.svelte
-BxsFlorist.svelte
-BxsFolder.svelte
-BxsFolderMinus.svelte
-BxsFolderOpen.svelte
-BxsFolderPlus.svelte
-BxsFoodMenu.svelte
-BxsFridge.svelte
-BxsGame.svelte
-BxsGasPump.svelte
-BxsGhost.svelte
-BxsGift.svelte
-BxsGraduation.svelte
-BxsGrid.svelte
-BxsGridAlt.svelte
-BxsGroup.svelte
-BxsGuitarAmp.svelte
-BxsHand.svelte
-BxsHandDown.svelte
-BxsHandLeft.svelte
-BxsHandRight.svelte
-BxsHandUp.svelte
-BxsHappy.svelte
-BxsHappyAlt.svelte
-BxsHappyBeaming.svelte
-BxsHappyHeartEyes.svelte
-BxsHardHat.svelte
-BxsHdd.svelte
-BxsHeart.svelte
-BxsHeartCircle.svelte
-BxsHeartSquare.svelte
-BxsHelpCircle.svelte
-BxsHide.svelte
-BxsHome.svelte
-BxsHomeAlt2.svelte
-BxsHomeCircle.svelte
-BxsHomeHeart.svelte
-BxsHomeSmile.svelte
-BxsHot.svelte
-BxsHotel.svelte
-BxsHourglass.svelte
-BxsHourglassBottom.svelte
-BxsHourglassTop.svelte
-BxsIdCard.svelte
-BxsImage.svelte
-BxsImageAdd.svelte
-BxsImageAlt.svelte
-BxsInbox.svelte
-BxsInfoCircle.svelte
-BxsInfoSquare.svelte
-BxsInjection.svelte
-BxsInstitution.svelte
-BxsInvader.svelte
-BxsJoystick.svelte
-BxsJoystickAlt.svelte
-BxsJoystickButton.svelte
-BxsKey.svelte
-BxsKeyboard.svelte
-BxsLabel.svelte
-BxsLandmark.svelte
-BxsLandscape.svelte
-BxsLaugh.svelte
-BxsLayer.svelte
-BxsLayerMinus.svelte
-BxsLayerPlus.svelte
-BxsLayout.svelte
-BxsLeaf.svelte
-BxsLeftArrow.svelte
-BxsLeftArrowAlt.svelte
-BxsLeftArrowCircle.svelte
-BxsLeftArrowSquare.svelte
-BxsLeftDownArrowCircle.svelte
-BxsLeftTopArrowCircle.svelte
-BxsLemon.svelte
-BxsLike.svelte
-BxsLocationPlus.svelte
-BxsLock.svelte
-BxsLockAlt.svelte
-BxsLockOpen.svelte
-BxsLockOpenAlt.svelte
-BxsLogIn.svelte
-BxsLogInCircle.svelte
-BxsLogOut.svelte
-BxsLogOutCircle.svelte
-BxsLowVision.svelte
-BxsMagicWand.svelte
-BxsMagnet.svelte
-BxsMap.svelte
-BxsMapAlt.svelte
-BxsMapPin.svelte
-BxsMask.svelte
-BxsMedal.svelte
-BxsMegaphone.svelte
-BxsMeh.svelte
-BxsMehAlt.svelte
-BxsMehBlank.svelte
-BxsMemoryCard.svelte
-BxsMessage.svelte
-BxsMessageAdd.svelte
-BxsMessageAlt.svelte
-BxsMessageAltAdd.svelte
-BxsMessageAltCheck.svelte
-BxsMessageAltDetail.svelte
-BxsMessageAltDots.svelte
-BxsMessageAltEdit.svelte
-BxsMessageAltError.svelte
-BxsMessageAltMinus.svelte
-BxsMessageAltX.svelte
-BxsMessageCheck.svelte
-BxsMessageDetail.svelte
-BxsMessageDots.svelte
-BxsMessageEdit.svelte
-BxsMessageError.svelte
-BxsMessageMinus.svelte
-BxsMessageRounded.svelte
-BxsMessageRoundedAdd.svelte
-BxsMessageRoundedCheck.svelte
-BxsMessageRoundedDetail.svelte
-BxsMessageRoundedDots.svelte
-BxsMessageRoundedEdit.svelte
-BxsMessageRoundedError.svelte
-BxsMessageRoundedMinus.svelte
-BxsMessageRoundedX.svelte
-BxsMessageSquare.svelte
-BxsMessageSquareAdd.svelte
-BxsMessageSquareCheck.svelte
-BxsMessageSquareDetail.svelte
-BxsMessageSquareDots.svelte
-BxsMessageSquareEdit.svelte
-BxsMessageSquareError.svelte
-BxsMessageSquareMinus.svelte
-BxsMessageSquareX.svelte
-BxsMessageX.svelte
-BxsMeteor.svelte
-BxsMicrochip.svelte
-BxsMicrophone.svelte
-BxsMicrophoneAlt.svelte
-BxsMicrophoneOff.svelte
-BxsMinusCircle.svelte
-BxsMinusSquare.svelte
-BxsMobile.svelte
-BxsMobileVibration.svelte
-BxsMoon.svelte
-BxsMouse.svelte
-BxsMouseAlt.svelte
-BxsMovie.svelte
-BxsMoviePlay.svelte
-BxsMusic.svelte
-BxsNavigation.svelte
-BxsNetworkChart.svelte
-BxsNews.svelte
-BxsNoEntry.svelte
-BxsNote.svelte
-BxsNotepad.svelte
-BxsNotification.svelte
-BxsNotificationOff.svelte
-BxsObjectsHorizontalCenter.svelte
-BxsObjectsHorizontalLeft.svelte
-BxsObjectsHorizontalRight.svelte
-BxsObjectsVerticalBottom.svelte
-BxsObjectsVerticalCenter.svelte
-BxsObjectsVerticalTop.svelte
-BxsOffer.svelte
-BxsPackage.svelte
-BxsPaint.svelte
-BxsPaintRoll.svelte
-BxsPalette.svelte
-BxsPaperPlane.svelte
-BxsParking.svelte
-BxsParty.svelte
-BxsPaste.svelte
-BxsPear.svelte
-BxsPen.svelte
-BxsPencil.svelte
-BxsPhone.svelte
-BxsPhoneCall.svelte
-BxsPhoneIncoming.svelte
-BxsPhoneOff.svelte
-BxsPhoneOutgoing.svelte
-BxsPhotoAlbum.svelte
-BxsPiano.svelte
-BxsPieChart.svelte
-BxsPieChartAlt.svelte
-BxsPieChartAlt2.svelte
-BxsPin.svelte
-BxsPizza.svelte
-BxsPlane.svelte
-BxsPlaneAlt.svelte
-BxsPlaneLand.svelte
-BxsPlaneTakeOff.svelte
-BxsPlanet.svelte
-BxsPlaylist.svelte
-BxsPlug.svelte
-BxsPlusCircle.svelte
-BxsPlusSquare.svelte
-BxsPointer.svelte
-BxsPolygon.svelte
-BxsPopsicle.svelte
-BxsPrinter.svelte
-BxsPurchaseTag.svelte
-BxsPurchaseTagAlt.svelte
-BxsPyramid.svelte
-BxsQuoteAltLeft.svelte
-BxsQuoteAltRight.svelte
-BxsQuoteLeft.svelte
-BxsQuoteRight.svelte
-BxsQuoteSingleLeft.svelte
-BxsQuoteSingleRight.svelte
-BxsRadiation.svelte
-BxsRadio.svelte
-BxsReceipt.svelte
-BxsRectangle.svelte
-BxsRegistered.svelte
-BxsRename.svelte
-BxsReport.svelte
-BxsRewindCircle.svelte
-BxsRightArrow.svelte
-BxsRightArrowAlt.svelte
-BxsRightArrowCircle.svelte
-BxsRightArrowSquare.svelte
-BxsRightDownArrowCircle.svelte
-BxsRightTopArrowCircle.svelte
-BxsRocket.svelte
-BxsRuler.svelte
-BxsSad.svelte
-BxsSave.svelte
-BxsSchool.svelte
-BxsSearch.svelte
-BxsSearchAlt2.svelte
-BxsSelectMultiple.svelte
-BxsSend.svelte
-BxsServer.svelte
-BxsShapes.svelte
-BxsShare.svelte
-BxsShareAlt.svelte
-BxsShield.svelte
-BxsShieldAlt2.svelte
-BxsShieldMinus.svelte
-BxsShieldPlus.svelte
-BxsShieldX.svelte
-BxsShip.svelte
-BxsShocked.svelte
-BxsShoppingBag.svelte
-BxsShoppingBagAlt.svelte
-BxsShoppingBags.svelte
-BxsShow.svelte
-BxsShower.svelte
-BxsSkipNextCircle.svelte
-BxsSkipPreviousCircle.svelte
-BxsSkull.svelte
-BxsSleepy.svelte
-BxsSlideshow.svelte
-BxsSmile.svelte
-BxsSortAlt.svelte
-BxsSpa.svelte
-BxsSpeaker.svelte
-BxsSprayCan.svelte
-BxsSpreadsheet.svelte
-BxsSquare.svelte
-BxsSquareRounded.svelte
-BxsStar.svelte
-BxsStarHalf.svelte
-BxsSticker.svelte
-BxsStopwatch.svelte
-BxsStore.svelte
-BxsStoreAlt.svelte
-BxsSun.svelte
-BxsSushi.svelte
-BxsTShirt.svelte
-BxsTachometer.svelte
-BxsTag.svelte
-BxsTagAlt.svelte
-BxsTagX.svelte
-BxsTaxi.svelte
-BxsTennisBall.svelte
-BxsTerminal.svelte
-BxsThermometer.svelte
-BxsTime.svelte
-BxsTimeFive.svelte
-BxsTimer.svelte
-BxsTired.svelte
-BxsToTop.svelte
-BxsToggleLeft.svelte
-BxsToggleRight.svelte
-BxsTone.svelte
-BxsTorch.svelte
-BxsTraffic.svelte
-BxsTrafficBarrier.svelte
-BxsTrafficCone.svelte
-BxsTrain.svelte
-BxsTrash.svelte
-BxsTrashAlt.svelte
-BxsTree.svelte
-BxsTreeAlt.svelte
-BxsTrophy.svelte
-BxsTruck.svelte
-BxsTv.svelte
-BxsUniversalAccess.svelte
-BxsUpArrow.svelte
-BxsUpArrowAlt.svelte
-BxsUpArrowCircle.svelte
-BxsUpArrowSquare.svelte
-BxsUpsideDown.svelte
-BxsUpvote.svelte
-BxsUser.svelte
-BxsUserAccount.svelte
-BxsUserBadge.svelte
-BxsUserCheck.svelte
-BxsUserCircle.svelte
-BxsUserDetail.svelte
-BxsUserMinus.svelte
-BxsUserPin.svelte
-BxsUserPlus.svelte
-BxsUserRectangle.svelte
-BxsUserVoice.svelte
-BxsUserX.svelte
-BxsVector.svelte
-BxsVial.svelte
-BxsVideo.svelte
-BxsVideoOff.svelte
-BxsVideoPlus.svelte
-BxsVideoRecording.svelte
-BxsVideos.svelte
-BxsVirus.svelte
-BxsVirusBlock.svelte
-BxsVolume.svelte
-BxsVolumeFull.svelte
-BxsVolumeLow.svelte
-BxsVolumeMute.svelte
-BxsWallet.svelte
-BxsWalletAlt.svelte
-BxsWasher.svelte
-BxsWatch.svelte
-BxsWatchAlt.svelte
-BxsWebcam.svelte
-BxsWidget.svelte
-BxsWindowAlt.svelte
-BxsWine.svelte
-BxsWinkSmile.svelte
-BxsWinkTongue.svelte
-BxsWrench.svelte
-BxsXCircle.svelte
-BxsXSquare.svelte
-BxsYinYang.svelte
-BxsZap.svelte
-BxsZoomIn.svelte
-BxsZoomOut.svelte
-index.js
+- BxAbacus
+- BxAccessibility
+- BxAddToQueue
+- BxAdjust
+- BxAlarm
+- BxAlarmAdd
+- BxAlarmExclamation
+- BxAlarmOff
+- BxAlarmSnooze
+- BxAlbum
+- BxAlignJustify
+- BxAlignLeft
+- BxAlignMiddle
+- BxAlignRight
+- BxAnalyse
+- BxAnchor
+- BxAngry
+- BxAperture
+- BxArch
+- BxArchive
+- BxArchiveIn
+- BxArchiveOut
+- BxArea
+- BxArrowBack
+- BxArrowFromBottom
+- BxArrowFromLeft
+- BxArrowFromRight
+- BxArrowFromTop
+- BxArrowToBottom
+- BxArrowToLeft
+- BxArrowToRight
+- BxArrowToTop
+- BxAt
+- BxAtom
+- BxAward
+- BxBadge
+- BxBadgeCheck
+- BxBaguette
+- BxBall
+- BxBandAid
+- BxBarChart
+- BxBarChartAlt
+- BxBarChartAlt2
+- BxBarChartSquare
+- BxBarcode
+- BxBarcodeReader
+- BxBaseball
+- BxBasket
+- BxBasketball
+- BxBath
+- BxBattery
+- BxBed
+- BxBeenHere
+- BxBeer
+- BxBell
+- BxBellMinus
+- BxBellOff
+- BxBellPlus
+- BxBible
+- BxBitcoin
+- BxBlanket
+- BxBlock
+- BxBluetooth
+- BxBody
+- BxBold
+- BxBoltCircle
+- BxBomb
+- BxBone
+- BxBong
+- BxBook
+- BxBookAdd
+- BxBookAlt
+- BxBookBookmark
+- BxBookContent
+- BxBookHeart
+- BxBookOpen
+- BxBookReader
+- BxBookmark
+- BxBookmarkAlt
+- BxBookmarkAltMinus
+- BxBookmarkAltPlus
+- BxBookmarkHeart
+- BxBookmarkMinus
+- BxBookmarkPlus
+- BxBookmarks
+- BxBorderAll
+- BxBorderBottom
+- BxBorderInner
+- BxBorderLeft
+- BxBorderNone
+- BxBorderOuter
+- BxBorderRadius
+- BxBorderRight
+- BxBorderTop
+- BxBot
+- BxBowlHot
+- BxBowlRice
+- BxBowlingBall
+- BxBox
+- BxBracket
+- BxBraille
+- BxBrain
+- BxBriefcase
+- BxBriefcaseAlt
+- BxBriefcaseAlt2
+- BxBrightness
+- BxBrightnessHalf
+- BxBroadcast
+- BxBrush
+- BxBrushAlt
+- BxBug
+- BxBugAlt
+- BxBuilding
+- BxBuildingHouse
+- BxBuildings
+- BxBulb
+- BxBullseye
+- BxBuoy
+- BxBus
+- BxBusSchool
+- BxCabinet
+- BxCableCar
+- BxCake
+- BxCalculator
+- BxCalendar
+- BxCalendarAlt
+- BxCalendarCheck
+- BxCalendarEdit
+- BxCalendarEvent
+- BxCalendarExclamation
+- BxCalendarHeart
+- BxCalendarMinus
+- BxCalendarPlus
+- BxCalendarStar
+- BxCalendarWeek
+- BxCalendarX
+- BxCamera
+- BxCameraHome
+- BxCameraMovie
+- BxCameraOff
+- BxCandles
+- BxCapsule
+- BxCaptions
+- BxCar
+- BxCard
+- BxCaretDown
+- BxCaretDownCircle
+- BxCaretDownSquare
+- BxCaretLeft
+- BxCaretLeftCircle
+- BxCaretLeftSquare
+- BxCaretRight
+- BxCaretRightCircle
+- BxCaretRightSquare
+- BxCaretUp
+- BxCaretUpCircle
+- BxCaretUpSquare
+- BxCarousel
+- BxCart
+- BxCartAdd
+- BxCartAlt
+- BxCartDownload
+- BxCast
+- BxCategory
+- BxCategoryAlt
+- BxCctv
+- BxCertification
+- BxChair
+- BxChalkboard
+- BxChart
+- BxChat
+- BxCheck
+- BxCheckCircle
+- BxCheckDouble
+- BxCheckShield
+- BxCheckSquare
+- BxCheckbox
+- BxCheckboxChecked
+- BxCheckboxMinus
+- BxCheckboxSquare
+- BxCheese
+- BxChevronDown
+- BxChevronDownCircle
+- BxChevronDownSquare
+- BxChevronLeft
+- BxChevronLeftCircle
+- BxChevronLeftSquare
+- BxChevronRight
+- BxChevronRightCircle
+- BxChevronRightSquare
+- BxChevronUp
+- BxChevronUpCircle
+- BxChevronUpSquare
+- BxChevronsDown
+- BxChevronsLeft
+- BxChevronsRight
+- BxChevronsUp
+- BxChild
+- BxChip
+- BxChurch
+- BxCircle
+- BxCircleHalf
+- BxCircleQuarter
+- BxCircleThreeQuarter
+- BxClinic
+- BxClipboard
+- BxCloset
+- BxCloud
+- BxCloudDownload
+- BxCloudDrizzle
+- BxCloudLightRain
+- BxCloudLightning
+- BxCloudRain
+- BxCloudSnow
+- BxCloudUpload
+- BxCode
+- BxCodeAlt
+- BxCodeBlock
+- BxCodeCurly
+- BxCoffee
+- BxCoffeeTogo
+- BxCog
+- BxCoin
+- BxCoinStack
+- BxCollapse
+- BxCollapseAlt
+- BxCollapseHorizontal
+- BxCollapseVertical
+- BxCollection
+- BxColor
+- BxColorFill
+- BxColumns
+- BxCommand
+- BxComment
+- BxCommentAdd
+- BxCommentCheck
+- BxCommentDetail
+- BxCommentDots
+- BxCommentEdit
+- BxCommentError
+- BxCommentMinus
+- BxCommentX
+- BxCompass
+- BxConfused
+- BxConversation
+- BxCookie
+- BxCool
+- BxCopy
+- BxCopyAlt
+- BxCopyright
+- BxCreditCard
+- BxCreditCardAlt
+- BxCreditCardFront
+- BxCricketBall
+- BxCrop
+- BxCross
+- BxCrosshair
+- BxCrown
+- BxCube
+- BxCubeAlt
+- BxCuboid
+- BxCurrentLocation
+- BxCustomize
+- BxCut
+- BxCycling
+- BxCylinder
+- BxData
+- BxDesktop
+- BxDetail
+- BxDevices
+- BxDialpad
+- BxDialpadAlt
+- BxDiamond
+- BxDice1
+- BxDice2
+- BxDice3
+- BxDice4
+- BxDice5
+- BxDice6
+- BxDirections
+- BxDisc
+- BxDish
+- BxDislike
+- BxDizzy
+- BxDna
+- BxDockBottom
+- BxDockLeft
+- BxDockRight
+- BxDockTop
+- BxDollar
+- BxDollarCircle
+- BxDonateBlood
+- BxDonateHeart
+- BxDoorOpen
+- BxDotsHorizontal
+- BxDotsHorizontalRounded
+- BxDotsVertical
+- BxDotsVerticalRounded
+- BxDoughnutChart
+- BxDownArrow
+- BxDownArrowAlt
+- BxDownArrowCircle
+- BxDownload
+- BxDownvote
+- BxDrink
+- BxDroplet
+- BxDumbbell
+- BxDuplicate
+- BxEdit
+- BxEditAlt
+- BxEnvelope
+- BxEnvelopeOpen
+- BxEqualizer
+- BxEraser
+- BxError
+- BxErrorAlt
+- BxErrorCircle
+- BxEuro
+- BxExclude
+- BxExit
+- BxExitFullscreen
+- BxExpand
+- BxExpandAlt
+- BxExpandHorizontal
+- BxExpandVertical
+- BxExport
+- BxExtension
+- BxFace
+- BxFastForward
+- BxFastForwardCircle
+- BxFemale
+- BxFemaleSign
+- BxFile
+- BxFileBlank
+- BxFileFind
+- BxFilm
+- BxFilter
+- BxFilterAlt
+- BxFingerprint
+- BxFirstAid
+- BxFirstPage
+- BxFlag
+- BxFolder
+- BxFolderMinus
+- BxFolderOpen
+- BxFolderPlus
+- BxFont
+- BxFontColor
+- BxFontFamily
+- BxFontSize
+- BxFoodMenu
+- BxFoodTag
+- BxFootball
+- BxFork
+- BxFridge
+- BxFullscreen
+- BxGame
+- BxGasPump
+- BxGhost
+- BxGift
+- BxGitBranch
+- BxGitCommit
+- BxGitCompare
+- BxGitMerge
+- BxGitPullRequest
+- BxGitRepoForked
+- BxGlasses
+- BxGlassesAlt
+- BxGlobe
+- BxGlobeAlt
+- BxGrid
+- BxGridAlt
+- BxGridHorizontal
+- BxGridSmall
+- BxGridVertical
+- BxGroup
+- BxHandicap
+- BxHappy
+- BxHappyAlt
+- BxHappyBeaming
+- BxHappyHeartEyes
+- BxHardHat
+- BxHash
+- BxHdd
+- BxHeading
+- BxHeadphone
+- BxHealth
+- BxHeart
+- BxHeartCircle
+- BxHeartSquare
+- BxHelpCircle
+- BxHide
+- BxHighlight
+- BxHistory
+- BxHive
+- BxHome
+- BxHomeAlt
+- BxHomeAlt2
+- BxHomeCircle
+- BxHomeHeart
+- BxHomeSmile
+- BxHorizontalCenter
+- BxHorizontalLeft
+- BxHorizontalRight
+- BxHotel
+- BxHourglass
+- BxIdCard
+- BxImage
+- BxImageAdd
+- BxImageAlt
+- BxImages
+- BxImport
+- BxInfinite
+- BxInfoCircle
+- BxInfoSquare
+- BxInjection
+- BxIntersect
+- BxItalic
+- BxJoystick
+- BxJoystickAlt
+- BxJoystickButton
+- BxKey
+- BxKnife
+- BxLabel
+- BxLandscape
+- BxLaptop
+- BxLastPage
+- BxLaugh
+- BxLayer
+- BxLayerMinus
+- BxLayerPlus
+- BxLayout
+- BxLeaf
+- BxLeftArrow
+- BxLeftArrowAlt
+- BxLeftArrowCircle
+- BxLeftDownArrowCircle
+- BxLeftIndent
+- BxLeftTopArrowCircle
+- BxLemon
+- BxLibrary
+- BxLike
+- BxLineChart
+- BxLineChartDown
+- BxLink
+- BxLinkAlt
+- BxLinkExternal
+- BxLira
+- BxListCheck
+- BxListMinus
+- BxListOl
+- BxListPlus
+- BxListUl
+- BxLoader
+- BxLoaderAlt
+- BxLoaderCircle
+- BxLocationPlus
+- BxLock
+- BxLockAlt
+- BxLockOpen
+- BxLockOpenAlt
+- BxLogIn
+- BxLogInCircle
+- BxLogOut
+- BxLogOutCircle
+- BxLowVision
+- BxMagnet
+- BxMailSend
+- BxMale
+- BxMaleFemale
+- BxMaleSign
+- BxMap
+- BxMapAlt
+- BxMapPin
+- BxMask
+- BxMath
+- BxMedal
+- BxMeh
+- BxMehAlt
+- BxMehBlank
+- BxMemoryCard
+- BxMenu
+- BxMenuAltLeft
+- BxMenuAltRight
+- BxMerge
+- BxMessage
+- BxMessageAdd
+- BxMessageAlt
+- BxMessageAltAdd
+- BxMessageAltCheck
+- BxMessageAltDetail
+- BxMessageAltDots
+- BxMessageAltEdit
+- BxMessageAltError
+- BxMessageAltMinus
+- BxMessageAltX
+- BxMessageCheck
+- BxMessageDetail
+- BxMessageDots
+- BxMessageEdit
+- BxMessageError
+- BxMessageMinus
+- BxMessageRounded
+- BxMessageRoundedAdd
+- BxMessageRoundedCheck
+- BxMessageRoundedDetail
+- BxMessageRoundedDots
+- BxMessageRoundedEdit
+- BxMessageRoundedError
+- BxMessageRoundedMinus
+- BxMessageRoundedX
+- BxMessageSquare
+- BxMessageSquareAdd
+- BxMessageSquareCheck
+- BxMessageSquareDetail
+- BxMessageSquareDots
+- BxMessageSquareEdit
+- BxMessageSquareError
+- BxMessageSquareMinus
+- BxMessageSquareX
+- BxMessageX
+- BxMeteor
+- BxMicrochip
+- BxMicrophone
+- BxMicrophoneOff
+- BxMinus
+- BxMinusBack
+- BxMinusCircle
+- BxMinusFront
+- BxMobile
+- BxMobileAlt
+- BxMobileLandscape
+- BxMobileVibration
+- BxMoney
+- BxMoneyWithdraw
+- BxMoon
+- BxMouse
+- BxMouseAlt
+- BxMove
+- BxMoveHorizontal
+- BxMoveVertical
+- BxMovie
+- BxMoviePlay
+- BxMusic
+- BxNavigation
+- BxNetworkChart
+- BxNews
+- BxNoEntry
+- BxNoSignal
+- BxNote
+- BxNotepad
+- BxNotification
+- BxNotificationOff
+- BxObjectsHorizontalCenter
+- BxObjectsHorizontalLeft
+- BxObjectsHorizontalRight
+- BxObjectsVerticalBottom
+- BxObjectsVerticalCenter
+- BxObjectsVerticalTop
+- BxOutline
+- BxPackage
+- BxPaint
+- BxPaintRoll
+- BxPalette
+- BxPaperPlane
+- BxPaperclip
+- BxParagraph
+- BxParty
+- BxPaste
+- BxPause
+- BxPauseCircle
+- BxPen
+- BxPencil
+- BxPhone
+- BxPhoneCall
+- BxPhoneIncoming
+- BxPhoneOff
+- BxPhoneOutgoing
+- BxPhotoAlbum
+- BxPieChart
+- BxPieChartAlt
+- BxPieChartAlt2
+- BxPin
+- BxPlanet
+- BxPlay
+- BxPlayCircle
+- BxPlug
+- BxPlus
+- BxPlusCircle
+- BxPlusMedical
+- BxPodcast
+- BxPointer
+- BxPoll
+- BxPolygon
+- BxPopsicle
+- BxPound
+- BxPowerOff
+- BxPrinter
+- BxPulse
+- BxPurchaseTag
+- BxPurchaseTagAlt
+- BxPyramid
+- BxQr
+- BxQrScan
+- BxQuestionMark
+- BxRadar
+- BxRadio
+- BxRadioCircle
+- BxRadioCircleMarked
+- BxReceipt
+- BxRectangle
+- BxRecycle
+- BxRedo
+- BxReflectHorizontal
+- BxReflectVertical
+- BxRefresh
+- BxRegistered
+- BxRename
+- BxRepeat
+- BxReply
+- BxReplyAll
+- BxRepost
+- BxReset
+- BxRestaurant
+- BxRevision
+- BxRewind
+- BxRewindCircle
+- BxRfid
+- BxRightArrow
+- BxRightArrowAlt
+- BxRightArrowCircle
+- BxRightDownArrowCircle
+- BxRightIndent
+- BxRightTopArrowCircle
+- BxRocket
+- BxRotateLeft
+- BxRotateRight
+- BxRss
+- BxRuble
+- BxRuler
+- BxRun
+- BxRupee
+- BxSad
+- BxSave
+- BxScan
+- BxScatterChart
+- BxScreenshot
+- BxSearch
+- BxSearchAlt
+- BxSearchAlt2
+- BxSelectMultiple
+- BxSelection
+- BxSend
+- BxServer
+- BxShapeCircle
+- BxShapePolygon
+- BxShapeSquare
+- BxShapeTriangle
+- BxShare
+- BxShareAlt
+- BxShekel
+- BxShield
+- BxShieldAlt
+- BxShieldAlt2
+- BxShieldMinus
+- BxShieldPlus
+- BxShieldQuarter
+- BxShieldX
+- BxShocked
+- BxShoppingBag
+- BxShow
+- BxShowAlt
+- BxShower
+- BxShuffle
+- BxSidebar
+- BxSignal1
+- BxSignal2
+- BxSignal3
+- BxSignal4
+- BxSignal5
+- BxSitemap
+- BxSkipNext
+- BxSkipNextCircle
+- BxSkipPrevious
+- BxSkipPreviousCircle
+- BxSleepy
+- BxSlider
+- BxSliderAlt
+- BxSlideshow
+- BxSmile
+- BxSort
+- BxSortAZ
+- BxSortAlt2
+- BxSortDown
+- BxSortUp
+- BxSortZA
+- BxSpa
+- BxSpaceBar
+- BxSpeaker
+- BxSprayCan
+- BxSpreadsheet
+- BxSquare
+- BxSquareRounded
+- BxStar
+- BxStation
+- BxStats
+- BxSticker
+- BxStop
+- BxStopCircle
+- BxStopwatch
+- BxStore
+- BxStoreAlt
+- BxStreetView
+- BxStrikethrough
+- BxSubdirectoryLeft
+- BxSubdirectoryRight
+- BxSun
+- BxSupport
+- BxSushi
+- BxSwim
+- BxSync
+- BxTab
+- BxTable
+- BxTachometer
+- BxTag
+- BxTagAlt
+- BxTargetLock
+- BxTask
+- BxTaskX
+- BxTaxi
+- BxTennisBall
+- BxTerminal
+- BxTestTube
+- BxText
+- BxTime
+- BxTimeFive
+- BxTimer
+- BxTired
+- BxToggleLeft
+- BxToggleRight
+- BxTone
+- BxTrafficCone
+- BxTrain
+- BxTransfer
+- BxTransferAlt
+- BxTrash
+- BxTrashAlt
+- BxTrendingDown
+- BxTrendingUp
+- BxTrim
+- BxTrip
+- BxTrophy
+- BxTv
+- BxUnderline
+- BxUndo
+- BxUnite
+- BxUniversalAccess
+- BxUnlink
+- BxUpArrow
+- BxUpArrowAlt
+- BxUpArrowCircle
+- BxUpload
+- BxUpsideDown
+- BxUpvote
+- BxUsb
+- BxUser
+- BxUserCheck
+- BxUserCircle
+- BxUserMinus
+- BxUserPin
+- BxUserPlus
+- BxUserVoice
+- BxUserX
+- BxVector
+- BxVerticalBottom
+- BxVerticalCenter
+- BxVerticalTop
+- BxVial
+- BxVideo
+- BxVideoOff
+- BxVideoPlus
+- BxVideoRecording
+- BxVoicemail
+- BxVolume
+- BxVolumeFull
+- BxVolumeLow
+- BxVolumeMute
+- BxWalk
+- BxWallet
+- BxWalletAlt
+- BxWater
+- BxWebcam
+- BxWifi
+- BxWifi0
+- BxWifi1
+- BxWifi2
+- BxWifiOff
+- BxWind
+- BxWindow
+- BxWindowAlt
+- BxWindowClose
+- BxWindowOpen
+- BxWindows
+- BxWine
+- BxWinkSmile
+- BxWinkTongue
+- BxWon
+- BxWorld
+- BxWrench
+- BxX
+- BxXCircle
+- BxYen
+- BxZoomIn
+- BxZoomOut
+- Bxl500px
+- Bxl99designs
+- BxlAdobe
+- BxlAirbnb
+- BxlAlgolia
+- BxlAmazon
+- BxlAndroid
+- BxlAngular
+- BxlApple
+- BxlAudible
+- BxlAws
+- BxlBaidu
+- BxlBehance
+- BxlBing
+- BxlBitcoin
+- BxlBlender
+- BxlBlogger
+- BxlBootstrap
+- BxlCPlusPlus
+- BxlChrome
+- BxlCodepen
+- BxlCreativeCommons
+- BxlCss3
+- BxlDailymotion
+- BxlDeezer
+- BxlDevTo
+- BxlDeviantart
+- BxlDigg
+- BxlDigitalocean
+- BxlDiscord
+- BxlDiscordAlt
+- BxlDiscourse
+- BxlDjango
+- BxlDocker
+- BxlDribbble
+- BxlDropbox
+- BxlDrupal
+- BxlEbay
+- BxlEdge
+- BxlEtsy
+- BxlFacebook
+- BxlFacebookCircle
+- BxlFacebookSquare
+- BxlFigma
+- BxlFirebase
+- BxlFirefox
+- BxlFlask
+- BxlFlickr
+- BxlFlickrSquare
+- BxlFlutter
+- BxlFoursquare
+- BxlGit
+- BxlGithub
+- BxlGitlab
+- BxlGmail
+- BxlGoLang
+- BxlGoogle
+- BxlGoogleCloud
+- BxlGooglePlus
+- BxlGooglePlusCircle
+- BxlGraphql
+- BxlHeroku
+- BxlHtml5
+- BxlImdb
+- BxlInstagram
+- BxlInstagramAlt
+- BxlInternetExplorer
+- BxlInvision
+- BxlJava
+- BxlJavascript
+- BxlJoomla
+- BxlJquery
+- BxlJsfiddle
+- BxlKickstarter
+- BxlKubernetes
+- BxlLess
+- BxlLinkedin
+- BxlLinkedinSquare
+- BxlMagento
+- BxlMailchimp
+- BxlMarkdown
+- BxlMastercard
+- BxlMastodon
+- BxlMedium
+- BxlMediumOld
+- BxlMediumSquare
+- BxlMessenger
+- BxlMeta
+- BxlMicrosoft
+- BxlMicrosoftTeams
+- BxlMongodb
+- BxlNetlify
+- BxlNodejs
+- BxlOkRu
+- BxlOpera
+- BxlPatreon
+- BxlPaypal
+- BxlPeriscope
+- BxlPhp
+- BxlPinterest
+- BxlPinterestAlt
+- BxlPlayStore
+- BxlPocket
+- BxlPostgresql
+- BxlProductHunt
+- BxlPython
+- BxlQuora
+- BxlReact
+- BxlRedbubble
+- BxlReddit
+- BxlRedux
+- BxlSass
+- BxlShopify
+- BxlSketch
+- BxlSkype
+- BxlSlack
+- BxlSlackOld
+- BxlSnapchat
+- BxlSoundcloud
+- BxlSpotify
+- BxlSpringBoot
+- BxlSquarespace
+- BxlStackOverflow
+- BxlSteam
+- BxlStripe
+- BxlTailwindCss
+- BxlTelegram
+- BxlTiktok
+- BxlTrello
+- BxlTripAdvisor
+- BxlTumblr
+- BxlTux
+- BxlTwitch
+- BxlTwitter
+- BxlTypescript
+- BxlUnity
+- BxlUnsplash
+- BxlUpwork
+- BxlVenmo
+- BxlVimeo
+- BxlVisa
+- BxlVisualStudio
+- BxlVk
+- BxlVuejs
+- BxlWhatsapp
+- BxlWhatsappSquare
+- BxlWikipedia
+- BxlWindows
+- BxlWix
+- BxlWordpress
+- BxlXing
+- BxlYahoo
+- BxlYelp
+- BxlYoutube
+- BxlZoom
+- BxsAddToQueue
+- BxsAdjust
+- BxsAdjustAlt
+- BxsAlarm
+- BxsAlarmAdd
+- BxsAlarmExclamation
+- BxsAlarmOff
+- BxsAlarmSnooze
+- BxsAlbum
+- BxsAmbulance
+- BxsAnalyse
+- BxsAngry
+- BxsArch
+- BxsArchive
+- BxsArchiveIn
+- BxsArchiveOut
+- BxsArea
+- BxsArrowFromBottom
+- BxsArrowFromLeft
+- BxsArrowFromRight
+- BxsArrowFromTop
+- BxsArrowToBottom
+- BxsArrowToLeft
+- BxsArrowToRight
+- BxsArrowToTop
+- BxsAward
+- BxsBabyCarriage
+- BxsBackpack
+- BxsBadge
+- BxsBadgeCheck
+- BxsBadgeDollar
+- BxsBaguette
+- BxsBall
+- BxsBalloon
+- BxsBandAid
+- BxsBank
+- BxsBarChartAlt2
+- BxsBarChartSquare
+- BxsBarcode
+- BxsBaseball
+- BxsBasket
+- BxsBasketball
+- BxsBath
+- BxsBattery
+- BxsBatteryCharging
+- BxsBatteryFull
+- BxsBatteryLow
+- BxsBed
+- BxsBeenHere
+- BxsBeer
+- BxsBell
+- BxsBellMinus
+- BxsBellOff
+- BxsBellPlus
+- BxsBellRing
+- BxsBible
+- BxsBinoculars
+- BxsBlanket
+- BxsBolt
+- BxsBoltCircle
+- BxsBomb
+- BxsBone
+- BxsBong
+- BxsBook
+- BxsBookAdd
+- BxsBookAlt
+- BxsBookBookmark
+- BxsBookContent
+- BxsBookHeart
+- BxsBookOpen
+- BxsBookReader
+- BxsBookmark
+- BxsBookmarkAlt
+- BxsBookmarkAltMinus
+- BxsBookmarkAltPlus
+- BxsBookmarkHeart
+- BxsBookmarkMinus
+- BxsBookmarkPlus
+- BxsBookmarkStar
+- BxsBookmarks
+- BxsBot
+- BxsBowlHot
+- BxsBowlRice
+- BxsBowlingBall
+- BxsBox
+- BxsBrain
+- BxsBriefcase
+- BxsBriefcaseAlt
+- BxsBriefcaseAlt2
+- BxsBrightness
+- BxsBrightnessHalf
+- BxsBrush
+- BxsBrushAlt
+- BxsBug
+- BxsBugAlt
+- BxsBuilding
+- BxsBuildingHouse
+- BxsBuildings
+- BxsBulb
+- BxsBullseye
+- BxsBuoy
+- BxsBus
+- BxsBusSchool
+- BxsBusiness
+- BxsCabinet
+- BxsCableCar
+- BxsCake
+- BxsCalculator
+- BxsCalendar
+- BxsCalendarAlt
+- BxsCalendarCheck
+- BxsCalendarEdit
+- BxsCalendarEvent
+- BxsCalendarExclamation
+- BxsCalendarHeart
+- BxsCalendarMinus
+- BxsCalendarPlus
+- BxsCalendarStar
+- BxsCalendarWeek
+- BxsCalendarX
+- BxsCamera
+- BxsCameraHome
+- BxsCameraMovie
+- BxsCameraOff
+- BxsCameraPlus
+- BxsCapsule
+- BxsCaptions
+- BxsCar
+- BxsCarBattery
+- BxsCarCrash
+- BxsCarGarage
+- BxsCarMechanic
+- BxsCarWash
+- BxsCard
+- BxsCaretDownCircle
+- BxsCaretDownSquare
+- BxsCaretLeftCircle
+- BxsCaretLeftSquare
+- BxsCaretRightCircle
+- BxsCaretRightSquare
+- BxsCaretUpCircle
+- BxsCaretUpSquare
+- BxsCarousel
+- BxsCart
+- BxsCartAdd
+- BxsCartAlt
+- BxsCartDownload
+- BxsCastle
+- BxsCat
+- BxsCategory
+- BxsCategoryAlt
+- BxsCctv
+- BxsCertification
+- BxsChalkboard
+- BxsChart
+- BxsChat
+- BxsCheckCircle
+- BxsCheckShield
+- BxsCheckSquare
+- BxsCheckbox
+- BxsCheckboxChecked
+- BxsCheckboxMinus
+- BxsCheese
+- BxsChess
+- BxsChevronDown
+- BxsChevronDownCircle
+- BxsChevronDownSquare
+- BxsChevronLeft
+- BxsChevronLeftCircle
+- BxsChevronLeftSquare
+- BxsChevronRight
+- BxsChevronRightCircle
+- BxsChevronRightSquare
+- BxsChevronUp
+- BxsChevronUpCircle
+- BxsChevronUpSquare
+- BxsChevronsDown
+- BxsChevronsLeft
+- BxsChevronsRight
+- BxsChevronsUp
+- BxsChip
+- BxsChurch
+- BxsCircle
+- BxsCircleHalf
+- BxsCircleQuarter
+- BxsCircleThreeQuarter
+- BxsCity
+- BxsClinic
+- BxsCloud
+- BxsCloudDownload
+- BxsCloudLightning
+- BxsCloudRain
+- BxsCloudUpload
+- BxsCoffee
+- BxsCoffeeAlt
+- BxsCoffeeBean
+- BxsCoffeeTogo
+- BxsCog
+- BxsCoin
+- BxsCoinStack
+- BxsCollection
+- BxsColor
+- BxsColorFill
+- BxsComment
+- BxsCommentAdd
+- BxsCommentCheck
+- BxsCommentDetail
+- BxsCommentDots
+- BxsCommentEdit
+- BxsCommentError
+- BxsCommentMinus
+- BxsCommentX
+- BxsCompass
+- BxsComponent
+- BxsConfused
+- BxsContact
+- BxsConversation
+- BxsCookie
+- BxsCool
+- BxsCopy
+- BxsCopyAlt
+- BxsCopyright
+- BxsCoupon
+- BxsCreditCard
+- BxsCreditCardAlt
+- BxsCreditCardFront
+- BxsCricketBall
+- BxsCrop
+- BxsCrown
+- BxsCube
+- BxsCubeAlt
+- BxsCuboid
+- BxsCustomize
+- BxsCylinder
+- BxsDashboard
+- BxsData
+- BxsDetail
+- BxsDevices
+- BxsDiamond
+- BxsDice1
+- BxsDice2
+- BxsDice3
+- BxsDice4
+- BxsDice5
+- BxsDice6
+- BxsDirectionLeft
+- BxsDirectionRight
+- BxsDirections
+- BxsDisc
+- BxsDiscount
+- BxsDish
+- BxsDislike
+- BxsDizzy
+- BxsDockBottom
+- BxsDockLeft
+- BxsDockRight
+- BxsDockTop
+- BxsDog
+- BxsDollarCircle
+- BxsDonateBlood
+- BxsDonateHeart
+- BxsDoorOpen
+- BxsDoughnutChart
+- BxsDownArrow
+- BxsDownArrowAlt
+- BxsDownArrowCircle
+- BxsDownArrowSquare
+- BxsDownload
+- BxsDownvote
+- BxsDrink
+- BxsDroplet
+- BxsDropletHalf
+- BxsDryer
+- BxsDuplicate
+- BxsEdit
+- BxsEditAlt
+- BxsEditLocation
+- BxsEject
+- BxsEnvelope
+- BxsEnvelopeOpen
+- BxsEraser
+- BxsError
+- BxsErrorAlt
+- BxsErrorCircle
+- BxsEvStation
+- BxsExit
+- BxsExtension
+- BxsEyedropper
+- BxsFace
+- BxsFaceMask
+- BxsFactory
+- BxsFastForwardCircle
+- BxsFile
+- BxsFileArchive
+- BxsFileBlank
+- BxsFileCss
+- BxsFileDoc
+- BxsFileExport
+- BxsFileFind
+- BxsFileGif
+- BxsFileHtml
+- BxsFileImage
+- BxsFileImport
+- BxsFileJpg
+- BxsFileJs
+- BxsFileJson
+- BxsFileMd
+- BxsFilePdf
+- BxsFilePlus
+- BxsFilePng
+- BxsFileTxt
+- BxsFilm
+- BxsFilterAlt
+- BxsFirstAid
+- BxsFlag
+- BxsFlagAlt
+- BxsFlagCheckered
+- BxsFlame
+- BxsFlask
+- BxsFlorist
+- BxsFolder
+- BxsFolderMinus
+- BxsFolderOpen
+- BxsFolderPlus
+- BxsFoodMenu
+- BxsFridge
+- BxsGame
+- BxsGasPump
+- BxsGhost
+- BxsGift
+- BxsGraduation
+- BxsGrid
+- BxsGridAlt
+- BxsGroup
+- BxsGuitarAmp
+- BxsHand
+- BxsHandDown
+- BxsHandLeft
+- BxsHandRight
+- BxsHandUp
+- BxsHappy
+- BxsHappyAlt
+- BxsHappyBeaming
+- BxsHappyHeartEyes
+- BxsHardHat
+- BxsHdd
+- BxsHeart
+- BxsHeartCircle
+- BxsHeartSquare
+- BxsHelpCircle
+- BxsHide
+- BxsHome
+- BxsHomeAlt2
+- BxsHomeCircle
+- BxsHomeHeart
+- BxsHomeSmile
+- BxsHot
+- BxsHotel
+- BxsHourglass
+- BxsHourglassBottom
+- BxsHourglassTop
+- BxsIdCard
+- BxsImage
+- BxsImageAdd
+- BxsImageAlt
+- BxsInbox
+- BxsInfoCircle
+- BxsInfoSquare
+- BxsInjection
+- BxsInstitution
+- BxsInvader
+- BxsJoystick
+- BxsJoystickAlt
+- BxsJoystickButton
+- BxsKey
+- BxsKeyboard
+- BxsLabel
+- BxsLandmark
+- BxsLandscape
+- BxsLaugh
+- BxsLayer
+- BxsLayerMinus
+- BxsLayerPlus
+- BxsLayout
+- BxsLeaf
+- BxsLeftArrow
+- BxsLeftArrowAlt
+- BxsLeftArrowCircle
+- BxsLeftArrowSquare
+- BxsLeftDownArrowCircle
+- BxsLeftTopArrowCircle
+- BxsLemon
+- BxsLike
+- BxsLocationPlus
+- BxsLock
+- BxsLockAlt
+- BxsLockOpen
+- BxsLockOpenAlt
+- BxsLogIn
+- BxsLogInCircle
+- BxsLogOut
+- BxsLogOutCircle
+- BxsLowVision
+- BxsMagicWand
+- BxsMagnet
+- BxsMap
+- BxsMapAlt
+- BxsMapPin
+- BxsMask
+- BxsMedal
+- BxsMegaphone
+- BxsMeh
+- BxsMehAlt
+- BxsMehBlank
+- BxsMemoryCard
+- BxsMessage
+- BxsMessageAdd
+- BxsMessageAlt
+- BxsMessageAltAdd
+- BxsMessageAltCheck
+- BxsMessageAltDetail
+- BxsMessageAltDots
+- BxsMessageAltEdit
+- BxsMessageAltError
+- BxsMessageAltMinus
+- BxsMessageAltX
+- BxsMessageCheck
+- BxsMessageDetail
+- BxsMessageDots
+- BxsMessageEdit
+- BxsMessageError
+- BxsMessageMinus
+- BxsMessageRounded
+- BxsMessageRoundedAdd
+- BxsMessageRoundedCheck
+- BxsMessageRoundedDetail
+- BxsMessageRoundedDots
+- BxsMessageRoundedEdit
+- BxsMessageRoundedError
+- BxsMessageRoundedMinus
+- BxsMessageRoundedX
+- BxsMessageSquare
+- BxsMessageSquareAdd
+- BxsMessageSquareCheck
+- BxsMessageSquareDetail
+- BxsMessageSquareDots
+- BxsMessageSquareEdit
+- BxsMessageSquareError
+- BxsMessageSquareMinus
+- BxsMessageSquareX
+- BxsMessageX
+- BxsMeteor
+- BxsMicrochip
+- BxsMicrophone
+- BxsMicrophoneAlt
+- BxsMicrophoneOff
+- BxsMinusCircle
+- BxsMinusSquare
+- BxsMobile
+- BxsMobileVibration
+- BxsMoon
+- BxsMouse
+- BxsMouseAlt
+- BxsMovie
+- BxsMoviePlay
+- BxsMusic
+- BxsNavigation
+- BxsNetworkChart
+- BxsNews
+- BxsNoEntry
+- BxsNote
+- BxsNotepad
+- BxsNotification
+- BxsNotificationOff
+- BxsObjectsHorizontalCenter
+- BxsObjectsHorizontalLeft
+- BxsObjectsHorizontalRight
+- BxsObjectsVerticalBottom
+- BxsObjectsVerticalCenter
+- BxsObjectsVerticalTop
+- BxsOffer
+- BxsPackage
+- BxsPaint
+- BxsPaintRoll
+- BxsPalette
+- BxsPaperPlane
+- BxsParking
+- BxsParty
+- BxsPaste
+- BxsPear
+- BxsPen
+- BxsPencil
+- BxsPhone
+- BxsPhoneCall
+- BxsPhoneIncoming
+- BxsPhoneOff
+- BxsPhoneOutgoing
+- BxsPhotoAlbum
+- BxsPiano
+- BxsPieChart
+- BxsPieChartAlt
+- BxsPieChartAlt2
+- BxsPin
+- BxsPizza
+- BxsPlane
+- BxsPlaneAlt
+- BxsPlaneLand
+- BxsPlaneTakeOff
+- BxsPlanet
+- BxsPlaylist
+- BxsPlug
+- BxsPlusCircle
+- BxsPlusSquare
+- BxsPointer
+- BxsPolygon
+- BxsPopsicle
+- BxsPrinter
+- BxsPurchaseTag
+- BxsPurchaseTagAlt
+- BxsPyramid
+- BxsQuoteAltLeft
+- BxsQuoteAltRight
+- BxsQuoteLeft
+- BxsQuoteRight
+- BxsQuoteSingleLeft
+- BxsQuoteSingleRight
+- BxsRadiation
+- BxsRadio
+- BxsReceipt
+- BxsRectangle
+- BxsRegistered
+- BxsRename
+- BxsReport
+- BxsRewindCircle
+- BxsRightArrow
+- BxsRightArrowAlt
+- BxsRightArrowCircle
+- BxsRightArrowSquare
+- BxsRightDownArrowCircle
+- BxsRightTopArrowCircle
+- BxsRocket
+- BxsRuler
+- BxsSad
+- BxsSave
+- BxsSchool
+- BxsSearch
+- BxsSearchAlt2
+- BxsSelectMultiple
+- BxsSend
+- BxsServer
+- BxsShapes
+- BxsShare
+- BxsShareAlt
+- BxsShield
+- BxsShieldAlt2
+- BxsShieldMinus
+- BxsShieldPlus
+- BxsShieldX
+- BxsShip
+- BxsShocked
+- BxsShoppingBag
+- BxsShoppingBagAlt
+- BxsShoppingBags
+- BxsShow
+- BxsShower
+- BxsSkipNextCircle
+- BxsSkipPreviousCircle
+- BxsSkull
+- BxsSleepy
+- BxsSlideshow
+- BxsSmile
+- BxsSortAlt
+- BxsSpa
+- BxsSpeaker
+- BxsSprayCan
+- BxsSpreadsheet
+- BxsSquare
+- BxsSquareRounded
+- BxsStar
+- BxsStarHalf
+- BxsSticker
+- BxsStopwatch
+- BxsStore
+- BxsStoreAlt
+- BxsSun
+- BxsSushi
+- BxsTShirt
+- BxsTachometer
+- BxsTag
+- BxsTagAlt
+- BxsTagX
+- BxsTaxi
+- BxsTennisBall
+- BxsTerminal
+- BxsThermometer
+- BxsTime
+- BxsTimeFive
+- BxsTimer
+- BxsTired
+- BxsToTop
+- BxsToggleLeft
+- BxsToggleRight
+- BxsTone
+- BxsTorch
+- BxsTraffic
+- BxsTrafficBarrier
+- BxsTrafficCone
+- BxsTrain
+- BxsTrash
+- BxsTrashAlt
+- BxsTree
+- BxsTreeAlt
+- BxsTrophy
+- BxsTruck
+- BxsTv
+- BxsUniversalAccess
+- BxsUpArrow
+- BxsUpArrowAlt
+- BxsUpArrowCircle
+- BxsUpArrowSquare
+- BxsUpsideDown
+- BxsUpvote
+- BxsUser
+- BxsUserAccount
+- BxsUserBadge
+- BxsUserCheck
+- BxsUserCircle
+- BxsUserDetail
+- BxsUserMinus
+- BxsUserPin
+- BxsUserPlus
+- BxsUserRectangle
+- BxsUserVoice
+- BxsUserX
+- BxsVector
+- BxsVial
+- BxsVideo
+- BxsVideoOff
+- BxsVideoPlus
+- BxsVideoRecording
+- BxsVideos
+- BxsVirus
+- BxsVirusBlock
+- BxsVolume
+- BxsVolumeFull
+- BxsVolumeLow
+- BxsVolumeMute
+- BxsWallet
+- BxsWalletAlt
+- BxsWasher
+- BxsWatch
+- BxsWatchAlt
+- BxsWebcam
+- BxsWidget
+- BxsWindowAlt
+- BxsWine
+- BxsWinkSmile
+- BxsWinkTongue
+- BxsWrench
+- BxsXCircle
+- BxsXSquare
+- BxsYinYang
+- BxsZap
+- BxsZoomIn
+- BxsZoomOut
