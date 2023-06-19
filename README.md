@@ -17,7 +17,7 @@
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
 <p align="center">
-<img width="650" src="https://raw.githubusercontent.com/shinokada/svelte-boxicons/main/static/images/boxicons-450.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-boxicons/main/static/images/boxicons-450.webp" />
 </p>
 
 ## Installation
