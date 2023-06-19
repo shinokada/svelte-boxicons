@@ -1,0 +1,56 @@
+<script lang="ts">
+  export let size = '24';
+  export let viewBox: string = '0 0 24 24';
+  export let role = 'img';
+  export let strokeWidth = '1.5';
+  export let color = 'currentColor';
+  export let ariaLabel = 'bxs ruler';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  {...$$restProps}
+  {role}
+  aria-label={ariaLabel}
+  {viewBox}
+  fill={color}
+  stroke-width={strokeWidth}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+>
+  <path
+    d="M20.875 7H3.125C1.953 7 1 7.897 1 9v6c0 1.103.953 2 2.125 2h17.75C22.047 17 23 16.103 23 15V9c0-1.103-.953-2-2.125-2zM7 12H5V9h2v3zm4 1H9V9h2v4zm4-1h-2V9h2v3zm4 1h-2V9h2v4z"
+  />
+</svg>
+
+<!--
+  @component
+  [Go to Document](https://svelte-boxicons.codewithshin.com/)
+
+  ## Props
+  @prop size = "24";
+  @prop viewBox: string = '0 0 24 24';
+  @prop role = "img";
+  @prop strokeWidth = "1.5"
+  @prop color="currentColor";
+  @prop ariaLabel = 'icon file name';
+  ## Event
+  - on:click
+  - on:keydown
+  - on:keyup
+  - on:focus
+  - on:blur
+  - on:mouseenter
+  - on:mouseleave
+  - on:mouseover
+  - on:mouseout
+-->

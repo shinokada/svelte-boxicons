@@ -1,0 +1,56 @@
+<script lang="ts">
+  export let size = '24';
+  export let viewBox: string = '0 0 24 24';
+  export let role = 'img';
+  export let strokeWidth = '1.5';
+  export let color = 'currentColor';
+  export let ariaLabel = 'bxl facebook';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  {...$$restProps}
+  {role}
+  aria-label={ariaLabel}
+  {viewBox}
+  fill={color}
+  stroke-width={strokeWidth}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+>
+  <path
+    d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"
+  />
+</svg>
+
+<!--
+  @component
+  [Go to Document](https://svelte-boxicons.codewithshin.com/)
+
+  ## Props
+  @prop size = "24";
+  @prop viewBox: string = '0 0 24 24';
+  @prop role = "img";
+  @prop strokeWidth = "1.5"
+  @prop color="currentColor";
+  @prop ariaLabel = 'icon file name';
+  ## Event
+  - on:click
+  - on:keydown
+  - on:keyup
+  - on:focus
+  - on:blur
+  - on:mouseenter
+  - on:mouseleave
+  - on:mouseover
+  - on:mouseout
+-->
