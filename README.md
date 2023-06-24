@@ -1,7 +1,7 @@
 <h1 align="center">Svelte Boxicons</h1>
 
 <p align="center">
-<a href="https://svelte-boxicons.codewithshin.com/">Svelte-Boxicons</a>
+<a href="https://shinokada.github.io/svelte-boxicons/">Svelte-Boxicons</a>
 </p>
 
 <p align="center">
