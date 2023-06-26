@@ -24,7 +24,7 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 ```sh
 npm i -D svelte-boxicons
-```
+```q
 
 ## Icon names
 
@@ -220,8 +220,3 @@ Use `import * as Icon from 'svelte-boxicons`.
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
 
-## PWA: Fast & Offline
-
-This website can be downloaded and installed on your device for offline access as a Progressive Web App.
-
-To install a PWA, look for the "Add to Home Screen" option in the browser's menu or settings. On most mobile devices, this option can be found by visiting the website, then selecting the "Options" or "Menu" button in the browser, and looking for the "Add to Home Screen" option. On some desktop browsers, right-click on the page and select "Install".
