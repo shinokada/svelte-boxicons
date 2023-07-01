@@ -76,6 +76,10 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 }
 ```
 
+## REPL
+
+[Demo](https://svelte.dev/repl/924e767ea0cd419ab61de2ff4fad2075?version=4.0.1)
+
 ## Props
 
 - viewBox: string = '0 0 24 24';
