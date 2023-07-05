@@ -1,1642 +1,1638 @@
 <script>
   import * as Icon from '$lib';
-  const random_hex_color_code = () => {
-    let n = (Math.random() * 0xfffff * 1000000).toString(16);
-    return '#' + n.slice(0, 6);
-  };
 </script>
 
-<Icon.BxAbacus size="40" color={random_hex_color_code()} />
-<Icon.BxAccessibility size="40" color={random_hex_color_code()} />
-<Icon.BxAddToQueue size="40" color={random_hex_color_code()} />
-<Icon.BxAdjust size="40" color={random_hex_color_code()} />
-<Icon.BxAlarm size="40" color={random_hex_color_code()} />
-<Icon.BxAlarmAdd size="40" color={random_hex_color_code()} />
-<Icon.BxAlarmExclamation size="40" color={random_hex_color_code()} />
-<Icon.BxAlarmOff size="40" color={random_hex_color_code()} />
-<Icon.BxAlarmSnooze size="40" color={random_hex_color_code()} />
-<Icon.BxAlbum size="40" color={random_hex_color_code()} />
-<Icon.BxAlignJustify size="40" color={random_hex_color_code()} />
-<Icon.BxAlignLeft size="40" color={random_hex_color_code()} />
-<Icon.BxAlignMiddle size="40" color={random_hex_color_code()} />
-<Icon.BxAlignRight size="40" color={random_hex_color_code()} />
-<Icon.BxAnalyse size="40" color={random_hex_color_code()} />
-<Icon.BxAnchor size="40" color={random_hex_color_code()} />
-<Icon.BxAngry size="40" color={random_hex_color_code()} />
-<Icon.BxAperture size="40" color={random_hex_color_code()} />
-<Icon.BxArch size="40" color={random_hex_color_code()} />
-<Icon.BxArchive size="40" color={random_hex_color_code()} />
-<Icon.BxArchiveIn size="40" color={random_hex_color_code()} />
-<Icon.BxArchiveOut size="40" color={random_hex_color_code()} />
-<Icon.BxArea size="40" color={random_hex_color_code()} />
-<Icon.BxArrowBack size="40" color={random_hex_color_code()} />
-<Icon.BxArrowFromBottom size="40" color={random_hex_color_code()} />
-<Icon.BxArrowFromLeft size="40" color={random_hex_color_code()} />
-<Icon.BxArrowFromRight size="40" color={random_hex_color_code()} />
-<Icon.BxArrowFromTop size="40" color={random_hex_color_code()} />
-<Icon.BxArrowToBottom size="40" color={random_hex_color_code()} />
-<Icon.BxArrowToLeft size="40" color={random_hex_color_code()} />
-<Icon.BxArrowToRight size="40" color={random_hex_color_code()} />
-<Icon.BxArrowToTop size="40" color={random_hex_color_code()} />
-<Icon.BxAt size="40" color={random_hex_color_code()} />
-<Icon.BxAtom size="40" color={random_hex_color_code()} />
-<Icon.BxAward size="40" color={random_hex_color_code()} />
-<Icon.BxBadge size="40" color={random_hex_color_code()} />
-<Icon.BxBadgeCheck size="40" color={random_hex_color_code()} />
-<Icon.BxBaguette size="40" color={random_hex_color_code()} />
-<Icon.BxBall size="40" color={random_hex_color_code()} />
-<Icon.BxBandAid size="40" color={random_hex_color_code()} />
-<Icon.BxBarChart size="40" color={random_hex_color_code()} />
-<Icon.BxBarChartAlt size="40" color={random_hex_color_code()} />
-<Icon.BxBarChartAlt2 size="40" color={random_hex_color_code()} />
-<Icon.BxBarChartSquare size="40" color={random_hex_color_code()} />
-<Icon.BxBarcode size="40" color={random_hex_color_code()} />
-<Icon.BxBarcodeReader size="40" color={random_hex_color_code()} />
-<Icon.BxBaseball size="40" color={random_hex_color_code()} />
-<Icon.BxBasket size="40" color={random_hex_color_code()} />
-<Icon.BxBasketball size="40" color={random_hex_color_code()} />
-<Icon.BxBath size="40" color={random_hex_color_code()} />
-<Icon.BxBattery size="40" color={random_hex_color_code()} />
-<Icon.BxBed size="40" color={random_hex_color_code()} />
-<Icon.BxBeenHere size="40" color={random_hex_color_code()} />
-<Icon.BxBeer size="40" color={random_hex_color_code()} />
-<Icon.BxBell size="40" color={random_hex_color_code()} />
-<Icon.BxBellMinus size="40" color={random_hex_color_code()} />
-<Icon.BxBellOff size="40" color={random_hex_color_code()} />
-<Icon.BxBellPlus size="40" color={random_hex_color_code()} />
-<Icon.BxBible size="40" color={random_hex_color_code()} />
-<Icon.BxBitcoin size="40" color={random_hex_color_code()} />
-<Icon.BxBlanket size="40" color={random_hex_color_code()} />
-<Icon.BxBlock size="40" color={random_hex_color_code()} />
-<Icon.BxBluetooth size="40" color={random_hex_color_code()} />
-<Icon.BxBody size="40" color={random_hex_color_code()} />
-<Icon.BxBold size="40" color={random_hex_color_code()} />
-<Icon.BxBoltCircle size="40" color={random_hex_color_code()} />
-<Icon.BxBomb size="40" color={random_hex_color_code()} />
-<Icon.BxBone size="40" color={random_hex_color_code()} />
-<Icon.BxBong size="40" color={random_hex_color_code()} />
-<Icon.BxBook size="40" color={random_hex_color_code()} />
-<Icon.BxBookAdd size="40" color={random_hex_color_code()} />
-<Icon.BxBookAlt size="40" color={random_hex_color_code()} />
-<Icon.BxBookBookmark size="40" color={random_hex_color_code()} />
-<Icon.BxBookContent size="40" color={random_hex_color_code()} />
-<Icon.BxBookHeart size="40" color={random_hex_color_code()} />
-<Icon.BxBookOpen size="40" color={random_hex_color_code()} />
-<Icon.BxBookReader size="40" color={random_hex_color_code()} />
-<Icon.BxBookmark size="40" color={random_hex_color_code()} />
-<Icon.BxBookmarkAlt size="40" color={random_hex_color_code()} />
-<Icon.BxBookmarkAltMinus size="40" color={random_hex_color_code()} />
-<Icon.BxBookmarkAltPlus size="40" color={random_hex_color_code()} />
-<Icon.BxBookmarkHeart size="40" color={random_hex_color_code()} />
-<Icon.BxBookmarkMinus size="40" color={random_hex_color_code()} />
-<Icon.BxBookmarkPlus size="40" color={random_hex_color_code()} />
-<Icon.BxBookmarks size="40" color={random_hex_color_code()} />
-<Icon.BxBorderAll size="40" color={random_hex_color_code()} />
-<Icon.BxBorderBottom size="40" color={random_hex_color_code()} />
-<Icon.BxBorderInner size="40" color={random_hex_color_code()} />
-<Icon.BxBorderLeft size="40" color={random_hex_color_code()} />
-<Icon.BxBorderNone size="40" color={random_hex_color_code()} />
-<Icon.BxBorderOuter size="40" color={random_hex_color_code()} />
-<Icon.BxBorderRadius size="40" color={random_hex_color_code()} />
-<Icon.BxBorderRight size="40" color={random_hex_color_code()} />
-<Icon.BxBorderTop size="40" color={random_hex_color_code()} />
-<Icon.BxBot size="40" color={random_hex_color_code()} />
-<Icon.BxBowlHot size="40" color={random_hex_color_code()} />
-<Icon.BxBowlRice size="40" color={random_hex_color_code()} />
-<Icon.BxBowlingBall size="40" color={random_hex_color_code()} />
-<Icon.BxBox size="40" color={random_hex_color_code()} />
-<Icon.BxBracket size="40" color={random_hex_color_code()} />
-<Icon.BxBraille size="40" color={random_hex_color_code()} />
-<Icon.BxBrain size="40" color={random_hex_color_code()} />
-<Icon.BxBriefcase size="40" color={random_hex_color_code()} />
-<Icon.BxBriefcaseAlt size="40" color={random_hex_color_code()} />
-<Icon.BxBriefcaseAlt2 size="40" color={random_hex_color_code()} />
-<Icon.BxBrightness size="40" color={random_hex_color_code()} />
-<Icon.BxBrightnessHalf size="40" color={random_hex_color_code()} />
-<Icon.BxBroadcast size="40" color={random_hex_color_code()} />
-<Icon.BxBrush size="40" color={random_hex_color_code()} />
-<Icon.BxBrushAlt size="40" color={random_hex_color_code()} />
-<Icon.BxBug size="40" color={random_hex_color_code()} />
-<Icon.BxBugAlt size="40" color={random_hex_color_code()} />
-<Icon.BxBuilding size="40" color={random_hex_color_code()} />
-<Icon.BxBuildingHouse size="40" color={random_hex_color_code()} />
-<Icon.BxBuildings size="40" color={random_hex_color_code()} />
-<Icon.BxBulb size="40" color={random_hex_color_code()} />
-<Icon.BxBullseye size="40" color={random_hex_color_code()} />
-<Icon.BxBuoy size="40" color={random_hex_color_code()} />
-<Icon.BxBus size="40" color={random_hex_color_code()} />
-<Icon.BxBusSchool size="40" color={random_hex_color_code()} />
-<Icon.BxCabinet size="40" color={random_hex_color_code()} />
-<Icon.BxCableCar size="40" color={random_hex_color_code()} />
-<Icon.BxCake size="40" color={random_hex_color_code()} />
-<Icon.BxCalculator size="40" color={random_hex_color_code()} />
-<Icon.BxCalendar size="40" color={random_hex_color_code()} />
-<Icon.BxCalendarAlt size="40" color={random_hex_color_code()} />
-<Icon.BxCalendarCheck size="40" color={random_hex_color_code()} />
-<Icon.BxCalendarEdit size="40" color={random_hex_color_code()} />
-<Icon.BxCalendarEvent size="40" color={random_hex_color_code()} />
-<Icon.BxCalendarExclamation size="40" color={random_hex_color_code()} />
-<Icon.BxCalendarHeart size="40" color={random_hex_color_code()} />
-<Icon.BxCalendarMinus size="40" color={random_hex_color_code()} />
-<Icon.BxCalendarPlus size="40" color={random_hex_color_code()} />
-<Icon.BxCalendarStar size="40" color={random_hex_color_code()} />
-<Icon.BxCalendarWeek size="40" color={random_hex_color_code()} />
-<Icon.BxCalendarX size="40" color={random_hex_color_code()} />
-<Icon.BxCamera size="40" color={random_hex_color_code()} />
-<Icon.BxCameraHome size="40" color={random_hex_color_code()} />
-<Icon.BxCameraMovie size="40" color={random_hex_color_code()} />
-<Icon.BxCameraOff size="40" color={random_hex_color_code()} />
-<Icon.BxCandles size="40" color={random_hex_color_code()} />
-<Icon.BxCapsule size="40" color={random_hex_color_code()} />
-<Icon.BxCaptions size="40" color={random_hex_color_code()} />
-<Icon.BxCar size="40" color={random_hex_color_code()} />
-<Icon.BxCard size="40" color={random_hex_color_code()} />
-<Icon.BxCaretDown size="40" color={random_hex_color_code()} />
-<Icon.BxCaretDownCircle size="40" color={random_hex_color_code()} />
-<Icon.BxCaretDownSquare size="40" color={random_hex_color_code()} />
-<Icon.BxCaretLeft size="40" color={random_hex_color_code()} />
-<Icon.BxCaretLeftCircle size="40" color={random_hex_color_code()} />
-<Icon.BxCaretLeftSquare size="40" color={random_hex_color_code()} />
-<Icon.BxCaretRight size="40" color={random_hex_color_code()} />
-<Icon.BxCaretRightCircle size="40" color={random_hex_color_code()} />
-<Icon.BxCaretRightSquare size="40" color={random_hex_color_code()} />
-<Icon.BxCaretUp size="40" color={random_hex_color_code()} />
-<Icon.BxCaretUpCircle size="40" color={random_hex_color_code()} />
-<Icon.BxCaretUpSquare size="40" color={random_hex_color_code()} />
-<Icon.BxCarousel size="40" color={random_hex_color_code()} />
-<Icon.BxCart size="40" color={random_hex_color_code()} />
-<Icon.BxCartAdd size="40" color={random_hex_color_code()} />
-<Icon.BxCartAlt size="40" color={random_hex_color_code()} />
-<Icon.BxCartDownload size="40" color={random_hex_color_code()} />
-<Icon.BxCast size="40" color={random_hex_color_code()} />
-<Icon.BxCategory size="40" color={random_hex_color_code()} />
-<Icon.BxCategoryAlt size="40" color={random_hex_color_code()} />
-<Icon.BxCctv size="40" color={random_hex_color_code()} />
-<Icon.BxCertification size="40" color={random_hex_color_code()} />
-<Icon.BxChair size="40" color={random_hex_color_code()} />
-<Icon.BxChalkboard size="40" color={random_hex_color_code()} />
-<Icon.BxChart size="40" color={random_hex_color_code()} />
-<Icon.BxChat size="40" color={random_hex_color_code()} />
-<Icon.BxCheck size="40" color={random_hex_color_code()} />
-<Icon.BxCheckCircle size="40" color={random_hex_color_code()} />
-<Icon.BxCheckDouble size="40" color={random_hex_color_code()} />
-<Icon.BxCheckShield size="40" color={random_hex_color_code()} />
-<Icon.BxCheckSquare size="40" color={random_hex_color_code()} />
-<Icon.BxCheckbox size="40" color={random_hex_color_code()} />
-<Icon.BxCheckboxChecked size="40" color={random_hex_color_code()} />
-<Icon.BxCheckboxMinus size="40" color={random_hex_color_code()} />
-<Icon.BxCheckboxSquare size="40" color={random_hex_color_code()} />
-<Icon.BxCheese size="40" color={random_hex_color_code()} />
-<Icon.BxChevronDown size="40" color={random_hex_color_code()} />
-<Icon.BxChevronDownCircle size="40" color={random_hex_color_code()} />
-<Icon.BxChevronDownSquare size="40" color={random_hex_color_code()} />
-<Icon.BxChevronLeft size="40" color={random_hex_color_code()} />
-<Icon.BxChevronLeftCircle size="40" color={random_hex_color_code()} />
-<Icon.BxChevronLeftSquare size="40" color={random_hex_color_code()} />
-<Icon.BxChevronRight size="40" color={random_hex_color_code()} />
-<Icon.BxChevronRightCircle size="40" color={random_hex_color_code()} />
-<Icon.BxChevronRightSquare size="40" color={random_hex_color_code()} />
-<Icon.BxChevronUp size="40" color={random_hex_color_code()} />
-<Icon.BxChevronUpCircle size="40" color={random_hex_color_code()} />
-<Icon.BxChevronUpSquare size="40" color={random_hex_color_code()} />
-<Icon.BxChevronsDown size="40" color={random_hex_color_code()} />
-<Icon.BxChevronsLeft size="40" color={random_hex_color_code()} />
-<Icon.BxChevronsRight size="40" color={random_hex_color_code()} />
-<Icon.BxChevronsUp size="40" color={random_hex_color_code()} />
-<Icon.BxChild size="40" color={random_hex_color_code()} />
-<Icon.BxChip size="40" color={random_hex_color_code()} />
-<Icon.BxChurch size="40" color={random_hex_color_code()} />
-<Icon.BxCircle size="40" color={random_hex_color_code()} />
-<Icon.BxCircleHalf size="40" color={random_hex_color_code()} />
-<Icon.BxCircleQuarter size="40" color={random_hex_color_code()} />
-<Icon.BxCircleThreeQuarter size="40" color={random_hex_color_code()} />
-<Icon.BxClinic size="40" color={random_hex_color_code()} />
-<Icon.BxClipboard size="40" color={random_hex_color_code()} />
-<Icon.BxCloset size="40" color={random_hex_color_code()} />
-<Icon.BxCloud size="40" color={random_hex_color_code()} />
-<Icon.BxCloudDownload size="40" color={random_hex_color_code()} />
-<Icon.BxCloudDrizzle size="40" color={random_hex_color_code()} />
-<Icon.BxCloudLightRain size="40" color={random_hex_color_code()} />
-<Icon.BxCloudLightning size="40" color={random_hex_color_code()} />
-<Icon.BxCloudRain size="40" color={random_hex_color_code()} />
-<Icon.BxCloudSnow size="40" color={random_hex_color_code()} />
-<Icon.BxCloudUpload size="40" color={random_hex_color_code()} />
-<Icon.BxCode size="40" color={random_hex_color_code()} />
-<Icon.BxCodeAlt size="40" color={random_hex_color_code()} />
-<Icon.BxCodeBlock size="40" color={random_hex_color_code()} />
-<Icon.BxCodeCurly size="40" color={random_hex_color_code()} />
-<Icon.BxCoffee size="40" color={random_hex_color_code()} />
-<Icon.BxCoffeeTogo size="40" color={random_hex_color_code()} />
-<Icon.BxCog size="40" color={random_hex_color_code()} />
-<Icon.BxCoin size="40" color={random_hex_color_code()} />
-<Icon.BxCoinStack size="40" color={random_hex_color_code()} />
-<Icon.BxCollapse size="40" color={random_hex_color_code()} />
-<Icon.BxCollapseAlt size="40" color={random_hex_color_code()} />
-<Icon.BxCollapseHorizontal size="40" color={random_hex_color_code()} />
-<Icon.BxCollapseVertical size="40" color={random_hex_color_code()} />
-<Icon.BxCollection size="40" color={random_hex_color_code()} />
-<Icon.BxColor size="40" color={random_hex_color_code()} />
-<Icon.BxColorFill size="40" color={random_hex_color_code()} />
-<Icon.BxColumns size="40" color={random_hex_color_code()} />
-<Icon.BxCommand size="40" color={random_hex_color_code()} />
-<Icon.BxComment size="40" color={random_hex_color_code()} />
-<Icon.BxCommentAdd size="40" color={random_hex_color_code()} />
-<Icon.BxCommentCheck size="40" color={random_hex_color_code()} />
-<Icon.BxCommentDetail size="40" color={random_hex_color_code()} />
-<Icon.BxCommentDots size="40" color={random_hex_color_code()} />
-<Icon.BxCommentEdit size="40" color={random_hex_color_code()} />
-<Icon.BxCommentError size="40" color={random_hex_color_code()} />
-<Icon.BxCommentMinus size="40" color={random_hex_color_code()} />
-<Icon.BxCommentX size="40" color={random_hex_color_code()} />
-<Icon.BxCompass size="40" color={random_hex_color_code()} />
-<Icon.BxConfused size="40" color={random_hex_color_code()} />
-<Icon.BxConversation size="40" color={random_hex_color_code()} />
-<Icon.BxCookie size="40" color={random_hex_color_code()} />
-<Icon.BxCool size="40" color={random_hex_color_code()} />
-<Icon.BxCopy size="40" color={random_hex_color_code()} />
-<Icon.BxCopyAlt size="40" color={random_hex_color_code()} />
-<Icon.BxCopyright size="40" color={random_hex_color_code()} />
-<Icon.BxCreditCard size="40" color={random_hex_color_code()} />
-<Icon.BxCreditCardAlt size="40" color={random_hex_color_code()} />
-<Icon.BxCreditCardFront size="40" color={random_hex_color_code()} />
-<Icon.BxCricketBall size="40" color={random_hex_color_code()} />
-<Icon.BxCrop size="40" color={random_hex_color_code()} />
-<Icon.BxCross size="40" color={random_hex_color_code()} />
-<Icon.BxCrosshair size="40" color={random_hex_color_code()} />
-<Icon.BxCrown size="40" color={random_hex_color_code()} />
-<Icon.BxCube size="40" color={random_hex_color_code()} />
-<Icon.BxCubeAlt size="40" color={random_hex_color_code()} />
-<Icon.BxCuboid size="40" color={random_hex_color_code()} />
-<Icon.BxCurrentLocation size="40" color={random_hex_color_code()} />
-<Icon.BxCustomize size="40" color={random_hex_color_code()} />
-<Icon.BxCut size="40" color={random_hex_color_code()} />
-<Icon.BxCycling size="40" color={random_hex_color_code()} />
-<Icon.BxCylinder size="40" color={random_hex_color_code()} />
-<Icon.BxData size="40" color={random_hex_color_code()} />
-<Icon.BxDesktop size="40" color={random_hex_color_code()} />
-<Icon.BxDetail size="40" color={random_hex_color_code()} />
-<Icon.BxDevices size="40" color={random_hex_color_code()} />
-<Icon.BxDialpad size="40" color={random_hex_color_code()} />
-<Icon.BxDialpadAlt size="40" color={random_hex_color_code()} />
-<Icon.BxDiamond size="40" color={random_hex_color_code()} />
-<Icon.BxDice1 size="40" color={random_hex_color_code()} />
-<Icon.BxDice2 size="40" color={random_hex_color_code()} />
-<Icon.BxDice3 size="40" color={random_hex_color_code()} />
-<Icon.BxDice4 size="40" color={random_hex_color_code()} />
-<Icon.BxDice5 size="40" color={random_hex_color_code()} />
-<Icon.BxDice6 size="40" color={random_hex_color_code()} />
-<Icon.BxDirections size="40" color={random_hex_color_code()} />
-<Icon.BxDisc size="40" color={random_hex_color_code()} />
-<Icon.BxDish size="40" color={random_hex_color_code()} />
-<Icon.BxDislike size="40" color={random_hex_color_code()} />
-<Icon.BxDizzy size="40" color={random_hex_color_code()} />
-<Icon.BxDna size="40" color={random_hex_color_code()} />
-<Icon.BxDockBottom size="40" color={random_hex_color_code()} />
-<Icon.BxDockLeft size="40" color={random_hex_color_code()} />
-<Icon.BxDockRight size="40" color={random_hex_color_code()} />
-<Icon.BxDockTop size="40" color={random_hex_color_code()} />
-<Icon.BxDollar size="40" color={random_hex_color_code()} />
-<Icon.BxDollarCircle size="40" color={random_hex_color_code()} />
-<Icon.BxDonateBlood size="40" color={random_hex_color_code()} />
-<Icon.BxDonateHeart size="40" color={random_hex_color_code()} />
-<Icon.BxDoorOpen size="40" color={random_hex_color_code()} />
-<Icon.BxDotsHorizontal size="40" color={random_hex_color_code()} />
-<Icon.BxDotsHorizontalRounded size="40" color={random_hex_color_code()} />
-<Icon.BxDotsVertical size="40" color={random_hex_color_code()} />
-<Icon.BxDotsVerticalRounded size="40" color={random_hex_color_code()} />
-<Icon.BxDoughnutChart size="40" color={random_hex_color_code()} />
-<Icon.BxDownArrow size="40" color={random_hex_color_code()} />
-<Icon.BxDownArrowAlt size="40" color={random_hex_color_code()} />
-<Icon.BxDownArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxDownload size="40" color={random_hex_color_code()} />
-<Icon.BxDownvote size="40" color={random_hex_color_code()} />
-<Icon.BxDrink size="40" color={random_hex_color_code()} />
-<Icon.BxDroplet size="40" color={random_hex_color_code()} />
-<Icon.BxDumbbell size="40" color={random_hex_color_code()} />
-<Icon.BxDuplicate size="40" color={random_hex_color_code()} />
-<Icon.BxEdit size="40" color={random_hex_color_code()} />
-<Icon.BxEditAlt size="40" color={random_hex_color_code()} />
-<Icon.BxEnvelope size="40" color={random_hex_color_code()} />
-<Icon.BxEnvelopeOpen size="40" color={random_hex_color_code()} />
-<Icon.BxEqualizer size="40" color={random_hex_color_code()} />
-<Icon.BxEraser size="40" color={random_hex_color_code()} />
-<Icon.BxError size="40" color={random_hex_color_code()} />
-<Icon.BxErrorAlt size="40" color={random_hex_color_code()} />
-<Icon.BxErrorCircle size="40" color={random_hex_color_code()} />
-<Icon.BxEuro size="40" color={random_hex_color_code()} />
-<Icon.BxExclude size="40" color={random_hex_color_code()} />
-<Icon.BxExit size="40" color={random_hex_color_code()} />
-<Icon.BxExitFullscreen size="40" color={random_hex_color_code()} />
-<Icon.BxExpand size="40" color={random_hex_color_code()} />
-<Icon.BxExpandAlt size="40" color={random_hex_color_code()} />
-<Icon.BxExpandHorizontal size="40" color={random_hex_color_code()} />
-<Icon.BxExpandVertical size="40" color={random_hex_color_code()} />
-<Icon.BxExport size="40" color={random_hex_color_code()} />
-<Icon.BxExtension size="40" color={random_hex_color_code()} />
-<Icon.BxFace size="40" color={random_hex_color_code()} />
-<Icon.BxFastForward size="40" color={random_hex_color_code()} />
-<Icon.BxFastForwardCircle size="40" color={random_hex_color_code()} />
-<Icon.BxFemale size="40" color={random_hex_color_code()} />
-<Icon.BxFemaleSign size="40" color={random_hex_color_code()} />
-<Icon.BxFile size="40" color={random_hex_color_code()} />
-<Icon.BxFileBlank size="40" color={random_hex_color_code()} />
-<Icon.BxFileFind size="40" color={random_hex_color_code()} />
-<Icon.BxFilm size="40" color={random_hex_color_code()} />
-<Icon.BxFilter size="40" color={random_hex_color_code()} />
-<Icon.BxFilterAlt size="40" color={random_hex_color_code()} />
-<Icon.BxFingerprint size="40" color={random_hex_color_code()} />
-<Icon.BxFirstAid size="40" color={random_hex_color_code()} />
-<Icon.BxFirstPage size="40" color={random_hex_color_code()} />
-<Icon.BxFlag size="40" color={random_hex_color_code()} />
-<Icon.BxFolder size="40" color={random_hex_color_code()} />
-<Icon.BxFolderMinus size="40" color={random_hex_color_code()} />
-<Icon.BxFolderOpen size="40" color={random_hex_color_code()} />
-<Icon.BxFolderPlus size="40" color={random_hex_color_code()} />
-<Icon.BxFont size="40" color={random_hex_color_code()} />
-<Icon.BxFontColor size="40" color={random_hex_color_code()} />
-<Icon.BxFontFamily size="40" color={random_hex_color_code()} />
-<Icon.BxFontSize size="40" color={random_hex_color_code()} />
-<Icon.BxFoodMenu size="40" color={random_hex_color_code()} />
-<Icon.BxFoodTag size="40" color={random_hex_color_code()} />
-<Icon.BxFootball size="40" color={random_hex_color_code()} />
-<Icon.BxFork size="40" color={random_hex_color_code()} />
-<Icon.BxFridge size="40" color={random_hex_color_code()} />
-<Icon.BxFullscreen size="40" color={random_hex_color_code()} />
-<Icon.BxGame size="40" color={random_hex_color_code()} />
-<Icon.BxGasPump size="40" color={random_hex_color_code()} />
-<Icon.BxGhost size="40" color={random_hex_color_code()} />
-<Icon.BxGift size="40" color={random_hex_color_code()} />
-<Icon.BxGitBranch size="40" color={random_hex_color_code()} />
-<Icon.BxGitCommit size="40" color={random_hex_color_code()} />
-<Icon.BxGitCompare size="40" color={random_hex_color_code()} />
-<Icon.BxGitMerge size="40" color={random_hex_color_code()} />
-<Icon.BxGitPullRequest size="40" color={random_hex_color_code()} />
-<Icon.BxGitRepoForked size="40" color={random_hex_color_code()} />
-<Icon.BxGlasses size="40" color={random_hex_color_code()} />
-<Icon.BxGlassesAlt size="40" color={random_hex_color_code()} />
-<Icon.BxGlobe size="40" color={random_hex_color_code()} />
-<Icon.BxGlobeAlt size="40" color={random_hex_color_code()} />
-<Icon.BxGrid size="40" color={random_hex_color_code()} />
-<Icon.BxGridAlt size="40" color={random_hex_color_code()} />
-<Icon.BxGridHorizontal size="40" color={random_hex_color_code()} />
-<Icon.BxGridSmall size="40" color={random_hex_color_code()} />
-<Icon.BxGridVertical size="40" color={random_hex_color_code()} />
-<Icon.BxGroup size="40" color={random_hex_color_code()} />
-<Icon.BxHandicap size="40" color={random_hex_color_code()} />
-<Icon.BxHappy size="40" color={random_hex_color_code()} />
-<Icon.BxHappyAlt size="40" color={random_hex_color_code()} />
-<Icon.BxHappyBeaming size="40" color={random_hex_color_code()} />
-<Icon.BxHappyHeartEyes size="40" color={random_hex_color_code()} />
-<Icon.BxHardHat size="40" color={random_hex_color_code()} />
-<Icon.BxHash size="40" color={random_hex_color_code()} />
-<Icon.BxHdd size="40" color={random_hex_color_code()} />
-<Icon.BxHeading size="40" color={random_hex_color_code()} />
-<Icon.BxHeadphone size="40" color={random_hex_color_code()} />
-<Icon.BxHealth size="40" color={random_hex_color_code()} />
-<Icon.BxHeart size="40" color={random_hex_color_code()} />
-<Icon.BxHeartCircle size="40" color={random_hex_color_code()} />
-<Icon.BxHeartSquare size="40" color={random_hex_color_code()} />
-<Icon.BxHelpCircle size="40" color={random_hex_color_code()} />
-<Icon.BxHide size="40" color={random_hex_color_code()} />
-<Icon.BxHighlight size="40" color={random_hex_color_code()} />
-<Icon.BxHistory size="40" color={random_hex_color_code()} />
-<Icon.BxHive size="40" color={random_hex_color_code()} />
-<Icon.BxHome size="40" color={random_hex_color_code()} />
-<Icon.BxHomeAlt size="40" color={random_hex_color_code()} />
-<Icon.BxHomeAlt2 size="40" color={random_hex_color_code()} />
-<Icon.BxHomeCircle size="40" color={random_hex_color_code()} />
-<Icon.BxHomeHeart size="40" color={random_hex_color_code()} />
-<Icon.BxHomeSmile size="40" color={random_hex_color_code()} />
-<Icon.BxHorizontalCenter size="40" color={random_hex_color_code()} />
-<Icon.BxHorizontalLeft size="40" color={random_hex_color_code()} />
-<Icon.BxHorizontalRight size="40" color={random_hex_color_code()} />
-<Icon.BxHotel size="40" color={random_hex_color_code()} />
-<Icon.BxHourglass size="40" color={random_hex_color_code()} />
-<Icon.BxIdCard size="40" color={random_hex_color_code()} />
-<Icon.BxImage size="40" color={random_hex_color_code()} />
-<Icon.BxImageAdd size="40" color={random_hex_color_code()} />
-<Icon.BxImageAlt size="40" color={random_hex_color_code()} />
-<Icon.BxImages size="40" color={random_hex_color_code()} />
-<Icon.BxImport size="40" color={random_hex_color_code()} />
-<Icon.BxInfinite size="40" color={random_hex_color_code()} />
-<Icon.BxInfoCircle size="40" color={random_hex_color_code()} />
-<Icon.BxInfoSquare size="40" color={random_hex_color_code()} />
-<Icon.BxInjection size="40" color={random_hex_color_code()} />
-<Icon.BxIntersect size="40" color={random_hex_color_code()} />
-<Icon.BxItalic size="40" color={random_hex_color_code()} />
-<Icon.BxJoystick size="40" color={random_hex_color_code()} />
-<Icon.BxJoystickAlt size="40" color={random_hex_color_code()} />
-<Icon.BxJoystickButton size="40" color={random_hex_color_code()} />
-<Icon.BxKey size="40" color={random_hex_color_code()} />
-<Icon.BxKnife size="40" color={random_hex_color_code()} />
-<Icon.BxLabel size="40" color={random_hex_color_code()} />
-<Icon.BxLandscape size="40" color={random_hex_color_code()} />
-<Icon.BxLaptop size="40" color={random_hex_color_code()} />
-<Icon.BxLastPage size="40" color={random_hex_color_code()} />
-<Icon.BxLaugh size="40" color={random_hex_color_code()} />
-<Icon.BxLayer size="40" color={random_hex_color_code()} />
-<Icon.BxLayerMinus size="40" color={random_hex_color_code()} />
-<Icon.BxLayerPlus size="40" color={random_hex_color_code()} />
-<Icon.BxLayout size="40" color={random_hex_color_code()} />
-<Icon.BxLeaf size="40" color={random_hex_color_code()} />
-<Icon.BxLeftArrow size="40" color={random_hex_color_code()} />
-<Icon.BxLeftArrowAlt size="40" color={random_hex_color_code()} />
-<Icon.BxLeftArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxLeftDownArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxLeftIndent size="40" color={random_hex_color_code()} />
-<Icon.BxLeftTopArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxLemon size="40" color={random_hex_color_code()} />
-<Icon.BxLibrary size="40" color={random_hex_color_code()} />
-<Icon.BxLike size="40" color={random_hex_color_code()} />
-<Icon.BxLineChart size="40" color={random_hex_color_code()} />
-<Icon.BxLineChartDown size="40" color={random_hex_color_code()} />
-<Icon.BxLink size="40" color={random_hex_color_code()} />
-<Icon.BxLinkAlt size="40" color={random_hex_color_code()} />
-<Icon.BxLinkExternal size="40" color={random_hex_color_code()} />
-<Icon.BxLira size="40" color={random_hex_color_code()} />
-<Icon.BxListCheck size="40" color={random_hex_color_code()} />
-<Icon.BxListMinus size="40" color={random_hex_color_code()} />
-<Icon.BxListOl size="40" color={random_hex_color_code()} />
-<Icon.BxListPlus size="40" color={random_hex_color_code()} />
-<Icon.BxListUl size="40" color={random_hex_color_code()} />
-<Icon.BxLoader size="40" color={random_hex_color_code()} />
-<Icon.BxLoaderAlt size="40" color={random_hex_color_code()} />
-<Icon.BxLoaderCircle size="40" color={random_hex_color_code()} />
-<Icon.BxLocationPlus size="40" color={random_hex_color_code()} />
-<Icon.BxLock size="40" color={random_hex_color_code()} />
-<Icon.BxLockAlt size="40" color={random_hex_color_code()} />
-<Icon.BxLockOpen size="40" color={random_hex_color_code()} />
-<Icon.BxLockOpenAlt size="40" color={random_hex_color_code()} />
-<Icon.BxLogIn size="40" color={random_hex_color_code()} />
-<Icon.BxLogInCircle size="40" color={random_hex_color_code()} />
-<Icon.BxLogOut size="40" color={random_hex_color_code()} />
-<Icon.BxLogOutCircle size="40" color={random_hex_color_code()} />
-<Icon.BxLowVision size="40" color={random_hex_color_code()} />
-<Icon.BxMagnet size="40" color={random_hex_color_code()} />
-<Icon.BxMailSend size="40" color={random_hex_color_code()} />
-<Icon.BxMale size="40" color={random_hex_color_code()} />
-<Icon.BxMaleFemale size="40" color={random_hex_color_code()} />
-<Icon.BxMaleSign size="40" color={random_hex_color_code()} />
-<Icon.BxMap size="40" color={random_hex_color_code()} />
-<Icon.BxMapAlt size="40" color={random_hex_color_code()} />
-<Icon.BxMapPin size="40" color={random_hex_color_code()} />
-<Icon.BxMask size="40" color={random_hex_color_code()} />
-<Icon.BxMath size="40" color={random_hex_color_code()} />
-<Icon.BxMedal size="40" color={random_hex_color_code()} />
-<Icon.BxMeh size="40" color={random_hex_color_code()} />
-<Icon.BxMehAlt size="40" color={random_hex_color_code()} />
-<Icon.BxMehBlank size="40" color={random_hex_color_code()} />
-<Icon.BxMemoryCard size="40" color={random_hex_color_code()} />
-<Icon.BxMenu size="40" color={random_hex_color_code()} />
-<Icon.BxMenuAltLeft size="40" color={random_hex_color_code()} />
-<Icon.BxMenuAltRight size="40" color={random_hex_color_code()} />
-<Icon.BxMerge size="40" color={random_hex_color_code()} />
-<Icon.BxMessage size="40" color={random_hex_color_code()} />
-<Icon.BxMessageAdd size="40" color={random_hex_color_code()} />
-<Icon.BxMessageAlt size="40" color={random_hex_color_code()} />
-<Icon.BxMessageAltAdd size="40" color={random_hex_color_code()} />
-<Icon.BxMessageAltCheck size="40" color={random_hex_color_code()} />
-<Icon.BxMessageAltDetail size="40" color={random_hex_color_code()} />
-<Icon.BxMessageAltDots size="40" color={random_hex_color_code()} />
-<Icon.BxMessageAltEdit size="40" color={random_hex_color_code()} />
-<Icon.BxMessageAltError size="40" color={random_hex_color_code()} />
-<Icon.BxMessageAltMinus size="40" color={random_hex_color_code()} />
-<Icon.BxMessageAltX size="40" color={random_hex_color_code()} />
-<Icon.BxMessageCheck size="40" color={random_hex_color_code()} />
-<Icon.BxMessageDetail size="40" color={random_hex_color_code()} />
-<Icon.BxMessageDots size="40" color={random_hex_color_code()} />
-<Icon.BxMessageEdit size="40" color={random_hex_color_code()} />
-<Icon.BxMessageError size="40" color={random_hex_color_code()} />
-<Icon.BxMessageMinus size="40" color={random_hex_color_code()} />
-<Icon.BxMessageRounded size="40" color={random_hex_color_code()} />
-<Icon.BxMessageRoundedAdd size="40" color={random_hex_color_code()} />
-<Icon.BxMessageRoundedCheck size="40" color={random_hex_color_code()} />
-<Icon.BxMessageRoundedDetail size="40" color={random_hex_color_code()} />
-<Icon.BxMessageRoundedDots size="40" color={random_hex_color_code()} />
-<Icon.BxMessageRoundedEdit size="40" color={random_hex_color_code()} />
-<Icon.BxMessageRoundedError size="40" color={random_hex_color_code()} />
-<Icon.BxMessageRoundedMinus size="40" color={random_hex_color_code()} />
-<Icon.BxMessageRoundedX size="40" color={random_hex_color_code()} />
-<Icon.BxMessageSquare size="40" color={random_hex_color_code()} />
-<Icon.BxMessageSquareAdd size="40" color={random_hex_color_code()} />
-<Icon.BxMessageSquareCheck size="40" color={random_hex_color_code()} />
-<Icon.BxMessageSquareDetail size="40" color={random_hex_color_code()} />
-<Icon.BxMessageSquareDots size="40" color={random_hex_color_code()} />
-<Icon.BxMessageSquareEdit size="40" color={random_hex_color_code()} />
-<Icon.BxMessageSquareError size="40" color={random_hex_color_code()} />
-<Icon.BxMessageSquareMinus size="40" color={random_hex_color_code()} />
-<Icon.BxMessageSquareX size="40" color={random_hex_color_code()} />
-<Icon.BxMessageX size="40" color={random_hex_color_code()} />
-<Icon.BxMeteor size="40" color={random_hex_color_code()} />
-<Icon.BxMicrochip size="40" color={random_hex_color_code()} />
-<Icon.BxMicrophone size="40" color={random_hex_color_code()} />
-<Icon.BxMicrophoneOff size="40" color={random_hex_color_code()} />
-<Icon.BxMinus size="40" color={random_hex_color_code()} />
-<Icon.BxMinusBack size="40" color={random_hex_color_code()} />
-<Icon.BxMinusCircle size="40" color={random_hex_color_code()} />
-<Icon.BxMinusFront size="40" color={random_hex_color_code()} />
-<Icon.BxMobile size="40" color={random_hex_color_code()} />
-<Icon.BxMobileAlt size="40" color={random_hex_color_code()} />
-<Icon.BxMobileLandscape size="40" color={random_hex_color_code()} />
-<Icon.BxMobileVibration size="40" color={random_hex_color_code()} />
-<Icon.BxMoney size="40" color={random_hex_color_code()} />
-<Icon.BxMoneyWithdraw size="40" color={random_hex_color_code()} />
-<Icon.BxMoon size="40" color={random_hex_color_code()} />
-<Icon.BxMouse size="40" color={random_hex_color_code()} />
-<Icon.BxMouseAlt size="40" color={random_hex_color_code()} />
-<Icon.BxMove size="40" color={random_hex_color_code()} />
-<Icon.BxMoveHorizontal size="40" color={random_hex_color_code()} />
-<Icon.BxMoveVertical size="40" color={random_hex_color_code()} />
-<Icon.BxMovie size="40" color={random_hex_color_code()} />
-<Icon.BxMoviePlay size="40" color={random_hex_color_code()} />
-<Icon.BxMusic size="40" color={random_hex_color_code()} />
-<Icon.BxNavigation size="40" color={random_hex_color_code()} />
-<Icon.BxNetworkChart size="40" color={random_hex_color_code()} />
-<Icon.BxNews size="40" color={random_hex_color_code()} />
-<Icon.BxNoEntry size="40" color={random_hex_color_code()} />
-<Icon.BxNoSignal size="40" color={random_hex_color_code()} />
-<Icon.BxNote size="40" color={random_hex_color_code()} />
-<Icon.BxNotepad size="40" color={random_hex_color_code()} />
-<Icon.BxNotification size="40" color={random_hex_color_code()} />
-<Icon.BxNotificationOff size="40" color={random_hex_color_code()} />
-<Icon.BxObjectsHorizontalCenter size="40" color={random_hex_color_code()} />
-<Icon.BxObjectsHorizontalLeft size="40" color={random_hex_color_code()} />
-<Icon.BxObjectsHorizontalRight size="40" color={random_hex_color_code()} />
-<Icon.BxObjectsVerticalBottom size="40" color={random_hex_color_code()} />
-<Icon.BxObjectsVerticalCenter size="40" color={random_hex_color_code()} />
-<Icon.BxObjectsVerticalTop size="40" color={random_hex_color_code()} />
-<Icon.BxOutline size="40" color={random_hex_color_code()} />
-<Icon.BxPackage size="40" color={random_hex_color_code()} />
-<Icon.BxPaint size="40" color={random_hex_color_code()} />
-<Icon.BxPaintRoll size="40" color={random_hex_color_code()} />
-<Icon.BxPalette size="40" color={random_hex_color_code()} />
-<Icon.BxPaperPlane size="40" color={random_hex_color_code()} />
-<Icon.BxPaperclip size="40" color={random_hex_color_code()} />
-<Icon.BxParagraph size="40" color={random_hex_color_code()} />
-<Icon.BxParty size="40" color={random_hex_color_code()} />
-<Icon.BxPaste size="40" color={random_hex_color_code()} />
-<Icon.BxPause size="40" color={random_hex_color_code()} />
-<Icon.BxPauseCircle size="40" color={random_hex_color_code()} />
-<Icon.BxPen size="40" color={random_hex_color_code()} />
-<Icon.BxPencil size="40" color={random_hex_color_code()} />
-<Icon.BxPhone size="40" color={random_hex_color_code()} />
-<Icon.BxPhoneCall size="40" color={random_hex_color_code()} />
-<Icon.BxPhoneIncoming size="40" color={random_hex_color_code()} />
-<Icon.BxPhoneOff size="40" color={random_hex_color_code()} />
-<Icon.BxPhoneOutgoing size="40" color={random_hex_color_code()} />
-<Icon.BxPhotoAlbum size="40" color={random_hex_color_code()} />
-<Icon.BxPieChart size="40" color={random_hex_color_code()} />
-<Icon.BxPieChartAlt size="40" color={random_hex_color_code()} />
-<Icon.BxPieChartAlt2 size="40" color={random_hex_color_code()} />
-<Icon.BxPin size="40" color={random_hex_color_code()} />
-<Icon.BxPlanet size="40" color={random_hex_color_code()} />
-<Icon.BxPlay size="40" color={random_hex_color_code()} />
-<Icon.BxPlayCircle size="40" color={random_hex_color_code()} />
-<Icon.BxPlug size="40" color={random_hex_color_code()} />
-<Icon.BxPlus size="40" color={random_hex_color_code()} />
-<Icon.BxPlusCircle size="40" color={random_hex_color_code()} />
-<Icon.BxPlusMedical size="40" color={random_hex_color_code()} />
-<Icon.BxPodcast size="40" color={random_hex_color_code()} />
-<Icon.BxPointer size="40" color={random_hex_color_code()} />
-<Icon.BxPoll size="40" color={random_hex_color_code()} />
-<Icon.BxPolygon size="40" color={random_hex_color_code()} />
-<Icon.BxPopsicle size="40" color={random_hex_color_code()} />
-<Icon.BxPound size="40" color={random_hex_color_code()} />
-<Icon.BxPowerOff size="40" color={random_hex_color_code()} />
-<Icon.BxPrinter size="40" color={random_hex_color_code()} />
-<Icon.BxPulse size="40" color={random_hex_color_code()} />
-<Icon.BxPurchaseTag size="40" color={random_hex_color_code()} />
-<Icon.BxPurchaseTagAlt size="40" color={random_hex_color_code()} />
-<Icon.BxPyramid size="40" color={random_hex_color_code()} />
-<Icon.BxQr size="40" color={random_hex_color_code()} />
-<Icon.BxQrScan size="40" color={random_hex_color_code()} />
-<Icon.BxQuestionMark size="40" color={random_hex_color_code()} />
-<Icon.BxRadar size="40" color={random_hex_color_code()} />
-<Icon.BxRadio size="40" color={random_hex_color_code()} />
-<Icon.BxRadioCircle size="40" color={random_hex_color_code()} />
-<Icon.BxRadioCircleMarked size="40" color={random_hex_color_code()} />
-<Icon.BxReceipt size="40" color={random_hex_color_code()} />
-<Icon.BxRectangle size="40" color={random_hex_color_code()} />
-<Icon.BxRecycle size="40" color={random_hex_color_code()} />
-<Icon.BxRedo size="40" color={random_hex_color_code()} />
-<Icon.BxReflectHorizontal size="40" color={random_hex_color_code()} />
-<Icon.BxReflectVertical size="40" color={random_hex_color_code()} />
-<Icon.BxRefresh size="40" color={random_hex_color_code()} />
-<Icon.BxRegistered size="40" color={random_hex_color_code()} />
-<Icon.BxRename size="40" color={random_hex_color_code()} />
-<Icon.BxRepeat size="40" color={random_hex_color_code()} />
-<Icon.BxReply size="40" color={random_hex_color_code()} />
-<Icon.BxReplyAll size="40" color={random_hex_color_code()} />
-<Icon.BxRepost size="40" color={random_hex_color_code()} />
-<Icon.BxReset size="40" color={random_hex_color_code()} />
-<Icon.BxRestaurant size="40" color={random_hex_color_code()} />
-<Icon.BxRevision size="40" color={random_hex_color_code()} />
-<Icon.BxRewind size="40" color={random_hex_color_code()} />
-<Icon.BxRewindCircle size="40" color={random_hex_color_code()} />
-<Icon.BxRfid size="40" color={random_hex_color_code()} />
-<Icon.BxRightArrow size="40" color={random_hex_color_code()} />
-<Icon.BxRightArrowAlt size="40" color={random_hex_color_code()} />
-<Icon.BxRightArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxRightDownArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxRightIndent size="40" color={random_hex_color_code()} />
-<Icon.BxRightTopArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxRocket size="40" color={random_hex_color_code()} />
-<Icon.BxRotateLeft size="40" color={random_hex_color_code()} />
-<Icon.BxRotateRight size="40" color={random_hex_color_code()} />
-<Icon.BxRss size="40" color={random_hex_color_code()} />
-<Icon.BxRuble size="40" color={random_hex_color_code()} />
-<Icon.BxRuler size="40" color={random_hex_color_code()} />
-<Icon.BxRun size="40" color={random_hex_color_code()} />
-<Icon.BxRupee size="40" color={random_hex_color_code()} />
-<Icon.BxSad size="40" color={random_hex_color_code()} />
-<Icon.BxSave size="40" color={random_hex_color_code()} />
-<Icon.BxScan size="40" color={random_hex_color_code()} />
-<Icon.BxScatterChart size="40" color={random_hex_color_code()} />
-<Icon.BxScreenshot size="40" color={random_hex_color_code()} />
-<Icon.BxSearch size="40" color={random_hex_color_code()} />
-<Icon.BxSearchAlt size="40" color={random_hex_color_code()} />
-<Icon.BxSearchAlt2 size="40" color={random_hex_color_code()} />
-<Icon.BxSelectMultiple size="40" color={random_hex_color_code()} />
-<Icon.BxSelection size="40" color={random_hex_color_code()} />
-<Icon.BxSend size="40" color={random_hex_color_code()} />
-<Icon.BxServer size="40" color={random_hex_color_code()} />
-<Icon.BxShapeCircle size="40" color={random_hex_color_code()} />
-<Icon.BxShapePolygon size="40" color={random_hex_color_code()} />
-<Icon.BxShapeSquare size="40" color={random_hex_color_code()} />
-<Icon.BxShapeTriangle size="40" color={random_hex_color_code()} />
-<Icon.BxShare size="40" color={random_hex_color_code()} />
-<Icon.BxShareAlt size="40" color={random_hex_color_code()} />
-<Icon.BxShekel size="40" color={random_hex_color_code()} />
-<Icon.BxShield size="40" color={random_hex_color_code()} />
-<Icon.BxShieldAlt size="40" color={random_hex_color_code()} />
-<Icon.BxShieldAlt2 size="40" color={random_hex_color_code()} />
-<Icon.BxShieldMinus size="40" color={random_hex_color_code()} />
-<Icon.BxShieldPlus size="40" color={random_hex_color_code()} />
-<Icon.BxShieldQuarter size="40" color={random_hex_color_code()} />
-<Icon.BxShieldX size="40" color={random_hex_color_code()} />
-<Icon.BxShocked size="40" color={random_hex_color_code()} />
-<Icon.BxShoppingBag size="40" color={random_hex_color_code()} />
-<Icon.BxShow size="40" color={random_hex_color_code()} />
-<Icon.BxShowAlt size="40" color={random_hex_color_code()} />
-<Icon.BxShower size="40" color={random_hex_color_code()} />
-<Icon.BxShuffle size="40" color={random_hex_color_code()} />
-<Icon.BxSidebar size="40" color={random_hex_color_code()} />
-<Icon.BxSignal1 size="40" color={random_hex_color_code()} />
-<Icon.BxSignal2 size="40" color={random_hex_color_code()} />
-<Icon.BxSignal3 size="40" color={random_hex_color_code()} />
-<Icon.BxSignal4 size="40" color={random_hex_color_code()} />
-<Icon.BxSignal5 size="40" color={random_hex_color_code()} />
-<Icon.BxSitemap size="40" color={random_hex_color_code()} />
-<Icon.BxSkipNext size="40" color={random_hex_color_code()} />
-<Icon.BxSkipNextCircle size="40" color={random_hex_color_code()} />
-<Icon.BxSkipPrevious size="40" color={random_hex_color_code()} />
-<Icon.BxSkipPreviousCircle size="40" color={random_hex_color_code()} />
-<Icon.BxSleepy size="40" color={random_hex_color_code()} />
-<Icon.BxSlider size="40" color={random_hex_color_code()} />
-<Icon.BxSliderAlt size="40" color={random_hex_color_code()} />
-<Icon.BxSlideshow size="40" color={random_hex_color_code()} />
-<Icon.BxSmile size="40" color={random_hex_color_code()} />
-<Icon.BxSort size="40" color={random_hex_color_code()} />
-<Icon.BxSortAZ size="40" color={random_hex_color_code()} />
-<Icon.BxSortAlt2 size="40" color={random_hex_color_code()} />
-<Icon.BxSortDown size="40" color={random_hex_color_code()} />
-<Icon.BxSortUp size="40" color={random_hex_color_code()} />
-<Icon.BxSortZA size="40" color={random_hex_color_code()} />
-<Icon.BxSpa size="40" color={random_hex_color_code()} />
-<Icon.BxSpaceBar size="40" color={random_hex_color_code()} />
-<Icon.BxSpeaker size="40" color={random_hex_color_code()} />
-<Icon.BxSprayCan size="40" color={random_hex_color_code()} />
-<Icon.BxSpreadsheet size="40" color={random_hex_color_code()} />
-<Icon.BxSquare size="40" color={random_hex_color_code()} />
-<Icon.BxSquareRounded size="40" color={random_hex_color_code()} />
-<Icon.BxStar size="40" color={random_hex_color_code()} />
-<Icon.BxStation size="40" color={random_hex_color_code()} />
-<Icon.BxStats size="40" color={random_hex_color_code()} />
-<Icon.BxSticker size="40" color={random_hex_color_code()} />
-<Icon.BxStop size="40" color={random_hex_color_code()} />
-<Icon.BxStopCircle size="40" color={random_hex_color_code()} />
-<Icon.BxStopwatch size="40" color={random_hex_color_code()} />
-<Icon.BxStore size="40" color={random_hex_color_code()} />
-<Icon.BxStoreAlt size="40" color={random_hex_color_code()} />
-<Icon.BxStreetView size="40" color={random_hex_color_code()} />
-<Icon.BxStrikethrough size="40" color={random_hex_color_code()} />
-<Icon.BxSubdirectoryLeft size="40" color={random_hex_color_code()} />
-<Icon.BxSubdirectoryRight size="40" color={random_hex_color_code()} />
-<Icon.BxSun size="40" color={random_hex_color_code()} />
-<Icon.BxSupport size="40" color={random_hex_color_code()} />
-<Icon.BxSushi size="40" color={random_hex_color_code()} />
-<Icon.BxSwim size="40" color={random_hex_color_code()} />
-<Icon.BxSync size="40" color={random_hex_color_code()} />
-<Icon.BxTab size="40" color={random_hex_color_code()} />
-<Icon.BxTable size="40" color={random_hex_color_code()} />
-<Icon.BxTachometer size="40" color={random_hex_color_code()} />
-<Icon.BxTag size="40" color={random_hex_color_code()} />
-<Icon.BxTagAlt size="40" color={random_hex_color_code()} />
-<Icon.BxTargetLock size="40" color={random_hex_color_code()} />
-<Icon.BxTask size="40" color={random_hex_color_code()} />
-<Icon.BxTaskX size="40" color={random_hex_color_code()} />
-<Icon.BxTaxi size="40" color={random_hex_color_code()} />
-<Icon.BxTennisBall size="40" color={random_hex_color_code()} />
-<Icon.BxTerminal size="40" color={random_hex_color_code()} />
-<Icon.BxTestTube size="40" color={random_hex_color_code()} />
-<Icon.BxText size="40" color={random_hex_color_code()} />
-<Icon.BxTime size="40" color={random_hex_color_code()} />
-<Icon.BxTimeFive size="40" color={random_hex_color_code()} />
-<Icon.BxTimer size="40" color={random_hex_color_code()} />
-<Icon.BxTired size="40" color={random_hex_color_code()} />
-<Icon.BxToggleLeft size="40" color={random_hex_color_code()} />
-<Icon.BxToggleRight size="40" color={random_hex_color_code()} />
-<Icon.BxTone size="40" color={random_hex_color_code()} />
-<Icon.BxTrafficCone size="40" color={random_hex_color_code()} />
-<Icon.BxTrain size="40" color={random_hex_color_code()} />
-<Icon.BxTransfer size="40" color={random_hex_color_code()} />
-<Icon.BxTransferAlt size="40" color={random_hex_color_code()} />
-<Icon.BxTrash size="40" color={random_hex_color_code()} />
-<Icon.BxTrashAlt size="40" color={random_hex_color_code()} />
-<Icon.BxTrendingDown size="40" color={random_hex_color_code()} />
-<Icon.BxTrendingUp size="40" color={random_hex_color_code()} />
-<Icon.BxTrim size="40" color={random_hex_color_code()} />
-<Icon.BxTrip size="40" color={random_hex_color_code()} />
-<Icon.BxTrophy size="40" color={random_hex_color_code()} />
-<Icon.BxTv size="40" color={random_hex_color_code()} />
-<Icon.BxUnderline size="40" color={random_hex_color_code()} />
-<Icon.BxUndo size="40" color={random_hex_color_code()} />
-<Icon.BxUnite size="40" color={random_hex_color_code()} />
-<Icon.BxUniversalAccess size="40" color={random_hex_color_code()} />
-<Icon.BxUnlink size="40" color={random_hex_color_code()} />
-<Icon.BxUpArrow size="40" color={random_hex_color_code()} />
-<Icon.BxUpArrowAlt size="40" color={random_hex_color_code()} />
-<Icon.BxUpArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxUpload size="40" color={random_hex_color_code()} />
-<Icon.BxUpsideDown size="40" color={random_hex_color_code()} />
-<Icon.BxUpvote size="40" color={random_hex_color_code()} />
-<Icon.BxUsb size="40" color={random_hex_color_code()} />
-<Icon.BxUser size="40" color={random_hex_color_code()} />
-<Icon.BxUserCheck size="40" color={random_hex_color_code()} />
-<Icon.BxUserCircle size="40" color={random_hex_color_code()} />
-<Icon.BxUserMinus size="40" color={random_hex_color_code()} />
-<Icon.BxUserPin size="40" color={random_hex_color_code()} />
-<Icon.BxUserPlus size="40" color={random_hex_color_code()} />
-<Icon.BxUserVoice size="40" color={random_hex_color_code()} />
-<Icon.BxUserX size="40" color={random_hex_color_code()} />
-<Icon.BxVector size="40" color={random_hex_color_code()} />
-<Icon.BxVerticalBottom size="40" color={random_hex_color_code()} />
-<Icon.BxVerticalCenter size="40" color={random_hex_color_code()} />
-<Icon.BxVerticalTop size="40" color={random_hex_color_code()} />
-<Icon.BxVial size="40" color={random_hex_color_code()} />
-<Icon.BxVideo size="40" color={random_hex_color_code()} />
-<Icon.BxVideoOff size="40" color={random_hex_color_code()} />
-<Icon.BxVideoPlus size="40" color={random_hex_color_code()} />
-<Icon.BxVideoRecording size="40" color={random_hex_color_code()} />
-<Icon.BxVoicemail size="40" color={random_hex_color_code()} />
-<Icon.BxVolume size="40" color={random_hex_color_code()} />
-<Icon.BxVolumeFull size="40" color={random_hex_color_code()} />
-<Icon.BxVolumeLow size="40" color={random_hex_color_code()} />
-<Icon.BxVolumeMute size="40" color={random_hex_color_code()} />
-<Icon.BxWalk size="40" color={random_hex_color_code()} />
-<Icon.BxWallet size="40" color={random_hex_color_code()} />
-<Icon.BxWalletAlt size="40" color={random_hex_color_code()} />
-<Icon.BxWater size="40" color={random_hex_color_code()} />
-<Icon.BxWebcam size="40" color={random_hex_color_code()} />
-<Icon.BxWifi size="40" color={random_hex_color_code()} />
-<Icon.BxWifi0 size="40" color={random_hex_color_code()} />
-<Icon.BxWifi1 size="40" color={random_hex_color_code()} />
-<Icon.BxWifi2 size="40" color={random_hex_color_code()} />
-<Icon.BxWifiOff size="40" color={random_hex_color_code()} />
-<Icon.BxWind size="40" color={random_hex_color_code()} />
-<Icon.BxWindow size="40" color={random_hex_color_code()} />
-<Icon.BxWindowAlt size="40" color={random_hex_color_code()} />
-<Icon.BxWindowClose size="40" color={random_hex_color_code()} />
-<Icon.BxWindowOpen size="40" color={random_hex_color_code()} />
-<Icon.BxWindows size="40" color={random_hex_color_code()} />
-<Icon.BxWine size="40" color={random_hex_color_code()} />
-<Icon.BxWinkSmile size="40" color={random_hex_color_code()} />
-<Icon.BxWinkTongue size="40" color={random_hex_color_code()} />
-<Icon.BxWon size="40" color={random_hex_color_code()} />
-<Icon.BxWorld size="40" color={random_hex_color_code()} />
-<Icon.BxWrench size="40" color={random_hex_color_code()} />
-<Icon.BxX size="40" color={random_hex_color_code()} />
-<Icon.BxXCircle size="40" color={random_hex_color_code()} />
-<Icon.BxYen size="40" color={random_hex_color_code()} />
-<Icon.BxZoomIn size="40" color={random_hex_color_code()} />
-<Icon.BxZoomOut size="40" color={random_hex_color_code()} />
-<Icon.Bxl500px size="40" color={random_hex_color_code()} />
-<Icon.Bxl99designs size="40" color={random_hex_color_code()} />
-<Icon.BxlAdobe size="40" color={random_hex_color_code()} />
-<Icon.BxlAirbnb size="40" color={random_hex_color_code()} />
-<Icon.BxlAlgolia size="40" color={random_hex_color_code()} />
-<Icon.BxlAmazon size="40" color={random_hex_color_code()} />
-<Icon.BxlAndroid size="40" color={random_hex_color_code()} />
-<Icon.BxlAngular size="40" color={random_hex_color_code()} />
-<Icon.BxlApple size="40" color={random_hex_color_code()} />
-<Icon.BxlAudible size="40" color={random_hex_color_code()} />
-<Icon.BxlAws size="40" color={random_hex_color_code()} />
-<Icon.BxlBaidu size="40" color={random_hex_color_code()} />
-<Icon.BxlBehance size="40" color={random_hex_color_code()} />
-<Icon.BxlBing size="40" color={random_hex_color_code()} />
-<Icon.BxlBitcoin size="40" color={random_hex_color_code()} />
-<Icon.BxlBlender size="40" color={random_hex_color_code()} />
-<Icon.BxlBlogger size="40" color={random_hex_color_code()} />
-<Icon.BxlBootstrap size="40" color={random_hex_color_code()} />
-<Icon.BxlCPlusPlus size="40" color={random_hex_color_code()} />
-<Icon.BxlChrome size="40" color={random_hex_color_code()} />
-<Icon.BxlCodepen size="40" color={random_hex_color_code()} />
-<Icon.BxlCreativeCommons size="40" color={random_hex_color_code()} />
-<Icon.BxlCss3 size="40" color={random_hex_color_code()} />
-<Icon.BxlDailymotion size="40" color={random_hex_color_code()} />
-<Icon.BxlDeezer size="40" color={random_hex_color_code()} />
-<Icon.BxlDevTo size="40" color={random_hex_color_code()} />
-<Icon.BxlDeviantart size="40" color={random_hex_color_code()} />
-<Icon.BxlDigg size="40" color={random_hex_color_code()} />
-<Icon.BxlDigitalocean size="40" color={random_hex_color_code()} />
-<Icon.BxlDiscord size="40" color={random_hex_color_code()} />
-<Icon.BxlDiscordAlt size="40" color={random_hex_color_code()} />
-<Icon.BxlDiscourse size="40" color={random_hex_color_code()} />
-<Icon.BxlDjango size="40" color={random_hex_color_code()} />
-<Icon.BxlDocker size="40" color={random_hex_color_code()} />
-<Icon.BxlDribbble size="40" color={random_hex_color_code()} />
-<Icon.BxlDropbox size="40" color={random_hex_color_code()} />
-<Icon.BxlDrupal size="40" color={random_hex_color_code()} />
-<Icon.BxlEbay size="40" color={random_hex_color_code()} />
-<Icon.BxlEdge size="40" color={random_hex_color_code()} />
-<Icon.BxlEtsy size="40" color={random_hex_color_code()} />
-<Icon.BxlFacebook size="40" color={random_hex_color_code()} />
-<Icon.BxlFacebookCircle size="40" color={random_hex_color_code()} />
-<Icon.BxlFacebookSquare size="40" color={random_hex_color_code()} />
-<Icon.BxlFigma size="40" color={random_hex_color_code()} />
-<Icon.BxlFirebase size="40" color={random_hex_color_code()} />
-<Icon.BxlFirefox size="40" color={random_hex_color_code()} />
-<Icon.BxlFlask size="40" color={random_hex_color_code()} />
-<Icon.BxlFlickr size="40" color={random_hex_color_code()} />
-<Icon.BxlFlickrSquare size="40" color={random_hex_color_code()} />
-<Icon.BxlFlutter size="40" color={random_hex_color_code()} />
-<Icon.BxlFoursquare size="40" color={random_hex_color_code()} />
-<Icon.BxlGit size="40" color={random_hex_color_code()} />
-<Icon.BxlGithub size="40" color={random_hex_color_code()} />
-<Icon.BxlGitlab size="40" color={random_hex_color_code()} />
-<Icon.BxlGmail size="40" color={random_hex_color_code()} />
-<Icon.BxlGoLang size="40" color={random_hex_color_code()} />
-<Icon.BxlGoogle size="40" color={random_hex_color_code()} />
-<Icon.BxlGoogleCloud size="40" color={random_hex_color_code()} />
-<Icon.BxlGooglePlus size="40" color={random_hex_color_code()} />
-<Icon.BxlGooglePlusCircle size="40" color={random_hex_color_code()} />
-<Icon.BxlGraphql size="40" color={random_hex_color_code()} />
-<Icon.BxlHeroku size="40" color={random_hex_color_code()} />
-<Icon.BxlHtml5 size="40" color={random_hex_color_code()} />
-<Icon.BxlImdb size="40" color={random_hex_color_code()} />
-<Icon.BxlInstagram size="40" color={random_hex_color_code()} />
-<Icon.BxlInstagramAlt size="40" color={random_hex_color_code()} />
-<Icon.BxlInternetExplorer size="40" color={random_hex_color_code()} />
-<Icon.BxlInvision size="40" color={random_hex_color_code()} />
-<Icon.BxlJava size="40" color={random_hex_color_code()} />
-<Icon.BxlJavascript size="40" color={random_hex_color_code()} />
-<Icon.BxlJoomla size="40" color={random_hex_color_code()} />
-<Icon.BxlJquery size="40" color={random_hex_color_code()} />
-<Icon.BxlJsfiddle size="40" color={random_hex_color_code()} />
-<Icon.BxlKickstarter size="40" color={random_hex_color_code()} />
-<Icon.BxlKubernetes size="40" color={random_hex_color_code()} />
-<Icon.BxlLess size="40" color={random_hex_color_code()} />
-<Icon.BxlLinkedin size="40" color={random_hex_color_code()} />
-<Icon.BxlLinkedinSquare size="40" color={random_hex_color_code()} />
-<Icon.BxlMagento size="40" color={random_hex_color_code()} />
-<Icon.BxlMailchimp size="40" color={random_hex_color_code()} />
-<Icon.BxlMarkdown size="40" color={random_hex_color_code()} />
-<Icon.BxlMastercard size="40" color={random_hex_color_code()} />
-<Icon.BxlMastodon size="40" color={random_hex_color_code()} />
-<Icon.BxlMedium size="40" color={random_hex_color_code()} />
-<Icon.BxlMediumOld size="40" color={random_hex_color_code()} />
-<Icon.BxlMediumSquare size="40" color={random_hex_color_code()} />
-<Icon.BxlMessenger size="40" color={random_hex_color_code()} />
-<Icon.BxlMeta size="40" color={random_hex_color_code()} />
-<Icon.BxlMicrosoft size="40" color={random_hex_color_code()} />
-<Icon.BxlMicrosoftTeams size="40" color={random_hex_color_code()} />
-<Icon.BxlMongodb size="40" color={random_hex_color_code()} />
-<Icon.BxlNetlify size="40" color={random_hex_color_code()} />
-<Icon.BxlNodejs size="40" color={random_hex_color_code()} />
-<Icon.BxlOkRu size="40" color={random_hex_color_code()} />
-<Icon.BxlOpera size="40" color={random_hex_color_code()} />
-<Icon.BxlPatreon size="40" color={random_hex_color_code()} />
-<Icon.BxlPaypal size="40" color={random_hex_color_code()} />
-<Icon.BxlPeriscope size="40" color={random_hex_color_code()} />
-<Icon.BxlPhp size="40" color={random_hex_color_code()} />
-<Icon.BxlPinterest size="40" color={random_hex_color_code()} />
-<Icon.BxlPinterestAlt size="40" color={random_hex_color_code()} />
-<Icon.BxlPlayStore size="40" color={random_hex_color_code()} />
-<Icon.BxlPocket size="40" color={random_hex_color_code()} />
-<Icon.BxlPostgresql size="40" color={random_hex_color_code()} />
-<Icon.BxlProductHunt size="40" color={random_hex_color_code()} />
-<Icon.BxlPython size="40" color={random_hex_color_code()} />
-<Icon.BxlQuora size="40" color={random_hex_color_code()} />
-<Icon.BxlReact size="40" color={random_hex_color_code()} />
-<Icon.BxlRedbubble size="40" color={random_hex_color_code()} />
-<Icon.BxlReddit size="40" color={random_hex_color_code()} />
-<Icon.BxlRedux size="40" color={random_hex_color_code()} />
-<Icon.BxlSass size="40" color={random_hex_color_code()} />
-<Icon.BxlShopify size="40" color={random_hex_color_code()} />
-<Icon.BxlSketch size="40" color={random_hex_color_code()} />
-<Icon.BxlSkype size="40" color={random_hex_color_code()} />
-<Icon.BxlSlack size="40" color={random_hex_color_code()} />
-<Icon.BxlSlackOld size="40" color={random_hex_color_code()} />
-<Icon.BxlSnapchat size="40" color={random_hex_color_code()} />
-<Icon.BxlSoundcloud size="40" color={random_hex_color_code()} />
-<Icon.BxlSpotify size="40" color={random_hex_color_code()} />
-<Icon.BxlSpringBoot size="40" color={random_hex_color_code()} />
-<Icon.BxlSquarespace size="40" color={random_hex_color_code()} />
-<Icon.BxlStackOverflow size="40" color={random_hex_color_code()} />
-<Icon.BxlSteam size="40" color={random_hex_color_code()} />
-<Icon.BxlStripe size="40" color={random_hex_color_code()} />
-<Icon.BxlTailwindCss size="40" color={random_hex_color_code()} />
-<Icon.BxlTelegram size="40" color={random_hex_color_code()} />
-<Icon.BxlTiktok size="40" color={random_hex_color_code()} />
-<Icon.BxlTrello size="40" color={random_hex_color_code()} />
-<Icon.BxlTripAdvisor size="40" color={random_hex_color_code()} />
-<Icon.BxlTumblr size="40" color={random_hex_color_code()} />
-<Icon.BxlTux size="40" color={random_hex_color_code()} />
-<Icon.BxlTwitch size="40" color={random_hex_color_code()} />
-<Icon.BxlTwitter size="40" color={random_hex_color_code()} />
-<Icon.BxlTypescript size="40" color={random_hex_color_code()} />
-<Icon.BxlUnity size="40" color={random_hex_color_code()} />
-<Icon.BxlUnsplash size="40" color={random_hex_color_code()} />
-<Icon.BxlUpwork size="40" color={random_hex_color_code()} />
-<Icon.BxlVenmo size="40" color={random_hex_color_code()} />
-<Icon.BxlVimeo size="40" color={random_hex_color_code()} />
-<Icon.BxlVisa size="40" color={random_hex_color_code()} />
-<Icon.BxlVisualStudio size="40" color={random_hex_color_code()} />
-<Icon.BxlVk size="40" color={random_hex_color_code()} />
-<Icon.BxlVuejs size="40" color={random_hex_color_code()} />
-<Icon.BxlWhatsapp size="40" color={random_hex_color_code()} />
-<Icon.BxlWhatsappSquare size="40" color={random_hex_color_code()} />
-<Icon.BxlWikipedia size="40" color={random_hex_color_code()} />
-<Icon.BxlWindows size="40" color={random_hex_color_code()} />
-<Icon.BxlWix size="40" color={random_hex_color_code()} />
-<Icon.BxlWordpress size="40" color={random_hex_color_code()} />
-<Icon.BxlXing size="40" color={random_hex_color_code()} />
-<Icon.BxlYahoo size="40" color={random_hex_color_code()} />
-<Icon.BxlYelp size="40" color={random_hex_color_code()} />
-<Icon.BxlYoutube size="40" color={random_hex_color_code()} />
-<Icon.BxlZoom size="40" color={random_hex_color_code()} />
-<Icon.BxsAddToQueue size="40" color={random_hex_color_code()} />
-<Icon.BxsAdjust size="40" color={random_hex_color_code()} />
-<Icon.BxsAdjustAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsAlarm size="40" color={random_hex_color_code()} />
-<Icon.BxsAlarmAdd size="40" color={random_hex_color_code()} />
-<Icon.BxsAlarmExclamation size="40" color={random_hex_color_code()} />
-<Icon.BxsAlarmOff size="40" color={random_hex_color_code()} />
-<Icon.BxsAlarmSnooze size="40" color={random_hex_color_code()} />
-<Icon.BxsAlbum size="40" color={random_hex_color_code()} />
-<Icon.BxsAmbulance size="40" color={random_hex_color_code()} />
-<Icon.BxsAnalyse size="40" color={random_hex_color_code()} />
-<Icon.BxsAngry size="40" color={random_hex_color_code()} />
-<Icon.BxsArch size="40" color={random_hex_color_code()} />
-<Icon.BxsArchive size="40" color={random_hex_color_code()} />
-<Icon.BxsArchiveIn size="40" color={random_hex_color_code()} />
-<Icon.BxsArchiveOut size="40" color={random_hex_color_code()} />
-<Icon.BxsArea size="40" color={random_hex_color_code()} />
-<Icon.BxsArrowFromBottom size="40" color={random_hex_color_code()} />
-<Icon.BxsArrowFromLeft size="40" color={random_hex_color_code()} />
-<Icon.BxsArrowFromRight size="40" color={random_hex_color_code()} />
-<Icon.BxsArrowFromTop size="40" color={random_hex_color_code()} />
-<Icon.BxsArrowToBottom size="40" color={random_hex_color_code()} />
-<Icon.BxsArrowToLeft size="40" color={random_hex_color_code()} />
-<Icon.BxsArrowToRight size="40" color={random_hex_color_code()} />
-<Icon.BxsArrowToTop size="40" color={random_hex_color_code()} />
-<Icon.BxsAward size="40" color={random_hex_color_code()} />
-<Icon.BxsBabyCarriage size="40" color={random_hex_color_code()} />
-<Icon.BxsBackpack size="40" color={random_hex_color_code()} />
-<Icon.BxsBadge size="40" color={random_hex_color_code()} />
-<Icon.BxsBadgeCheck size="40" color={random_hex_color_code()} />
-<Icon.BxsBadgeDollar size="40" color={random_hex_color_code()} />
-<Icon.BxsBaguette size="40" color={random_hex_color_code()} />
-<Icon.BxsBall size="40" color={random_hex_color_code()} />
-<Icon.BxsBalloon size="40" color={random_hex_color_code()} />
-<Icon.BxsBandAid size="40" color={random_hex_color_code()} />
-<Icon.BxsBank size="40" color={random_hex_color_code()} />
-<Icon.BxsBarChartAlt2 size="40" color={random_hex_color_code()} />
-<Icon.BxsBarChartSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsBarcode size="40" color={random_hex_color_code()} />
-<Icon.BxsBaseball size="40" color={random_hex_color_code()} />
-<Icon.BxsBasket size="40" color={random_hex_color_code()} />
-<Icon.BxsBasketball size="40" color={random_hex_color_code()} />
-<Icon.BxsBath size="40" color={random_hex_color_code()} />
-<Icon.BxsBattery size="40" color={random_hex_color_code()} />
-<Icon.BxsBatteryCharging size="40" color={random_hex_color_code()} />
-<Icon.BxsBatteryFull size="40" color={random_hex_color_code()} />
-<Icon.BxsBatteryLow size="40" color={random_hex_color_code()} />
-<Icon.BxsBed size="40" color={random_hex_color_code()} />
-<Icon.BxsBeenHere size="40" color={random_hex_color_code()} />
-<Icon.BxsBeer size="40" color={random_hex_color_code()} />
-<Icon.BxsBell size="40" color={random_hex_color_code()} />
-<Icon.BxsBellMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsBellOff size="40" color={random_hex_color_code()} />
-<Icon.BxsBellPlus size="40" color={random_hex_color_code()} />
-<Icon.BxsBellRing size="40" color={random_hex_color_code()} />
-<Icon.BxsBible size="40" color={random_hex_color_code()} />
-<Icon.BxsBinoculars size="40" color={random_hex_color_code()} />
-<Icon.BxsBlanket size="40" color={random_hex_color_code()} />
-<Icon.BxsBolt size="40" color={random_hex_color_code()} />
-<Icon.BxsBoltCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsBomb size="40" color={random_hex_color_code()} />
-<Icon.BxsBone size="40" color={random_hex_color_code()} />
-<Icon.BxsBong size="40" color={random_hex_color_code()} />
-<Icon.BxsBook size="40" color={random_hex_color_code()} />
-<Icon.BxsBookAdd size="40" color={random_hex_color_code()} />
-<Icon.BxsBookAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsBookBookmark size="40" color={random_hex_color_code()} />
-<Icon.BxsBookContent size="40" color={random_hex_color_code()} />
-<Icon.BxsBookHeart size="40" color={random_hex_color_code()} />
-<Icon.BxsBookOpen size="40" color={random_hex_color_code()} />
-<Icon.BxsBookReader size="40" color={random_hex_color_code()} />
-<Icon.BxsBookmark size="40" color={random_hex_color_code()} />
-<Icon.BxsBookmarkAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsBookmarkAltMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsBookmarkAltPlus size="40" color={random_hex_color_code()} />
-<Icon.BxsBookmarkHeart size="40" color={random_hex_color_code()} />
-<Icon.BxsBookmarkMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsBookmarkPlus size="40" color={random_hex_color_code()} />
-<Icon.BxsBookmarkStar size="40" color={random_hex_color_code()} />
-<Icon.BxsBookmarks size="40" color={random_hex_color_code()} />
-<Icon.BxsBot size="40" color={random_hex_color_code()} />
-<Icon.BxsBowlHot size="40" color={random_hex_color_code()} />
-<Icon.BxsBowlRice size="40" color={random_hex_color_code()} />
-<Icon.BxsBowlingBall size="40" color={random_hex_color_code()} />
-<Icon.BxsBox size="40" color={random_hex_color_code()} />
-<Icon.BxsBrain size="40" color={random_hex_color_code()} />
-<Icon.BxsBriefcase size="40" color={random_hex_color_code()} />
-<Icon.BxsBriefcaseAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsBriefcaseAlt2 size="40" color={random_hex_color_code()} />
-<Icon.BxsBrightness size="40" color={random_hex_color_code()} />
-<Icon.BxsBrightnessHalf size="40" color={random_hex_color_code()} />
-<Icon.BxsBrush size="40" color={random_hex_color_code()} />
-<Icon.BxsBrushAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsBug size="40" color={random_hex_color_code()} />
-<Icon.BxsBugAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsBuilding size="40" color={random_hex_color_code()} />
-<Icon.BxsBuildingHouse size="40" color={random_hex_color_code()} />
-<Icon.BxsBuildings size="40" color={random_hex_color_code()} />
-<Icon.BxsBulb size="40" color={random_hex_color_code()} />
-<Icon.BxsBullseye size="40" color={random_hex_color_code()} />
-<Icon.BxsBuoy size="40" color={random_hex_color_code()} />
-<Icon.BxsBus size="40" color={random_hex_color_code()} />
-<Icon.BxsBusSchool size="40" color={random_hex_color_code()} />
-<Icon.BxsBusiness size="40" color={random_hex_color_code()} />
-<Icon.BxsCabinet size="40" color={random_hex_color_code()} />
-<Icon.BxsCableCar size="40" color={random_hex_color_code()} />
-<Icon.BxsCake size="40" color={random_hex_color_code()} />
-<Icon.BxsCalculator size="40" color={random_hex_color_code()} />
-<Icon.BxsCalendar size="40" color={random_hex_color_code()} />
-<Icon.BxsCalendarAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsCalendarCheck size="40" color={random_hex_color_code()} />
-<Icon.BxsCalendarEdit size="40" color={random_hex_color_code()} />
-<Icon.BxsCalendarEvent size="40" color={random_hex_color_code()} />
-<Icon.BxsCalendarExclamation size="40" color={random_hex_color_code()} />
-<Icon.BxsCalendarHeart size="40" color={random_hex_color_code()} />
-<Icon.BxsCalendarMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsCalendarPlus size="40" color={random_hex_color_code()} />
-<Icon.BxsCalendarStar size="40" color={random_hex_color_code()} />
-<Icon.BxsCalendarWeek size="40" color={random_hex_color_code()} />
-<Icon.BxsCalendarX size="40" color={random_hex_color_code()} />
-<Icon.BxsCamera size="40" color={random_hex_color_code()} />
-<Icon.BxsCameraHome size="40" color={random_hex_color_code()} />
-<Icon.BxsCameraMovie size="40" color={random_hex_color_code()} />
-<Icon.BxsCameraOff size="40" color={random_hex_color_code()} />
-<Icon.BxsCameraPlus size="40" color={random_hex_color_code()} />
-<Icon.BxsCapsule size="40" color={random_hex_color_code()} />
-<Icon.BxsCaptions size="40" color={random_hex_color_code()} />
-<Icon.BxsCar size="40" color={random_hex_color_code()} />
-<Icon.BxsCarBattery size="40" color={random_hex_color_code()} />
-<Icon.BxsCarCrash size="40" color={random_hex_color_code()} />
-<Icon.BxsCarGarage size="40" color={random_hex_color_code()} />
-<Icon.BxsCarMechanic size="40" color={random_hex_color_code()} />
-<Icon.BxsCarWash size="40" color={random_hex_color_code()} />
-<Icon.BxsCard size="40" color={random_hex_color_code()} />
-<Icon.BxsCaretDownCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsCaretDownSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsCaretLeftCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsCaretLeftSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsCaretRightCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsCaretRightSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsCaretUpCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsCaretUpSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsCarousel size="40" color={random_hex_color_code()} />
-<Icon.BxsCart size="40" color={random_hex_color_code()} />
-<Icon.BxsCartAdd size="40" color={random_hex_color_code()} />
-<Icon.BxsCartAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsCartDownload size="40" color={random_hex_color_code()} />
-<Icon.BxsCastle size="40" color={random_hex_color_code()} />
-<Icon.BxsCat size="40" color={random_hex_color_code()} />
-<Icon.BxsCategory size="40" color={random_hex_color_code()} />
-<Icon.BxsCategoryAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsCctv size="40" color={random_hex_color_code()} />
-<Icon.BxsCertification size="40" color={random_hex_color_code()} />
-<Icon.BxsChalkboard size="40" color={random_hex_color_code()} />
-<Icon.BxsChart size="40" color={random_hex_color_code()} />
-<Icon.BxsChat size="40" color={random_hex_color_code()} />
-<Icon.BxsCheckCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsCheckShield size="40" color={random_hex_color_code()} />
-<Icon.BxsCheckSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsCheckbox size="40" color={random_hex_color_code()} />
-<Icon.BxsCheckboxChecked size="40" color={random_hex_color_code()} />
-<Icon.BxsCheckboxMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsCheese size="40" color={random_hex_color_code()} />
-<Icon.BxsChess size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronDown size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronDownCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronDownSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronLeft size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronLeftCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronLeftSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronRight size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronRightCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronRightSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronUp size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronUpCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronUpSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronsDown size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronsLeft size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronsRight size="40" color={random_hex_color_code()} />
-<Icon.BxsChevronsUp size="40" color={random_hex_color_code()} />
-<Icon.BxsChip size="40" color={random_hex_color_code()} />
-<Icon.BxsChurch size="40" color={random_hex_color_code()} />
-<Icon.BxsCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsCircleHalf size="40" color={random_hex_color_code()} />
-<Icon.BxsCircleQuarter size="40" color={random_hex_color_code()} />
-<Icon.BxsCircleThreeQuarter size="40" color={random_hex_color_code()} />
-<Icon.BxsCity size="40" color={random_hex_color_code()} />
-<Icon.BxsClinic size="40" color={random_hex_color_code()} />
-<Icon.BxsCloud size="40" color={random_hex_color_code()} />
-<Icon.BxsCloudDownload size="40" color={random_hex_color_code()} />
-<Icon.BxsCloudLightning size="40" color={random_hex_color_code()} />
-<Icon.BxsCloudRain size="40" color={random_hex_color_code()} />
-<Icon.BxsCloudUpload size="40" color={random_hex_color_code()} />
-<Icon.BxsCoffee size="40" color={random_hex_color_code()} />
-<Icon.BxsCoffeeAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsCoffeeBean size="40" color={random_hex_color_code()} />
-<Icon.BxsCoffeeTogo size="40" color={random_hex_color_code()} />
-<Icon.BxsCog size="40" color={random_hex_color_code()} />
-<Icon.BxsCoin size="40" color={random_hex_color_code()} />
-<Icon.BxsCoinStack size="40" color={random_hex_color_code()} />
-<Icon.BxsCollection size="40" color={random_hex_color_code()} />
-<Icon.BxsColor size="40" color={random_hex_color_code()} />
-<Icon.BxsColorFill size="40" color={random_hex_color_code()} />
-<Icon.BxsComment size="40" color={random_hex_color_code()} />
-<Icon.BxsCommentAdd size="40" color={random_hex_color_code()} />
-<Icon.BxsCommentCheck size="40" color={random_hex_color_code()} />
-<Icon.BxsCommentDetail size="40" color={random_hex_color_code()} />
-<Icon.BxsCommentDots size="40" color={random_hex_color_code()} />
-<Icon.BxsCommentEdit size="40" color={random_hex_color_code()} />
-<Icon.BxsCommentError size="40" color={random_hex_color_code()} />
-<Icon.BxsCommentMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsCommentX size="40" color={random_hex_color_code()} />
-<Icon.BxsCompass size="40" color={random_hex_color_code()} />
-<Icon.BxsComponent size="40" color={random_hex_color_code()} />
-<Icon.BxsConfused size="40" color={random_hex_color_code()} />
-<Icon.BxsContact size="40" color={random_hex_color_code()} />
-<Icon.BxsConversation size="40" color={random_hex_color_code()} />
-<Icon.BxsCookie size="40" color={random_hex_color_code()} />
-<Icon.BxsCool size="40" color={random_hex_color_code()} />
-<Icon.BxsCopy size="40" color={random_hex_color_code()} />
-<Icon.BxsCopyAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsCopyright size="40" color={random_hex_color_code()} />
-<Icon.BxsCoupon size="40" color={random_hex_color_code()} />
-<Icon.BxsCreditCard size="40" color={random_hex_color_code()} />
-<Icon.BxsCreditCardAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsCreditCardFront size="40" color={random_hex_color_code()} />
-<Icon.BxsCricketBall size="40" color={random_hex_color_code()} />
-<Icon.BxsCrop size="40" color={random_hex_color_code()} />
-<Icon.BxsCrown size="40" color={random_hex_color_code()} />
-<Icon.BxsCube size="40" color={random_hex_color_code()} />
-<Icon.BxsCubeAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsCuboid size="40" color={random_hex_color_code()} />
-<Icon.BxsCustomize size="40" color={random_hex_color_code()} />
-<Icon.BxsCylinder size="40" color={random_hex_color_code()} />
-<Icon.BxsDashboard size="40" color={random_hex_color_code()} />
-<Icon.BxsData size="40" color={random_hex_color_code()} />
-<Icon.BxsDetail size="40" color={random_hex_color_code()} />
-<Icon.BxsDevices size="40" color={random_hex_color_code()} />
-<Icon.BxsDiamond size="40" color={random_hex_color_code()} />
-<Icon.BxsDice1 size="40" color={random_hex_color_code()} />
-<Icon.BxsDice2 size="40" color={random_hex_color_code()} />
-<Icon.BxsDice3 size="40" color={random_hex_color_code()} />
-<Icon.BxsDice4 size="40" color={random_hex_color_code()} />
-<Icon.BxsDice5 size="40" color={random_hex_color_code()} />
-<Icon.BxsDice6 size="40" color={random_hex_color_code()} />
-<Icon.BxsDirectionLeft size="40" color={random_hex_color_code()} />
-<Icon.BxsDirectionRight size="40" color={random_hex_color_code()} />
-<Icon.BxsDirections size="40" color={random_hex_color_code()} />
-<Icon.BxsDisc size="40" color={random_hex_color_code()} />
-<Icon.BxsDiscount size="40" color={random_hex_color_code()} />
-<Icon.BxsDish size="40" color={random_hex_color_code()} />
-<Icon.BxsDislike size="40" color={random_hex_color_code()} />
-<Icon.BxsDizzy size="40" color={random_hex_color_code()} />
-<Icon.BxsDockBottom size="40" color={random_hex_color_code()} />
-<Icon.BxsDockLeft size="40" color={random_hex_color_code()} />
-<Icon.BxsDockRight size="40" color={random_hex_color_code()} />
-<Icon.BxsDockTop size="40" color={random_hex_color_code()} />
-<Icon.BxsDog size="40" color={random_hex_color_code()} />
-<Icon.BxsDollarCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsDonateBlood size="40" color={random_hex_color_code()} />
-<Icon.BxsDonateHeart size="40" color={random_hex_color_code()} />
-<Icon.BxsDoorOpen size="40" color={random_hex_color_code()} />
-<Icon.BxsDoughnutChart size="40" color={random_hex_color_code()} />
-<Icon.BxsDownArrow size="40" color={random_hex_color_code()} />
-<Icon.BxsDownArrowAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsDownArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsDownArrowSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsDownload size="40" color={random_hex_color_code()} />
-<Icon.BxsDownvote size="40" color={random_hex_color_code()} />
-<Icon.BxsDrink size="40" color={random_hex_color_code()} />
-<Icon.BxsDroplet size="40" color={random_hex_color_code()} />
-<Icon.BxsDropletHalf size="40" color={random_hex_color_code()} />
-<Icon.BxsDryer size="40" color={random_hex_color_code()} />
-<Icon.BxsDuplicate size="40" color={random_hex_color_code()} />
-<Icon.BxsEdit size="40" color={random_hex_color_code()} />
-<Icon.BxsEditAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsEditLocation size="40" color={random_hex_color_code()} />
-<Icon.BxsEject size="40" color={random_hex_color_code()} />
-<Icon.BxsEnvelope size="40" color={random_hex_color_code()} />
-<Icon.BxsEnvelopeOpen size="40" color={random_hex_color_code()} />
-<Icon.BxsEraser size="40" color={random_hex_color_code()} />
-<Icon.BxsError size="40" color={random_hex_color_code()} />
-<Icon.BxsErrorAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsErrorCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsEvStation size="40" color={random_hex_color_code()} />
-<Icon.BxsExit size="40" color={random_hex_color_code()} />
-<Icon.BxsExtension size="40" color={random_hex_color_code()} />
-<Icon.BxsEyedropper size="40" color={random_hex_color_code()} />
-<Icon.BxsFace size="40" color={random_hex_color_code()} />
-<Icon.BxsFaceMask size="40" color={random_hex_color_code()} />
-<Icon.BxsFactory size="40" color={random_hex_color_code()} />
-<Icon.BxsFastForwardCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsFile size="40" color={random_hex_color_code()} />
-<Icon.BxsFileArchive size="40" color={random_hex_color_code()} />
-<Icon.BxsFileBlank size="40" color={random_hex_color_code()} />
-<Icon.BxsFileCss size="40" color={random_hex_color_code()} />
-<Icon.BxsFileDoc size="40" color={random_hex_color_code()} />
-<Icon.BxsFileExport size="40" color={random_hex_color_code()} />
-<Icon.BxsFileFind size="40" color={random_hex_color_code()} />
-<Icon.BxsFileGif size="40" color={random_hex_color_code()} />
-<Icon.BxsFileHtml size="40" color={random_hex_color_code()} />
-<Icon.BxsFileImage size="40" color={random_hex_color_code()} />
-<Icon.BxsFileImport size="40" color={random_hex_color_code()} />
-<Icon.BxsFileJpg size="40" color={random_hex_color_code()} />
-<Icon.BxsFileJs size="40" color={random_hex_color_code()} />
-<Icon.BxsFileJson size="40" color={random_hex_color_code()} />
-<Icon.BxsFileMd size="40" color={random_hex_color_code()} />
-<Icon.BxsFilePdf size="40" color={random_hex_color_code()} />
-<Icon.BxsFilePlus size="40" color={random_hex_color_code()} />
-<Icon.BxsFilePng size="40" color={random_hex_color_code()} />
-<Icon.BxsFileTxt size="40" color={random_hex_color_code()} />
-<Icon.BxsFilm size="40" color={random_hex_color_code()} />
-<Icon.BxsFilterAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsFirstAid size="40" color={random_hex_color_code()} />
-<Icon.BxsFlag size="40" color={random_hex_color_code()} />
-<Icon.BxsFlagAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsFlagCheckered size="40" color={random_hex_color_code()} />
-<Icon.BxsFlame size="40" color={random_hex_color_code()} />
-<Icon.BxsFlask size="40" color={random_hex_color_code()} />
-<Icon.BxsFlorist size="40" color={random_hex_color_code()} />
-<Icon.BxsFolder size="40" color={random_hex_color_code()} />
-<Icon.BxsFolderMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsFolderOpen size="40" color={random_hex_color_code()} />
-<Icon.BxsFolderPlus size="40" color={random_hex_color_code()} />
-<Icon.BxsFoodMenu size="40" color={random_hex_color_code()} />
-<Icon.BxsFridge size="40" color={random_hex_color_code()} />
-<Icon.BxsGame size="40" color={random_hex_color_code()} />
-<Icon.BxsGasPump size="40" color={random_hex_color_code()} />
-<Icon.BxsGhost size="40" color={random_hex_color_code()} />
-<Icon.BxsGift size="40" color={random_hex_color_code()} />
-<Icon.BxsGraduation size="40" color={random_hex_color_code()} />
-<Icon.BxsGrid size="40" color={random_hex_color_code()} />
-<Icon.BxsGridAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsGroup size="40" color={random_hex_color_code()} />
-<Icon.BxsGuitarAmp size="40" color={random_hex_color_code()} />
-<Icon.BxsHand size="40" color={random_hex_color_code()} />
-<Icon.BxsHandDown size="40" color={random_hex_color_code()} />
-<Icon.BxsHandLeft size="40" color={random_hex_color_code()} />
-<Icon.BxsHandRight size="40" color={random_hex_color_code()} />
-<Icon.BxsHandUp size="40" color={random_hex_color_code()} />
-<Icon.BxsHappy size="40" color={random_hex_color_code()} />
-<Icon.BxsHappyAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsHappyBeaming size="40" color={random_hex_color_code()} />
-<Icon.BxsHappyHeartEyes size="40" color={random_hex_color_code()} />
-<Icon.BxsHardHat size="40" color={random_hex_color_code()} />
-<Icon.BxsHdd size="40" color={random_hex_color_code()} />
-<Icon.BxsHeart size="40" color={random_hex_color_code()} />
-<Icon.BxsHeartCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsHeartSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsHelpCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsHide size="40" color={random_hex_color_code()} />
-<Icon.BxsHome size="40" color={random_hex_color_code()} />
-<Icon.BxsHomeAlt2 size="40" color={random_hex_color_code()} />
-<Icon.BxsHomeCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsHomeHeart size="40" color={random_hex_color_code()} />
-<Icon.BxsHomeSmile size="40" color={random_hex_color_code()} />
-<Icon.BxsHot size="40" color={random_hex_color_code()} />
-<Icon.BxsHotel size="40" color={random_hex_color_code()} />
-<Icon.BxsHourglass size="40" color={random_hex_color_code()} />
-<Icon.BxsHourglassBottom size="40" color={random_hex_color_code()} />
-<Icon.BxsHourglassTop size="40" color={random_hex_color_code()} />
-<Icon.BxsIdCard size="40" color={random_hex_color_code()} />
-<Icon.BxsImage size="40" color={random_hex_color_code()} />
-<Icon.BxsImageAdd size="40" color={random_hex_color_code()} />
-<Icon.BxsImageAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsInbox size="40" color={random_hex_color_code()} />
-<Icon.BxsInfoCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsInfoSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsInjection size="40" color={random_hex_color_code()} />
-<Icon.BxsInstitution size="40" color={random_hex_color_code()} />
-<Icon.BxsInvader size="40" color={random_hex_color_code()} />
-<Icon.BxsJoystick size="40" color={random_hex_color_code()} />
-<Icon.BxsJoystickAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsJoystickButton size="40" color={random_hex_color_code()} />
-<Icon.BxsKey size="40" color={random_hex_color_code()} />
-<Icon.BxsKeyboard size="40" color={random_hex_color_code()} />
-<Icon.BxsLabel size="40" color={random_hex_color_code()} />
-<Icon.BxsLandmark size="40" color={random_hex_color_code()} />
-<Icon.BxsLandscape size="40" color={random_hex_color_code()} />
-<Icon.BxsLaugh size="40" color={random_hex_color_code()} />
-<Icon.BxsLayer size="40" color={random_hex_color_code()} />
-<Icon.BxsLayerMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsLayerPlus size="40" color={random_hex_color_code()} />
-<Icon.BxsLayout size="40" color={random_hex_color_code()} />
-<Icon.BxsLeaf size="40" color={random_hex_color_code()} />
-<Icon.BxsLeftArrow size="40" color={random_hex_color_code()} />
-<Icon.BxsLeftArrowAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsLeftArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsLeftArrowSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsLeftDownArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsLeftTopArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsLemon size="40" color={random_hex_color_code()} />
-<Icon.BxsLike size="40" color={random_hex_color_code()} />
-<Icon.BxsLocationPlus size="40" color={random_hex_color_code()} />
-<Icon.BxsLock size="40" color={random_hex_color_code()} />
-<Icon.BxsLockAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsLockOpen size="40" color={random_hex_color_code()} />
-<Icon.BxsLockOpenAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsLogIn size="40" color={random_hex_color_code()} />
-<Icon.BxsLogInCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsLogOut size="40" color={random_hex_color_code()} />
-<Icon.BxsLogOutCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsLowVision size="40" color={random_hex_color_code()} />
-<Icon.BxsMagicWand size="40" color={random_hex_color_code()} />
-<Icon.BxsMagnet size="40" color={random_hex_color_code()} />
-<Icon.BxsMap size="40" color={random_hex_color_code()} />
-<Icon.BxsMapAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsMapPin size="40" color={random_hex_color_code()} />
-<Icon.BxsMask size="40" color={random_hex_color_code()} />
-<Icon.BxsMedal size="40" color={random_hex_color_code()} />
-<Icon.BxsMegaphone size="40" color={random_hex_color_code()} />
-<Icon.BxsMeh size="40" color={random_hex_color_code()} />
-<Icon.BxsMehAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsMehBlank size="40" color={random_hex_color_code()} />
-<Icon.BxsMemoryCard size="40" color={random_hex_color_code()} />
-<Icon.BxsMessage size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageAdd size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageAltAdd size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageAltCheck size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageAltDetail size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageAltDots size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageAltEdit size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageAltError size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageAltMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageAltX size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageCheck size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageDetail size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageDots size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageEdit size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageError size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageRounded size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageRoundedAdd size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageRoundedCheck size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageRoundedDetail size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageRoundedDots size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageRoundedEdit size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageRoundedError size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageRoundedMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageRoundedX size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageSquareAdd size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageSquareCheck size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageSquareDetail size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageSquareDots size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageSquareEdit size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageSquareError size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageSquareMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageSquareX size="40" color={random_hex_color_code()} />
-<Icon.BxsMessageX size="40" color={random_hex_color_code()} />
-<Icon.BxsMeteor size="40" color={random_hex_color_code()} />
-<Icon.BxsMicrochip size="40" color={random_hex_color_code()} />
-<Icon.BxsMicrophone size="40" color={random_hex_color_code()} />
-<Icon.BxsMicrophoneAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsMicrophoneOff size="40" color={random_hex_color_code()} />
-<Icon.BxsMinusCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsMinusSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsMobile size="40" color={random_hex_color_code()} />
-<Icon.BxsMobileVibration size="40" color={random_hex_color_code()} />
-<Icon.BxsMoon size="40" color={random_hex_color_code()} />
-<Icon.BxsMouse size="40" color={random_hex_color_code()} />
-<Icon.BxsMouseAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsMovie size="40" color={random_hex_color_code()} />
-<Icon.BxsMoviePlay size="40" color={random_hex_color_code()} />
-<Icon.BxsMusic size="40" color={random_hex_color_code()} />
-<Icon.BxsNavigation size="40" color={random_hex_color_code()} />
-<Icon.BxsNetworkChart size="40" color={random_hex_color_code()} />
-<Icon.BxsNews size="40" color={random_hex_color_code()} />
-<Icon.BxsNoEntry size="40" color={random_hex_color_code()} />
-<Icon.BxsNote size="40" color={random_hex_color_code()} />
-<Icon.BxsNotepad size="40" color={random_hex_color_code()} />
-<Icon.BxsNotification size="40" color={random_hex_color_code()} />
-<Icon.BxsNotificationOff size="40" color={random_hex_color_code()} />
-<Icon.BxsObjectsHorizontalCenter size="40" color={random_hex_color_code()} />
-<Icon.BxsObjectsHorizontalLeft size="40" color={random_hex_color_code()} />
-<Icon.BxsObjectsHorizontalRight size="40" color={random_hex_color_code()} />
-<Icon.BxsObjectsVerticalBottom size="40" color={random_hex_color_code()} />
-<Icon.BxsObjectsVerticalCenter size="40" color={random_hex_color_code()} />
-<Icon.BxsObjectsVerticalTop size="40" color={random_hex_color_code()} />
-<Icon.BxsOffer size="40" color={random_hex_color_code()} />
-<Icon.BxsPackage size="40" color={random_hex_color_code()} />
-<Icon.BxsPaint size="40" color={random_hex_color_code()} />
-<Icon.BxsPaintRoll size="40" color={random_hex_color_code()} />
-<Icon.BxsPalette size="40" color={random_hex_color_code()} />
-<Icon.BxsPaperPlane size="40" color={random_hex_color_code()} />
-<Icon.BxsParking size="40" color={random_hex_color_code()} />
-<Icon.BxsParty size="40" color={random_hex_color_code()} />
-<Icon.BxsPaste size="40" color={random_hex_color_code()} />
-<Icon.BxsPear size="40" color={random_hex_color_code()} />
-<Icon.BxsPen size="40" color={random_hex_color_code()} />
-<Icon.BxsPencil size="40" color={random_hex_color_code()} />
-<Icon.BxsPhone size="40" color={random_hex_color_code()} />
-<Icon.BxsPhoneCall size="40" color={random_hex_color_code()} />
-<Icon.BxsPhoneIncoming size="40" color={random_hex_color_code()} />
-<Icon.BxsPhoneOff size="40" color={random_hex_color_code()} />
-<Icon.BxsPhoneOutgoing size="40" color={random_hex_color_code()} />
-<Icon.BxsPhotoAlbum size="40" color={random_hex_color_code()} />
-<Icon.BxsPiano size="40" color={random_hex_color_code()} />
-<Icon.BxsPieChart size="40" color={random_hex_color_code()} />
-<Icon.BxsPieChartAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsPieChartAlt2 size="40" color={random_hex_color_code()} />
-<Icon.BxsPin size="40" color={random_hex_color_code()} />
-<Icon.BxsPizza size="40" color={random_hex_color_code()} />
-<Icon.BxsPlane size="40" color={random_hex_color_code()} />
-<Icon.BxsPlaneAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsPlaneLand size="40" color={random_hex_color_code()} />
-<Icon.BxsPlaneTakeOff size="40" color={random_hex_color_code()} />
-<Icon.BxsPlanet size="40" color={random_hex_color_code()} />
-<Icon.BxsPlaylist size="40" color={random_hex_color_code()} />
-<Icon.BxsPlug size="40" color={random_hex_color_code()} />
-<Icon.BxsPlusCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsPlusSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsPointer size="40" color={random_hex_color_code()} />
-<Icon.BxsPolygon size="40" color={random_hex_color_code()} />
-<Icon.BxsPopsicle size="40" color={random_hex_color_code()} />
-<Icon.BxsPrinter size="40" color={random_hex_color_code()} />
-<Icon.BxsPurchaseTag size="40" color={random_hex_color_code()} />
-<Icon.BxsPurchaseTagAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsPyramid size="40" color={random_hex_color_code()} />
-<Icon.BxsQuoteAltLeft size="40" color={random_hex_color_code()} />
-<Icon.BxsQuoteAltRight size="40" color={random_hex_color_code()} />
-<Icon.BxsQuoteLeft size="40" color={random_hex_color_code()} />
-<Icon.BxsQuoteRight size="40" color={random_hex_color_code()} />
-<Icon.BxsQuoteSingleLeft size="40" color={random_hex_color_code()} />
-<Icon.BxsQuoteSingleRight size="40" color={random_hex_color_code()} />
-<Icon.BxsRadiation size="40" color={random_hex_color_code()} />
-<Icon.BxsRadio size="40" color={random_hex_color_code()} />
-<Icon.BxsReceipt size="40" color={random_hex_color_code()} />
-<Icon.BxsRectangle size="40" color={random_hex_color_code()} />
-<Icon.BxsRegistered size="40" color={random_hex_color_code()} />
-<Icon.BxsRename size="40" color={random_hex_color_code()} />
-<Icon.BxsReport size="40" color={random_hex_color_code()} />
-<Icon.BxsRewindCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsRightArrow size="40" color={random_hex_color_code()} />
-<Icon.BxsRightArrowAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsRightArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsRightArrowSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsRightDownArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsRightTopArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsRocket size="40" color={random_hex_color_code()} />
-<Icon.BxsRuler size="40" color={random_hex_color_code()} />
-<Icon.BxsSad size="40" color={random_hex_color_code()} />
-<Icon.BxsSave size="40" color={random_hex_color_code()} />
-<Icon.BxsSchool size="40" color={random_hex_color_code()} />
-<Icon.BxsSearch size="40" color={random_hex_color_code()} />
-<Icon.BxsSearchAlt2 size="40" color={random_hex_color_code()} />
-<Icon.BxsSelectMultiple size="40" color={random_hex_color_code()} />
-<Icon.BxsSend size="40" color={random_hex_color_code()} />
-<Icon.BxsServer size="40" color={random_hex_color_code()} />
-<Icon.BxsShapes size="40" color={random_hex_color_code()} />
-<Icon.BxsShare size="40" color={random_hex_color_code()} />
-<Icon.BxsShareAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsShield size="40" color={random_hex_color_code()} />
-<Icon.BxsShieldAlt2 size="40" color={random_hex_color_code()} />
-<Icon.BxsShieldMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsShieldPlus size="40" color={random_hex_color_code()} />
-<Icon.BxsShieldX size="40" color={random_hex_color_code()} />
-<Icon.BxsShip size="40" color={random_hex_color_code()} />
-<Icon.BxsShocked size="40" color={random_hex_color_code()} />
-<Icon.BxsShoppingBag size="40" color={random_hex_color_code()} />
-<Icon.BxsShoppingBagAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsShoppingBags size="40" color={random_hex_color_code()} />
-<Icon.BxsShow size="40" color={random_hex_color_code()} />
-<Icon.BxsShower size="40" color={random_hex_color_code()} />
-<Icon.BxsSkipNextCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsSkipPreviousCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsSkull size="40" color={random_hex_color_code()} />
-<Icon.BxsSleepy size="40" color={random_hex_color_code()} />
-<Icon.BxsSlideshow size="40" color={random_hex_color_code()} />
-<Icon.BxsSmile size="40" color={random_hex_color_code()} />
-<Icon.BxsSortAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsSpa size="40" color={random_hex_color_code()} />
-<Icon.BxsSpeaker size="40" color={random_hex_color_code()} />
-<Icon.BxsSprayCan size="40" color={random_hex_color_code()} />
-<Icon.BxsSpreadsheet size="40" color={random_hex_color_code()} />
-<Icon.BxsSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsSquareRounded size="40" color={random_hex_color_code()} />
-<Icon.BxsStar size="40" color={random_hex_color_code()} />
-<Icon.BxsStarHalf size="40" color={random_hex_color_code()} />
-<Icon.BxsSticker size="40" color={random_hex_color_code()} />
-<Icon.BxsStopwatch size="40" color={random_hex_color_code()} />
-<Icon.BxsStore size="40" color={random_hex_color_code()} />
-<Icon.BxsStoreAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsSun size="40" color={random_hex_color_code()} />
-<Icon.BxsSushi size="40" color={random_hex_color_code()} />
-<Icon.BxsTShirt size="40" color={random_hex_color_code()} />
-<Icon.BxsTachometer size="40" color={random_hex_color_code()} />
-<Icon.BxsTag size="40" color={random_hex_color_code()} />
-<Icon.BxsTagAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsTagX size="40" color={random_hex_color_code()} />
-<Icon.BxsTaxi size="40" color={random_hex_color_code()} />
-<Icon.BxsTennisBall size="40" color={random_hex_color_code()} />
-<Icon.BxsTerminal size="40" color={random_hex_color_code()} />
-<Icon.BxsThermometer size="40" color={random_hex_color_code()} />
-<Icon.BxsTime size="40" color={random_hex_color_code()} />
-<Icon.BxsTimeFive size="40" color={random_hex_color_code()} />
-<Icon.BxsTimer size="40" color={random_hex_color_code()} />
-<Icon.BxsTired size="40" color={random_hex_color_code()} />
-<Icon.BxsToTop size="40" color={random_hex_color_code()} />
-<Icon.BxsToggleLeft size="40" color={random_hex_color_code()} />
-<Icon.BxsToggleRight size="40" color={random_hex_color_code()} />
-<Icon.BxsTone size="40" color={random_hex_color_code()} />
-<Icon.BxsTorch size="40" color={random_hex_color_code()} />
-<Icon.BxsTraffic size="40" color={random_hex_color_code()} />
-<Icon.BxsTrafficBarrier size="40" color={random_hex_color_code()} />
-<Icon.BxsTrafficCone size="40" color={random_hex_color_code()} />
-<Icon.BxsTrain size="40" color={random_hex_color_code()} />
-<Icon.BxsTrash size="40" color={random_hex_color_code()} />
-<Icon.BxsTrashAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsTree size="40" color={random_hex_color_code()} />
-<Icon.BxsTreeAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsTrophy size="40" color={random_hex_color_code()} />
-<Icon.BxsTruck size="40" color={random_hex_color_code()} />
-<Icon.BxsTv size="40" color={random_hex_color_code()} />
-<Icon.BxsUniversalAccess size="40" color={random_hex_color_code()} />
-<Icon.BxsUpArrow size="40" color={random_hex_color_code()} />
-<Icon.BxsUpArrowAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsUpArrowCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsUpArrowSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsUpsideDown size="40" color={random_hex_color_code()} />
-<Icon.BxsUpvote size="40" color={random_hex_color_code()} />
-<Icon.BxsUser size="40" color={random_hex_color_code()} />
-<Icon.BxsUserAccount size="40" color={random_hex_color_code()} />
-<Icon.BxsUserBadge size="40" color={random_hex_color_code()} />
-<Icon.BxsUserCheck size="40" color={random_hex_color_code()} />
-<Icon.BxsUserCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsUserDetail size="40" color={random_hex_color_code()} />
-<Icon.BxsUserMinus size="40" color={random_hex_color_code()} />
-<Icon.BxsUserPin size="40" color={random_hex_color_code()} />
-<Icon.BxsUserPlus size="40" color={random_hex_color_code()} />
-<Icon.BxsUserRectangle size="40" color={random_hex_color_code()} />
-<Icon.BxsUserVoice size="40" color={random_hex_color_code()} />
-<Icon.BxsUserX size="40" color={random_hex_color_code()} />
-<Icon.BxsVector size="40" color={random_hex_color_code()} />
-<Icon.BxsVial size="40" color={random_hex_color_code()} />
-<Icon.BxsVideo size="40" color={random_hex_color_code()} />
-<Icon.BxsVideoOff size="40" color={random_hex_color_code()} />
-<Icon.BxsVideoPlus size="40" color={random_hex_color_code()} />
-<Icon.BxsVideoRecording size="40" color={random_hex_color_code()} />
-<Icon.BxsVideos size="40" color={random_hex_color_code()} />
-<Icon.BxsVirus size="40" color={random_hex_color_code()} />
-<Icon.BxsVirusBlock size="40" color={random_hex_color_code()} />
-<Icon.BxsVolume size="40" color={random_hex_color_code()} />
-<Icon.BxsVolumeFull size="40" color={random_hex_color_code()} />
-<Icon.BxsVolumeLow size="40" color={random_hex_color_code()} />
-<Icon.BxsVolumeMute size="40" color={random_hex_color_code()} />
-<Icon.BxsWallet size="40" color={random_hex_color_code()} />
-<Icon.BxsWalletAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsWasher size="40" color={random_hex_color_code()} />
-<Icon.BxsWatch size="40" color={random_hex_color_code()} />
-<Icon.BxsWatchAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsWebcam size="40" color={random_hex_color_code()} />
-<Icon.BxsWidget size="40" color={random_hex_color_code()} />
-<Icon.BxsWindowAlt size="40" color={random_hex_color_code()} />
-<Icon.BxsWine size="40" color={random_hex_color_code()} />
-<Icon.BxsWinkSmile size="40" color={random_hex_color_code()} />
-<Icon.BxsWinkTongue size="40" color={random_hex_color_code()} />
-<Icon.BxsWrench size="40" color={random_hex_color_code()} />
-<Icon.BxsXCircle size="40" color={random_hex_color_code()} />
-<Icon.BxsXSquare size="40" color={random_hex_color_code()} />
-<Icon.BxsYinYang size="40" color={random_hex_color_code()} />
-<Icon.BxsZap size="40" color={random_hex_color_code()} />
-<Icon.BxsZoomIn size="40" color={random_hex_color_code()} />
-<Icon.BxsZoomOut size="40" color={random_hex_color_code()} />
+<Icon.BxAbacus size="40" />
+<Icon.BxAccessibility size="40" />
+<Icon.BxAddToQueue size="40" />
+<Icon.BxAdjust size="40" />
+<Icon.BxAlarm size="40" />
+<Icon.BxAlarmAdd size="40" />
+<Icon.BxAlarmExclamation size="40" />
+<Icon.BxAlarmOff size="40" />
+<Icon.BxAlarmSnooze size="40" />
+<Icon.BxAlbum size="40" />
+<Icon.BxAlignJustify size="40" />
+<Icon.BxAlignLeft size="40" />
+<Icon.BxAlignMiddle size="40" />
+<Icon.BxAlignRight size="40" />
+<Icon.BxAnalyse size="40" />
+<Icon.BxAnchor size="40" />
+<Icon.BxAngry size="40" />
+<Icon.BxAperture size="40" />
+<Icon.BxArch size="40" />
+<Icon.BxArchive size="40" />
+<Icon.BxArchiveIn size="40" />
+<Icon.BxArchiveOut size="40" />
+<Icon.BxArea size="40" />
+<Icon.BxArrowBack size="40" />
+<Icon.BxArrowFromBottom size="40" />
+<Icon.BxArrowFromLeft size="40" />
+<Icon.BxArrowFromRight size="40" />
+<Icon.BxArrowFromTop size="40" />
+<Icon.BxArrowToBottom size="40" />
+<Icon.BxArrowToLeft size="40" />
+<Icon.BxArrowToRight size="40" />
+<Icon.BxArrowToTop size="40" />
+<Icon.BxAt size="40" />
+<Icon.BxAtom size="40" />
+<Icon.BxAward size="40" />
+<Icon.BxBadge size="40" />
+<Icon.BxBadgeCheck size="40" />
+<Icon.BxBaguette size="40" />
+<Icon.BxBall size="40" />
+<Icon.BxBandAid size="40" />
+<Icon.BxBarChart size="40" />
+<Icon.BxBarChartAlt size="40" />
+<Icon.BxBarChartAlt2 size="40" />
+<Icon.BxBarChartSquare size="40" />
+<Icon.BxBarcode size="40" />
+<Icon.BxBarcodeReader size="40" />
+<Icon.BxBaseball size="40" />
+<Icon.BxBasket size="40" />
+<Icon.BxBasketball size="40" />
+<Icon.BxBath size="40" />
+<Icon.BxBattery size="40" />
+<Icon.BxBed size="40" />
+<Icon.BxBeenHere size="40" />
+<Icon.BxBeer size="40" />
+<Icon.BxBell size="40" />
+<Icon.BxBellMinus size="40" />
+<Icon.BxBellOff size="40" />
+<Icon.BxBellPlus size="40" />
+<Icon.BxBible size="40" />
+<Icon.BxBitcoin size="40" />
+<Icon.BxBlanket size="40" />
+<Icon.BxBlock size="40" />
+<Icon.BxBluetooth size="40" />
+<Icon.BxBody size="40" />
+<Icon.BxBold size="40" />
+<Icon.BxBoltCircle size="40" />
+<Icon.BxBomb size="40" />
+<Icon.BxBone size="40" />
+<Icon.BxBong size="40" />
+<Icon.BxBook size="40" />
+<Icon.BxBookAdd size="40" />
+<Icon.BxBookAlt size="40" />
+<Icon.BxBookBookmark size="40" />
+<Icon.BxBookContent size="40" />
+<Icon.BxBookHeart size="40" />
+<Icon.BxBookOpen size="40" />
+<Icon.BxBookReader size="40" />
+<Icon.BxBookmark size="40" />
+<Icon.BxBookmarkAlt size="40" />
+<Icon.BxBookmarkAltMinus size="40" />
+<Icon.BxBookmarkAltPlus size="40" />
+<Icon.BxBookmarkHeart size="40" />
+<Icon.BxBookmarkMinus size="40" />
+<Icon.BxBookmarkPlus size="40" />
+<Icon.BxBookmarks size="40" />
+<Icon.BxBorderAll size="40" />
+<Icon.BxBorderBottom size="40" />
+<Icon.BxBorderInner size="40" />
+<Icon.BxBorderLeft size="40" />
+<Icon.BxBorderNone size="40" />
+<Icon.BxBorderOuter size="40" />
+<Icon.BxBorderRadius size="40" />
+<Icon.BxBorderRight size="40" />
+<Icon.BxBorderTop size="40" />
+<Icon.BxBot size="40" />
+<Icon.BxBowlHot size="40" />
+<Icon.BxBowlRice size="40" />
+<Icon.BxBowlingBall size="40" />
+<Icon.BxBox size="40" />
+<Icon.BxBracket size="40" />
+<Icon.BxBraille size="40" />
+<Icon.BxBrain size="40" />
+<Icon.BxBriefcase size="40" />
+<Icon.BxBriefcaseAlt size="40" />
+<Icon.BxBriefcaseAlt2 size="40" />
+<Icon.BxBrightness size="40" />
+<Icon.BxBrightnessHalf size="40" />
+<Icon.BxBroadcast size="40" />
+<Icon.BxBrush size="40" />
+<Icon.BxBrushAlt size="40" />
+<Icon.BxBug size="40" />
+<Icon.BxBugAlt size="40" />
+<Icon.BxBuilding size="40" />
+<Icon.BxBuildingHouse size="40" />
+<Icon.BxBuildings size="40" />
+<Icon.BxBulb size="40" />
+<Icon.BxBullseye size="40" />
+<Icon.BxBuoy size="40" />
+<Icon.BxBus size="40" />
+<Icon.BxBusSchool size="40" />
+<Icon.BxCabinet size="40" />
+<Icon.BxCableCar size="40" />
+<Icon.BxCake size="40" />
+<Icon.BxCalculator size="40" />
+<Icon.BxCalendar size="40" />
+<Icon.BxCalendarAlt size="40" />
+<Icon.BxCalendarCheck size="40" />
+<Icon.BxCalendarEdit size="40" />
+<Icon.BxCalendarEvent size="40" />
+<Icon.BxCalendarExclamation size="40" />
+<Icon.BxCalendarHeart size="40" />
+<Icon.BxCalendarMinus size="40" />
+<Icon.BxCalendarPlus size="40" />
+<Icon.BxCalendarStar size="40" />
+<Icon.BxCalendarWeek size="40" />
+<Icon.BxCalendarX size="40" />
+<Icon.BxCamera size="40" />
+<Icon.BxCameraHome size="40" />
+<Icon.BxCameraMovie size="40" />
+<Icon.BxCameraOff size="40" />
+<Icon.BxCandles size="40" />
+<Icon.BxCapsule size="40" />
+<Icon.BxCaptions size="40" />
+<Icon.BxCar size="40" />
+<Icon.BxCard size="40" />
+<Icon.BxCaretDown size="40" />
+<Icon.BxCaretDownCircle size="40" />
+<Icon.BxCaretDownSquare size="40" />
+<Icon.BxCaretLeft size="40" />
+<Icon.BxCaretLeftCircle size="40" />
+<Icon.BxCaretLeftSquare size="40" />
+<Icon.BxCaretRight size="40" />
+<Icon.BxCaretRightCircle size="40" />
+<Icon.BxCaretRightSquare size="40" />
+<Icon.BxCaretUp size="40" />
+<Icon.BxCaretUpCircle size="40" />
+<Icon.BxCaretUpSquare size="40" />
+<Icon.BxCarousel size="40" />
+<Icon.BxCart size="40" />
+<Icon.BxCartAdd size="40" />
+<Icon.BxCartAlt size="40" />
+<Icon.BxCartDownload size="40" />
+<Icon.BxCast size="40" />
+<Icon.BxCategory size="40" />
+<Icon.BxCategoryAlt size="40" />
+<Icon.BxCctv size="40" />
+<Icon.BxCertification size="40" />
+<Icon.BxChair size="40" />
+<Icon.BxChalkboard size="40" />
+<Icon.BxChart size="40" />
+<Icon.BxChat size="40" />
+<Icon.BxCheck size="40" />
+<Icon.BxCheckCircle size="40" />
+<Icon.BxCheckDouble size="40" />
+<Icon.BxCheckShield size="40" />
+<Icon.BxCheckSquare size="40" />
+<Icon.BxCheckbox size="40" />
+<Icon.BxCheckboxChecked size="40" />
+<Icon.BxCheckboxMinus size="40" />
+<Icon.BxCheckboxSquare size="40" />
+<Icon.BxCheese size="40" />
+<Icon.BxChevronDown size="40" />
+<Icon.BxChevronDownCircle size="40" />
+<Icon.BxChevronDownSquare size="40" />
+<Icon.BxChevronLeft size="40" />
+<Icon.BxChevronLeftCircle size="40" />
+<Icon.BxChevronLeftSquare size="40" />
+<Icon.BxChevronRight size="40" />
+<Icon.BxChevronRightCircle size="40" />
+<Icon.BxChevronRightSquare size="40" />
+<Icon.BxChevronUp size="40" />
+<Icon.BxChevronUpCircle size="40" />
+<Icon.BxChevronUpSquare size="40" />
+<Icon.BxChevronsDown size="40" />
+<Icon.BxChevronsLeft size="40" />
+<Icon.BxChevronsRight size="40" />
+<Icon.BxChevronsUp size="40" />
+<Icon.BxChild size="40" />
+<Icon.BxChip size="40" />
+<Icon.BxChurch size="40" />
+<Icon.BxCircle size="40" />
+<Icon.BxCircleHalf size="40" />
+<Icon.BxCircleQuarter size="40" />
+<Icon.BxCircleThreeQuarter size="40" />
+<Icon.BxClinic size="40" />
+<Icon.BxClipboard size="40" />
+<Icon.BxCloset size="40" />
+<Icon.BxCloud size="40" />
+<Icon.BxCloudDownload size="40" />
+<Icon.BxCloudDrizzle size="40" />
+<Icon.BxCloudLightRain size="40" />
+<Icon.BxCloudLightning size="40" />
+<Icon.BxCloudRain size="40" />
+<Icon.BxCloudSnow size="40" />
+<Icon.BxCloudUpload size="40" />
+<Icon.BxCode size="40" />
+<Icon.BxCodeAlt size="40" />
+<Icon.BxCodeBlock size="40" />
+<Icon.BxCodeCurly size="40" />
+<Icon.BxCoffee size="40" />
+<Icon.BxCoffeeTogo size="40" />
+<Icon.BxCog size="40" />
+<Icon.BxCoin size="40" />
+<Icon.BxCoinStack size="40" />
+<Icon.BxCollapse size="40" />
+<Icon.BxCollapseAlt size="40" />
+<Icon.BxCollapseHorizontal size="40" />
+<Icon.BxCollapseVertical size="40" />
+<Icon.BxCollection size="40" />
+<Icon.BxColor size="40" />
+<Icon.BxColorFill size="40" />
+<Icon.BxColumns size="40" />
+<Icon.BxCommand size="40" />
+<Icon.BxComment size="40" />
+<Icon.BxCommentAdd size="40" />
+<Icon.BxCommentCheck size="40" />
+<Icon.BxCommentDetail size="40" />
+<Icon.BxCommentDots size="40" />
+<Icon.BxCommentEdit size="40" />
+<Icon.BxCommentError size="40" />
+<Icon.BxCommentMinus size="40" />
+<Icon.BxCommentX size="40" />
+<Icon.BxCompass size="40" />
+<Icon.BxConfused size="40" />
+<Icon.BxConversation size="40" />
+<Icon.BxCookie size="40" />
+<Icon.BxCool size="40" />
+<Icon.BxCopy size="40" />
+<Icon.BxCopyAlt size="40" />
+<Icon.BxCopyright size="40" />
+<Icon.BxCreditCard size="40" />
+<Icon.BxCreditCardAlt size="40" />
+<Icon.BxCreditCardFront size="40" />
+<Icon.BxCricketBall size="40" />
+<Icon.BxCrop size="40" />
+<Icon.BxCross size="40" />
+<Icon.BxCrosshair size="40" />
+<Icon.BxCrown size="40" />
+<Icon.BxCube size="40" />
+<Icon.BxCubeAlt size="40" />
+<Icon.BxCuboid size="40" />
+<Icon.BxCurrentLocation size="40" />
+<Icon.BxCustomize size="40" />
+<Icon.BxCut size="40" />
+<Icon.BxCycling size="40" />
+<Icon.BxCylinder size="40" />
+<Icon.BxData size="40" />
+<Icon.BxDesktop size="40" />
+<Icon.BxDetail size="40" />
+<Icon.BxDevices size="40" />
+<Icon.BxDialpad size="40" />
+<Icon.BxDialpadAlt size="40" />
+<Icon.BxDiamond size="40" />
+<Icon.BxDice1 size="40" />
+<Icon.BxDice2 size="40" />
+<Icon.BxDice3 size="40" />
+<Icon.BxDice4 size="40" />
+<Icon.BxDice5 size="40" />
+<Icon.BxDice6 size="40" />
+<Icon.BxDirections size="40" />
+<Icon.BxDisc size="40" />
+<Icon.BxDish size="40" />
+<Icon.BxDislike size="40" />
+<Icon.BxDizzy size="40" />
+<Icon.BxDna size="40" />
+<Icon.BxDockBottom size="40" />
+<Icon.BxDockLeft size="40" />
+<Icon.BxDockRight size="40" />
+<Icon.BxDockTop size="40" />
+<Icon.BxDollar size="40" />
+<Icon.BxDollarCircle size="40" />
+<Icon.BxDonateBlood size="40" />
+<Icon.BxDonateHeart size="40" />
+<Icon.BxDoorOpen size="40" />
+<Icon.BxDotsHorizontal size="40" />
+<Icon.BxDotsHorizontalRounded size="40" />
+<Icon.BxDotsVertical size="40" />
+<Icon.BxDotsVerticalRounded size="40" />
+<Icon.BxDoughnutChart size="40" />
+<Icon.BxDownArrow size="40" />
+<Icon.BxDownArrowAlt size="40" />
+<Icon.BxDownArrowCircle size="40" />
+<Icon.BxDownload size="40" />
+<Icon.BxDownvote size="40" />
+<Icon.BxDrink size="40" />
+<Icon.BxDroplet size="40" />
+<Icon.BxDumbbell size="40" />
+<Icon.BxDuplicate size="40" />
+<Icon.BxEdit size="40" />
+<Icon.BxEditAlt size="40" />
+<Icon.BxEnvelope size="40" />
+<Icon.BxEnvelopeOpen size="40" />
+<Icon.BxEqualizer size="40" />
+<Icon.BxEraser size="40" />
+<Icon.BxError size="40" />
+<Icon.BxErrorAlt size="40" />
+<Icon.BxErrorCircle size="40" />
+<Icon.BxEuro size="40" />
+<Icon.BxExclude size="40" />
+<Icon.BxExit size="40" />
+<Icon.BxExitFullscreen size="40" />
+<Icon.BxExpand size="40" />
+<Icon.BxExpandAlt size="40" />
+<Icon.BxExpandHorizontal size="40" />
+<Icon.BxExpandVertical size="40" />
+<Icon.BxExport size="40" />
+<Icon.BxExtension size="40" />
+<Icon.BxFace size="40" />
+<Icon.BxFastForward size="40" />
+<Icon.BxFastForwardCircle size="40" />
+<Icon.BxFemale size="40" />
+<Icon.BxFemaleSign size="40" />
+<Icon.BxFile size="40" />
+<Icon.BxFileBlank size="40" />
+<Icon.BxFileFind size="40" />
+<Icon.BxFilm size="40" />
+<Icon.BxFilter size="40" />
+<Icon.BxFilterAlt size="40" />
+<Icon.BxFingerprint size="40" />
+<Icon.BxFirstAid size="40" />
+<Icon.BxFirstPage size="40" />
+<Icon.BxFlag size="40" />
+<Icon.BxFolder size="40" />
+<Icon.BxFolderMinus size="40" />
+<Icon.BxFolderOpen size="40" />
+<Icon.BxFolderPlus size="40" />
+<Icon.BxFont size="40" />
+<Icon.BxFontColor size="40" />
+<Icon.BxFontFamily size="40" />
+<Icon.BxFontSize size="40" />
+<Icon.BxFoodMenu size="40" />
+<Icon.BxFoodTag size="40" />
+<Icon.BxFootball size="40" />
+<Icon.BxFork size="40" />
+<Icon.BxFridge size="40" />
+<Icon.BxFullscreen size="40" />
+<Icon.BxGame size="40" />
+<Icon.BxGasPump size="40" />
+<Icon.BxGhost size="40" />
+<Icon.BxGift size="40" />
+<Icon.BxGitBranch size="40" />
+<Icon.BxGitCommit size="40" />
+<Icon.BxGitCompare size="40" />
+<Icon.BxGitMerge size="40" />
+<Icon.BxGitPullRequest size="40" />
+<Icon.BxGitRepoForked size="40" />
+<Icon.BxGlasses size="40" />
+<Icon.BxGlassesAlt size="40" />
+<Icon.BxGlobe size="40" />
+<Icon.BxGlobeAlt size="40" />
+<Icon.BxGrid size="40" />
+<Icon.BxGridAlt size="40" />
+<Icon.BxGridHorizontal size="40" />
+<Icon.BxGridSmall size="40" />
+<Icon.BxGridVertical size="40" />
+<Icon.BxGroup size="40" />
+<Icon.BxHandicap size="40" />
+<Icon.BxHappy size="40" />
+<Icon.BxHappyAlt size="40" />
+<Icon.BxHappyBeaming size="40" />
+<Icon.BxHappyHeartEyes size="40" />
+<Icon.BxHardHat size="40" />
+<Icon.BxHash size="40" />
+<Icon.BxHdd size="40" />
+<Icon.BxHeading size="40" />
+<Icon.BxHeadphone size="40" />
+<Icon.BxHealth size="40" />
+<Icon.BxHeart size="40" />
+<Icon.BxHeartCircle size="40" />
+<Icon.BxHeartSquare size="40" />
+<Icon.BxHelpCircle size="40" />
+<Icon.BxHide size="40" />
+<Icon.BxHighlight size="40" />
+<Icon.BxHistory size="40" />
+<Icon.BxHive size="40" />
+<Icon.BxHome size="40" />
+<Icon.BxHomeAlt size="40" />
+<Icon.BxHomeAlt2 size="40" />
+<Icon.BxHomeCircle size="40" />
+<Icon.BxHomeHeart size="40" />
+<Icon.BxHomeSmile size="40" />
+<Icon.BxHorizontalCenter size="40" />
+<Icon.BxHorizontalLeft size="40" />
+<Icon.BxHorizontalRight size="40" />
+<Icon.BxHotel size="40" />
+<Icon.BxHourglass size="40" />
+<Icon.BxIdCard size="40" />
+<Icon.BxImage size="40" />
+<Icon.BxImageAdd size="40" />
+<Icon.BxImageAlt size="40" />
+<Icon.BxImages size="40" />
+<Icon.BxImport size="40" />
+<Icon.BxInfinite size="40" />
+<Icon.BxInfoCircle size="40" />
+<Icon.BxInfoSquare size="40" />
+<Icon.BxInjection size="40" />
+<Icon.BxIntersect size="40" />
+<Icon.BxItalic size="40" />
+<Icon.BxJoystick size="40" />
+<Icon.BxJoystickAlt size="40" />
+<Icon.BxJoystickButton size="40" />
+<Icon.BxKey size="40" />
+<Icon.BxKnife size="40" />
+<Icon.BxLabel size="40" />
+<Icon.BxLandscape size="40" />
+<Icon.BxLaptop size="40" />
+<Icon.BxLastPage size="40" />
+<Icon.BxLaugh size="40" />
+<Icon.BxLayer size="40" />
+<Icon.BxLayerMinus size="40" />
+<Icon.BxLayerPlus size="40" />
+<Icon.BxLayout size="40" />
+<Icon.BxLeaf size="40" />
+<Icon.BxLeftArrow size="40" />
+<Icon.BxLeftArrowAlt size="40" />
+<Icon.BxLeftArrowCircle size="40" />
+<Icon.BxLeftDownArrowCircle size="40" />
+<Icon.BxLeftIndent size="40" />
+<Icon.BxLeftTopArrowCircle size="40" />
+<Icon.BxLemon size="40" />
+<Icon.BxLibrary size="40" />
+<Icon.BxLike size="40" />
+<Icon.BxLineChart size="40" />
+<Icon.BxLineChartDown size="40" />
+<Icon.BxLink size="40" />
+<Icon.BxLinkAlt size="40" />
+<Icon.BxLinkExternal size="40" />
+<Icon.BxLira size="40" />
+<Icon.BxListCheck size="40" />
+<Icon.BxListMinus size="40" />
+<Icon.BxListOl size="40" />
+<Icon.BxListPlus size="40" />
+<Icon.BxListUl size="40" />
+<Icon.BxLoader size="40" />
+<Icon.BxLoaderAlt size="40" />
+<Icon.BxLoaderCircle size="40" />
+<Icon.BxLocationPlus size="40" />
+<Icon.BxLock size="40" />
+<Icon.BxLockAlt size="40" />
+<Icon.BxLockOpen size="40" />
+<Icon.BxLockOpenAlt size="40" />
+<Icon.BxLogIn size="40" />
+<Icon.BxLogInCircle size="40" />
+<Icon.BxLogOut size="40" />
+<Icon.BxLogOutCircle size="40" />
+<Icon.BxLowVision size="40" />
+<Icon.BxMagnet size="40" />
+<Icon.BxMailSend size="40" />
+<Icon.BxMale size="40" />
+<Icon.BxMaleFemale size="40" />
+<Icon.BxMaleSign size="40" />
+<Icon.BxMap size="40" />
+<Icon.BxMapAlt size="40" />
+<Icon.BxMapPin size="40" />
+<Icon.BxMask size="40" />
+<Icon.BxMath size="40" />
+<Icon.BxMedal size="40" />
+<Icon.BxMeh size="40" />
+<Icon.BxMehAlt size="40" />
+<Icon.BxMehBlank size="40" />
+<Icon.BxMemoryCard size="40" />
+<Icon.BxMenu size="40" />
+<Icon.BxMenuAltLeft size="40" />
+<Icon.BxMenuAltRight size="40" />
+<Icon.BxMerge size="40" />
+<Icon.BxMessage size="40" />
+<Icon.BxMessageAdd size="40" />
+<Icon.BxMessageAlt size="40" />
+<Icon.BxMessageAltAdd size="40" />
+<Icon.BxMessageAltCheck size="40" />
+<Icon.BxMessageAltDetail size="40" />
+<Icon.BxMessageAltDots size="40" />
+<Icon.BxMessageAltEdit size="40" />
+<Icon.BxMessageAltError size="40" />
+<Icon.BxMessageAltMinus size="40" />
+<Icon.BxMessageAltX size="40" />
+<Icon.BxMessageCheck size="40" />
+<Icon.BxMessageDetail size="40" />
+<Icon.BxMessageDots size="40" />
+<Icon.BxMessageEdit size="40" />
+<Icon.BxMessageError size="40" />
+<Icon.BxMessageMinus size="40" />
+<Icon.BxMessageRounded size="40" />
+<Icon.BxMessageRoundedAdd size="40" />
+<Icon.BxMessageRoundedCheck size="40" />
+<Icon.BxMessageRoundedDetail size="40" />
+<Icon.BxMessageRoundedDots size="40" />
+<Icon.BxMessageRoundedEdit size="40" />
+<Icon.BxMessageRoundedError size="40" />
+<Icon.BxMessageRoundedMinus size="40" />
+<Icon.BxMessageRoundedX size="40" />
+<Icon.BxMessageSquare size="40" />
+<Icon.BxMessageSquareAdd size="40" />
+<Icon.BxMessageSquareCheck size="40" />
+<Icon.BxMessageSquareDetail size="40" />
+<Icon.BxMessageSquareDots size="40" />
+<Icon.BxMessageSquareEdit size="40" />
+<Icon.BxMessageSquareError size="40" />
+<Icon.BxMessageSquareMinus size="40" />
+<Icon.BxMessageSquareX size="40" />
+<Icon.BxMessageX size="40" />
+<Icon.BxMeteor size="40" />
+<Icon.BxMicrochip size="40" />
+<Icon.BxMicrophone size="40" />
+<Icon.BxMicrophoneOff size="40" />
+<Icon.BxMinus size="40" />
+<Icon.BxMinusBack size="40" />
+<Icon.BxMinusCircle size="40" />
+<Icon.BxMinusFront size="40" />
+<Icon.BxMobile size="40" />
+<Icon.BxMobileAlt size="40" />
+<Icon.BxMobileLandscape size="40" />
+<Icon.BxMobileVibration size="40" />
+<Icon.BxMoney size="40" />
+<Icon.BxMoneyWithdraw size="40" />
+<Icon.BxMoon size="40" />
+<Icon.BxMouse size="40" />
+<Icon.BxMouseAlt size="40" />
+<Icon.BxMove size="40" />
+<Icon.BxMoveHorizontal size="40" />
+<Icon.BxMoveVertical size="40" />
+<Icon.BxMovie size="40" />
+<Icon.BxMoviePlay size="40" />
+<Icon.BxMusic size="40" />
+<Icon.BxNavigation size="40" />
+<Icon.BxNetworkChart size="40" />
+<Icon.BxNews size="40" />
+<Icon.BxNoEntry size="40" />
+<Icon.BxNoSignal size="40" />
+<Icon.BxNote size="40" />
+<Icon.BxNotepad size="40" />
+<Icon.BxNotification size="40" />
+<Icon.BxNotificationOff size="40" />
+<Icon.BxObjectsHorizontalCenter size="40" />
+<Icon.BxObjectsHorizontalLeft size="40" />
+<Icon.BxObjectsHorizontalRight size="40" />
+<Icon.BxObjectsVerticalBottom size="40" />
+<Icon.BxObjectsVerticalCenter size="40" />
+<Icon.BxObjectsVerticalTop size="40" />
+<Icon.BxOutline size="40" />
+<Icon.BxPackage size="40" />
+<Icon.BxPaint size="40" />
+<Icon.BxPaintRoll size="40" />
+<Icon.BxPalette size="40" />
+<Icon.BxPaperPlane size="40" />
+<Icon.BxPaperclip size="40" />
+<Icon.BxParagraph size="40" />
+<Icon.BxParty size="40" />
+<Icon.BxPaste size="40" />
+<Icon.BxPause size="40" />
+<Icon.BxPauseCircle size="40" />
+<Icon.BxPen size="40" />
+<Icon.BxPencil size="40" />
+<Icon.BxPhone size="40" />
+<Icon.BxPhoneCall size="40" />
+<Icon.BxPhoneIncoming size="40" />
+<Icon.BxPhoneOff size="40" />
+<Icon.BxPhoneOutgoing size="40" />
+<Icon.BxPhotoAlbum size="40" />
+<Icon.BxPieChart size="40" />
+<Icon.BxPieChartAlt size="40" />
+<Icon.BxPieChartAlt2 size="40" />
+<Icon.BxPin size="40" />
+<Icon.BxPlanet size="40" />
+<Icon.BxPlay size="40" />
+<Icon.BxPlayCircle size="40" />
+<Icon.BxPlug size="40" />
+<Icon.BxPlus size="40" />
+<Icon.BxPlusCircle size="40" />
+<Icon.BxPlusMedical size="40" />
+<Icon.BxPodcast size="40" />
+<Icon.BxPointer size="40" />
+<Icon.BxPoll size="40" />
+<Icon.BxPolygon size="40" />
+<Icon.BxPopsicle size="40" />
+<Icon.BxPound size="40" />
+<Icon.BxPowerOff size="40" />
+<Icon.BxPrinter size="40" />
+<Icon.BxPulse size="40" />
+<Icon.BxPurchaseTag size="40" />
+<Icon.BxPurchaseTagAlt size="40" />
+<Icon.BxPyramid size="40" />
+<Icon.BxQr size="40" />
+<Icon.BxQrScan size="40" />
+<Icon.BxQuestionMark size="40" />
+<Icon.BxRadar size="40" />
+<Icon.BxRadio size="40" />
+<Icon.BxRadioCircle size="40" />
+<Icon.BxRadioCircleMarked size="40" />
+<Icon.BxReceipt size="40" />
+<Icon.BxRectangle size="40" />
+<Icon.BxRecycle size="40" />
+<Icon.BxRedo size="40" />
+<Icon.BxReflectHorizontal size="40" />
+<Icon.BxReflectVertical size="40" />
+<Icon.BxRefresh size="40" />
+<Icon.BxRegistered size="40" />
+<Icon.BxRename size="40" />
+<Icon.BxRepeat size="40" />
+<Icon.BxReply size="40" />
+<Icon.BxReplyAll size="40" />
+<Icon.BxRepost size="40" />
+<Icon.BxReset size="40" />
+<Icon.BxRestaurant size="40" />
+<Icon.BxRevision size="40" />
+<Icon.BxRewind size="40" />
+<Icon.BxRewindCircle size="40" />
+<Icon.BxRfid size="40" />
+<Icon.BxRightArrow size="40" />
+<Icon.BxRightArrowAlt size="40" />
+<Icon.BxRightArrowCircle size="40" />
+<Icon.BxRightDownArrowCircle size="40" />
+<Icon.BxRightIndent size="40" />
+<Icon.BxRightTopArrowCircle size="40" />
+<Icon.BxRocket size="40" />
+<Icon.BxRotateLeft size="40" />
+<Icon.BxRotateRight size="40" />
+<Icon.BxRss size="40" />
+<Icon.BxRuble size="40" />
+<Icon.BxRuler size="40" />
+<Icon.BxRun size="40" />
+<Icon.BxRupee size="40" />
+<Icon.BxSad size="40" />
+<Icon.BxSave size="40" />
+<Icon.BxScan size="40" />
+<Icon.BxScatterChart size="40" />
+<Icon.BxScreenshot size="40" />
+<Icon.BxSearch size="40" />
+<Icon.BxSearchAlt size="40" />
+<Icon.BxSearchAlt2 size="40" />
+<Icon.BxSelectMultiple size="40" />
+<Icon.BxSelection size="40" />
+<Icon.BxSend size="40" />
+<Icon.BxServer size="40" />
+<Icon.BxShapeCircle size="40" />
+<Icon.BxShapePolygon size="40" />
+<Icon.BxShapeSquare size="40" />
+<Icon.BxShapeTriangle size="40" />
+<Icon.BxShare size="40" />
+<Icon.BxShareAlt size="40" />
+<Icon.BxShekel size="40" />
+<Icon.BxShield size="40" />
+<Icon.BxShieldAlt size="40" />
+<Icon.BxShieldAlt2 size="40" />
+<Icon.BxShieldMinus size="40" />
+<Icon.BxShieldPlus size="40" />
+<Icon.BxShieldQuarter size="40" />
+<Icon.BxShieldX size="40" />
+<Icon.BxShocked size="40" />
+<Icon.BxShoppingBag size="40" />
+<Icon.BxShow size="40" />
+<Icon.BxShowAlt size="40" />
+<Icon.BxShower size="40" />
+<Icon.BxShuffle size="40" />
+<Icon.BxSidebar size="40" />
+<Icon.BxSignal1 size="40" />
+<Icon.BxSignal2 size="40" />
+<Icon.BxSignal3 size="40" />
+<Icon.BxSignal4 size="40" />
+<Icon.BxSignal5 size="40" />
+<Icon.BxSitemap size="40" />
+<Icon.BxSkipNext size="40" />
+<Icon.BxSkipNextCircle size="40" />
+<Icon.BxSkipPrevious size="40" />
+<Icon.BxSkipPreviousCircle size="40" />
+<Icon.BxSleepy size="40" />
+<Icon.BxSlider size="40" />
+<Icon.BxSliderAlt size="40" />
+<Icon.BxSlideshow size="40" />
+<Icon.BxSmile size="40" />
+<Icon.BxSort size="40" />
+<Icon.BxSortAZ size="40" />
+<Icon.BxSortAlt2 size="40" />
+<Icon.BxSortDown size="40" />
+<Icon.BxSortUp size="40" />
+<Icon.BxSortZA size="40" />
+<Icon.BxSpa size="40" />
+<Icon.BxSpaceBar size="40" />
+<Icon.BxSpeaker size="40" />
+<Icon.BxSprayCan size="40" />
+<Icon.BxSpreadsheet size="40" />
+<Icon.BxSquare size="40" />
+<Icon.BxSquareRounded size="40" />
+<Icon.BxStar size="40" />
+<Icon.BxStation size="40" />
+<Icon.BxStats size="40" />
+<Icon.BxSticker size="40" />
+<Icon.BxStop size="40" />
+<Icon.BxStopCircle size="40" />
+<Icon.BxStopwatch size="40" />
+<Icon.BxStore size="40" />
+<Icon.BxStoreAlt size="40" />
+<Icon.BxStreetView size="40" />
+<Icon.BxStrikethrough size="40" />
+<Icon.BxSubdirectoryLeft size="40" />
+<Icon.BxSubdirectoryRight size="40" />
+<Icon.BxSun size="40" />
+<Icon.BxSupport size="40" />
+<Icon.BxSushi size="40" />
+<Icon.BxSwim size="40" />
+<Icon.BxSync size="40" />
+<Icon.BxTab size="40" />
+<Icon.BxTable size="40" />
+<Icon.BxTachometer size="40" />
+<Icon.BxTag size="40" />
+<Icon.BxTagAlt size="40" />
+<Icon.BxTargetLock size="40" />
+<Icon.BxTask size="40" />
+<Icon.BxTaskX size="40" />
+<Icon.BxTaxi size="40" />
+<Icon.BxTennisBall size="40" />
+<Icon.BxTerminal size="40" />
+<Icon.BxTestTube size="40" />
+<Icon.BxText size="40" />
+<Icon.BxTime size="40" />
+<Icon.BxTimeFive size="40" />
+<Icon.BxTimer size="40" />
+<Icon.BxTired size="40" />
+<Icon.BxToggleLeft size="40" />
+<Icon.BxToggleRight size="40" />
+<Icon.BxTone size="40" />
+<Icon.BxTrafficCone size="40" />
+<Icon.BxTrain size="40" />
+<Icon.BxTransfer size="40" />
+<Icon.BxTransferAlt size="40" />
+<Icon.BxTrash size="40" />
+<Icon.BxTrashAlt size="40" />
+<Icon.BxTrendingDown size="40" />
+<Icon.BxTrendingUp size="40" />
+<Icon.BxTrim size="40" />
+<Icon.BxTrip size="40" />
+<Icon.BxTrophy size="40" />
+<Icon.BxTv size="40" />
+<Icon.BxUnderline size="40" />
+<Icon.BxUndo size="40" />
+<Icon.BxUnite size="40" />
+<Icon.BxUniversalAccess size="40" />
+<Icon.BxUnlink size="40" />
+<Icon.BxUpArrow size="40" />
+<Icon.BxUpArrowAlt size="40" />
+<Icon.BxUpArrowCircle size="40" />
+<Icon.BxUpload size="40" />
+<Icon.BxUpsideDown size="40" />
+<Icon.BxUpvote size="40" />
+<Icon.BxUsb size="40" />
+<Icon.BxUser size="40" />
+<Icon.BxUserCheck size="40" />
+<Icon.BxUserCircle size="40" />
+<Icon.BxUserMinus size="40" />
+<Icon.BxUserPin size="40" />
+<Icon.BxUserPlus size="40" />
+<Icon.BxUserVoice size="40" />
+<Icon.BxUserX size="40" />
+<Icon.BxVector size="40" />
+<Icon.BxVerticalBottom size="40" />
+<Icon.BxVerticalCenter size="40" />
+<Icon.BxVerticalTop size="40" />
+<Icon.BxVial size="40" />
+<Icon.BxVideo size="40" />
+<Icon.BxVideoOff size="40" />
+<Icon.BxVideoPlus size="40" />
+<Icon.BxVideoRecording size="40" />
+<Icon.BxVoicemail size="40" />
+<Icon.BxVolume size="40" />
+<Icon.BxVolumeFull size="40" />
+<Icon.BxVolumeLow size="40" />
+<Icon.BxVolumeMute size="40" />
+<Icon.BxWalk size="40" />
+<Icon.BxWallet size="40" />
+<Icon.BxWalletAlt size="40" />
+<Icon.BxWater size="40" />
+<Icon.BxWebcam size="40" />
+<Icon.BxWifi size="40" />
+<Icon.BxWifi0 size="40" />
+<Icon.BxWifi1 size="40" />
+<Icon.BxWifi2 size="40" />
+<Icon.BxWifiOff size="40" />
+<Icon.BxWind size="40" />
+<Icon.BxWindow size="40" />
+<Icon.BxWindowAlt size="40" />
+<Icon.BxWindowClose size="40" />
+<Icon.BxWindowOpen size="40" />
+<Icon.BxWindows size="40" />
+<Icon.BxWine size="40" />
+<Icon.BxWinkSmile size="40" />
+<Icon.BxWinkTongue size="40" />
+<Icon.BxWon size="40" />
+<Icon.BxWorld size="40" />
+<Icon.BxWrench size="40" />
+<Icon.BxX size="40" />
+<Icon.BxXCircle size="40" />
+<Icon.BxYen size="40" />
+<Icon.BxZoomIn size="40" />
+<Icon.BxZoomOut size="40" />
+<Icon.Bxl500px size="40" />
+<Icon.Bxl99designs size="40" />
+<Icon.BxlAdobe size="40" />
+<Icon.BxlAirbnb size="40" />
+<Icon.BxlAlgolia size="40" />
+<Icon.BxlAmazon size="40" />
+<Icon.BxlAndroid size="40" />
+<Icon.BxlAngular size="40" />
+<Icon.BxlApple size="40" />
+<Icon.BxlAudible size="40" />
+<Icon.BxlAws size="40" />
+<Icon.BxlBaidu size="40" />
+<Icon.BxlBehance size="40" />
+<Icon.BxlBing size="40" />
+<Icon.BxlBitcoin size="40" />
+<Icon.BxlBlender size="40" />
+<Icon.BxlBlogger size="40" />
+<Icon.BxlBootstrap size="40" />
+<Icon.BxlCPlusPlus size="40" />
+<Icon.BxlChrome size="40" />
+<Icon.BxlCodepen size="40" />
+<Icon.BxlCreativeCommons size="40" />
+<Icon.BxlCss3 size="40" />
+<Icon.BxlDailymotion size="40" />
+<Icon.BxlDeezer size="40" />
+<Icon.BxlDevTo size="40" />
+<Icon.BxlDeviantart size="40" />
+<Icon.BxlDigg size="40" />
+<Icon.BxlDigitalocean size="40" />
+<Icon.BxlDiscord size="40" />
+<Icon.BxlDiscordAlt size="40" />
+<Icon.BxlDiscourse size="40" />
+<Icon.BxlDjango size="40" />
+<Icon.BxlDocker size="40" />
+<Icon.BxlDribbble size="40" />
+<Icon.BxlDropbox size="40" />
+<Icon.BxlDrupal size="40" />
+<Icon.BxlEbay size="40" />
+<Icon.BxlEdge size="40" />
+<Icon.BxlEtsy size="40" />
+<Icon.BxlFacebook size="40" />
+<Icon.BxlFacebookCircle size="40" />
+<Icon.BxlFacebookSquare size="40" />
+<Icon.BxlFigma size="40" />
+<Icon.BxlFirebase size="40" />
+<Icon.BxlFirefox size="40" />
+<Icon.BxlFlask size="40" />
+<Icon.BxlFlickr size="40" />
+<Icon.BxlFlickrSquare size="40" />
+<Icon.BxlFlutter size="40" />
+<Icon.BxlFoursquare size="40" />
+<Icon.BxlGit size="40" />
+<Icon.BxlGithub size="40" />
+<Icon.BxlGitlab size="40" />
+<Icon.BxlGmail size="40" />
+<Icon.BxlGoLang size="40" />
+<Icon.BxlGoogle size="40" />
+<Icon.BxlGoogleCloud size="40" />
+<Icon.BxlGooglePlus size="40" />
+<Icon.BxlGooglePlusCircle size="40" />
+<Icon.BxlGraphql size="40" />
+<Icon.BxlHeroku size="40" />
+<Icon.BxlHtml5 size="40" />
+<Icon.BxlImdb size="40" />
+<Icon.BxlInstagram size="40" />
+<Icon.BxlInstagramAlt size="40" />
+<Icon.BxlInternetExplorer size="40" />
+<Icon.BxlInvision size="40" />
+<Icon.BxlJava size="40" />
+<Icon.BxlJavascript size="40" />
+<Icon.BxlJoomla size="40" />
+<Icon.BxlJquery size="40" />
+<Icon.BxlJsfiddle size="40" />
+<Icon.BxlKickstarter size="40" />
+<Icon.BxlKubernetes size="40" />
+<Icon.BxlLess size="40" />
+<Icon.BxlLinkedin size="40" />
+<Icon.BxlLinkedinSquare size="40" />
+<Icon.BxlMagento size="40" />
+<Icon.BxlMailchimp size="40" />
+<Icon.BxlMarkdown size="40" />
+<Icon.BxlMastercard size="40" />
+<Icon.BxlMastodon size="40" />
+<Icon.BxlMedium size="40" />
+<Icon.BxlMediumOld size="40" />
+<Icon.BxlMediumSquare size="40" />
+<Icon.BxlMessenger size="40" />
+<Icon.BxlMeta size="40" />
+<Icon.BxlMicrosoft size="40" />
+<Icon.BxlMicrosoftTeams size="40" />
+<Icon.BxlMongodb size="40" />
+<Icon.BxlNetlify size="40" />
+<Icon.BxlNodejs size="40" />
+<Icon.BxlOkRu size="40" />
+<Icon.BxlOpera size="40" />
+<Icon.BxlPatreon size="40" />
+<Icon.BxlPaypal size="40" />
+<Icon.BxlPeriscope size="40" />
+<Icon.BxlPhp size="40" />
+<Icon.BxlPinterest size="40" />
+<Icon.BxlPinterestAlt size="40" />
+<Icon.BxlPlayStore size="40" />
+<Icon.BxlPocket size="40" />
+<Icon.BxlPostgresql size="40" />
+<Icon.BxlProductHunt size="40" />
+<Icon.BxlPython size="40" />
+<Icon.BxlQuora size="40" />
+<Icon.BxlReact size="40" />
+<Icon.BxlRedbubble size="40" />
+<Icon.BxlReddit size="40" />
+<Icon.BxlRedux size="40" />
+<Icon.BxlSass size="40" />
+<Icon.BxlShopify size="40" />
+<Icon.BxlSketch size="40" />
+<Icon.BxlSkype size="40" />
+<Icon.BxlSlack size="40" />
+<Icon.BxlSlackOld size="40" />
+<Icon.BxlSnapchat size="40" />
+<Icon.BxlSoundcloud size="40" />
+<Icon.BxlSpotify size="40" />
+<Icon.BxlSpringBoot size="40" />
+<Icon.BxlSquarespace size="40" />
+<Icon.BxlStackOverflow size="40" />
+<Icon.BxlSteam size="40" />
+<Icon.BxlStripe size="40" />
+<Icon.BxlTailwindCss size="40" />
+<Icon.BxlTelegram size="40" />
+<Icon.BxlTiktok size="40" />
+<Icon.BxlTrello size="40" />
+<Icon.BxlTripAdvisor size="40" />
+<Icon.BxlTumblr size="40" />
+<Icon.BxlTux size="40" />
+<Icon.BxlTwitch size="40" />
+<Icon.BxlTwitter size="40" />
+<Icon.BxlTypescript size="40" />
+<Icon.BxlUnity size="40" />
+<Icon.BxlUnsplash size="40" />
+<Icon.BxlUpwork size="40" />
+<Icon.BxlVenmo size="40" />
+<Icon.BxlVimeo size="40" />
+<Icon.BxlVisa size="40" />
+<Icon.BxlVisualStudio size="40" />
+<Icon.BxlVk size="40" />
+<Icon.BxlVuejs size="40" />
+<Icon.BxlWhatsapp size="40" />
+<Icon.BxlWhatsappSquare size="40" />
+<Icon.BxlWikipedia size="40" />
+<Icon.BxlWindows size="40" />
+<Icon.BxlWix size="40" />
+<Icon.BxlWordpress size="40" />
+<Icon.BxlXing size="40" />
+<Icon.BxlYahoo size="40" />
+<Icon.BxlYelp size="40" />
+<Icon.BxlYoutube size="40" />
+<Icon.BxlZoom size="40" />
+<Icon.BxsAddToQueue size="40" />
+<Icon.BxsAdjust size="40" />
+<Icon.BxsAdjustAlt size="40" />
+<Icon.BxsAlarm size="40" />
+<Icon.BxsAlarmAdd size="40" />
+<Icon.BxsAlarmExclamation size="40" />
+<Icon.BxsAlarmOff size="40" />
+<Icon.BxsAlarmSnooze size="40" />
+<Icon.BxsAlbum size="40" />
+<Icon.BxsAmbulance size="40" />
+<Icon.BxsAnalyse size="40" />
+<Icon.BxsAngry size="40" />
+<Icon.BxsArch size="40" />
+<Icon.BxsArchive size="40" />
+<Icon.BxsArchiveIn size="40" />
+<Icon.BxsArchiveOut size="40" />
+<Icon.BxsArea size="40" />
+<Icon.BxsArrowFromBottom size="40" />
+<Icon.BxsArrowFromLeft size="40" />
+<Icon.BxsArrowFromRight size="40" />
+<Icon.BxsArrowFromTop size="40" />
+<Icon.BxsArrowToBottom size="40" />
+<Icon.BxsArrowToLeft size="40" />
+<Icon.BxsArrowToRight size="40" />
+<Icon.BxsArrowToTop size="40" />
+<Icon.BxsAward size="40" />
+<Icon.BxsBabyCarriage size="40" />
+<Icon.BxsBackpack size="40" />
+<Icon.BxsBadge size="40" />
+<Icon.BxsBadgeCheck size="40" />
+<Icon.BxsBadgeDollar size="40" />
+<Icon.BxsBaguette size="40" />
+<Icon.BxsBall size="40" />
+<Icon.BxsBalloon size="40" />
+<Icon.BxsBandAid size="40" />
+<Icon.BxsBank size="40" />
+<Icon.BxsBarChartAlt2 size="40" />
+<Icon.BxsBarChartSquare size="40" />
+<Icon.BxsBarcode size="40" />
+<Icon.BxsBaseball size="40" />
+<Icon.BxsBasket size="40" />
+<Icon.BxsBasketball size="40" />
+<Icon.BxsBath size="40" />
+<Icon.BxsBattery size="40" />
+<Icon.BxsBatteryCharging size="40" />
+<Icon.BxsBatteryFull size="40" />
+<Icon.BxsBatteryLow size="40" />
+<Icon.BxsBed size="40" />
+<Icon.BxsBeenHere size="40" />
+<Icon.BxsBeer size="40" />
+<Icon.BxsBell size="40" />
+<Icon.BxsBellMinus size="40" />
+<Icon.BxsBellOff size="40" />
+<Icon.BxsBellPlus size="40" />
+<Icon.BxsBellRing size="40" />
+<Icon.BxsBible size="40" />
+<Icon.BxsBinoculars size="40" />
+<Icon.BxsBlanket size="40" />
+<Icon.BxsBolt size="40" />
+<Icon.BxsBoltCircle size="40" />
+<Icon.BxsBomb size="40" />
+<Icon.BxsBone size="40" />
+<Icon.BxsBong size="40" />
+<Icon.BxsBook size="40" />
+<Icon.BxsBookAdd size="40" />
+<Icon.BxsBookAlt size="40" />
+<Icon.BxsBookBookmark size="40" />
+<Icon.BxsBookContent size="40" />
+<Icon.BxsBookHeart size="40" />
+<Icon.BxsBookOpen size="40" />
+<Icon.BxsBookReader size="40" />
+<Icon.BxsBookmark size="40" />
+<Icon.BxsBookmarkAlt size="40" />
+<Icon.BxsBookmarkAltMinus size="40" />
+<Icon.BxsBookmarkAltPlus size="40" />
+<Icon.BxsBookmarkHeart size="40" />
+<Icon.BxsBookmarkMinus size="40" />
+<Icon.BxsBookmarkPlus size="40" />
+<Icon.BxsBookmarkStar size="40" />
+<Icon.BxsBookmarks size="40" />
+<Icon.BxsBot size="40" />
+<Icon.BxsBowlHot size="40" />
+<Icon.BxsBowlRice size="40" />
+<Icon.BxsBowlingBall size="40" />
+<Icon.BxsBox size="40" />
+<Icon.BxsBrain size="40" />
+<Icon.BxsBriefcase size="40" />
+<Icon.BxsBriefcaseAlt size="40" />
+<Icon.BxsBriefcaseAlt2 size="40" />
+<Icon.BxsBrightness size="40" />
+<Icon.BxsBrightnessHalf size="40" />
+<Icon.BxsBrush size="40" />
+<Icon.BxsBrushAlt size="40" />
+<Icon.BxsBug size="40" />
+<Icon.BxsBugAlt size="40" />
+<Icon.BxsBuilding size="40" />
+<Icon.BxsBuildingHouse size="40" />
+<Icon.BxsBuildings size="40" />
+<Icon.BxsBulb size="40" />
+<Icon.BxsBullseye size="40" />
+<Icon.BxsBuoy size="40" />
+<Icon.BxsBus size="40" />
+<Icon.BxsBusSchool size="40" />
+<Icon.BxsBusiness size="40" />
+<Icon.BxsCabinet size="40" />
+<Icon.BxsCableCar size="40" />
+<Icon.BxsCake size="40" />
+<Icon.BxsCalculator size="40" />
+<Icon.BxsCalendar size="40" />
+<Icon.BxsCalendarAlt size="40" />
+<Icon.BxsCalendarCheck size="40" />
+<Icon.BxsCalendarEdit size="40" />
+<Icon.BxsCalendarEvent size="40" />
+<Icon.BxsCalendarExclamation size="40" />
+<Icon.BxsCalendarHeart size="40" />
+<Icon.BxsCalendarMinus size="40" />
+<Icon.BxsCalendarPlus size="40" />
+<Icon.BxsCalendarStar size="40" />
+<Icon.BxsCalendarWeek size="40" />
+<Icon.BxsCalendarX size="40" />
+<Icon.BxsCamera size="40" />
+<Icon.BxsCameraHome size="40" />
+<Icon.BxsCameraMovie size="40" />
+<Icon.BxsCameraOff size="40" />
+<Icon.BxsCameraPlus size="40" />
+<Icon.BxsCapsule size="40" />
+<Icon.BxsCaptions size="40" />
+<Icon.BxsCar size="40" />
+<Icon.BxsCarBattery size="40" />
+<Icon.BxsCarCrash size="40" />
+<Icon.BxsCarGarage size="40" />
+<Icon.BxsCarMechanic size="40" />
+<Icon.BxsCarWash size="40" />
+<Icon.BxsCard size="40" />
+<Icon.BxsCaretDownCircle size="40" />
+<Icon.BxsCaretDownSquare size="40" />
+<Icon.BxsCaretLeftCircle size="40" />
+<Icon.BxsCaretLeftSquare size="40" />
+<Icon.BxsCaretRightCircle size="40" />
+<Icon.BxsCaretRightSquare size="40" />
+<Icon.BxsCaretUpCircle size="40" />
+<Icon.BxsCaretUpSquare size="40" />
+<Icon.BxsCarousel size="40" />
+<Icon.BxsCart size="40" />
+<Icon.BxsCartAdd size="40" />
+<Icon.BxsCartAlt size="40" />
+<Icon.BxsCartDownload size="40" />
+<Icon.BxsCastle size="40" />
+<Icon.BxsCat size="40" />
+<Icon.BxsCategory size="40" />
+<Icon.BxsCategoryAlt size="40" />
+<Icon.BxsCctv size="40" />
+<Icon.BxsCertification size="40" />
+<Icon.BxsChalkboard size="40" />
+<Icon.BxsChart size="40" />
+<Icon.BxsChat size="40" />
+<Icon.BxsCheckCircle size="40" />
+<Icon.BxsCheckShield size="40" />
+<Icon.BxsCheckSquare size="40" />
+<Icon.BxsCheckbox size="40" />
+<Icon.BxsCheckboxChecked size="40" />
+<Icon.BxsCheckboxMinus size="40" />
+<Icon.BxsCheese size="40" />
+<Icon.BxsChess size="40" />
+<Icon.BxsChevronDown size="40" />
+<Icon.BxsChevronDownCircle size="40" />
+<Icon.BxsChevronDownSquare size="40" />
+<Icon.BxsChevronLeft size="40" />
+<Icon.BxsChevronLeftCircle size="40" />
+<Icon.BxsChevronLeftSquare size="40" />
+<Icon.BxsChevronRight size="40" />
+<Icon.BxsChevronRightCircle size="40" />
+<Icon.BxsChevronRightSquare size="40" />
+<Icon.BxsChevronUp size="40" />
+<Icon.BxsChevronUpCircle size="40" />
+<Icon.BxsChevronUpSquare size="40" />
+<Icon.BxsChevronsDown size="40" />
+<Icon.BxsChevronsLeft size="40" />
+<Icon.BxsChevronsRight size="40" />
+<Icon.BxsChevronsUp size="40" />
+<Icon.BxsChip size="40" />
+<Icon.BxsChurch size="40" />
+<Icon.BxsCircle size="40" />
+<Icon.BxsCircleHalf size="40" />
+<Icon.BxsCircleQuarter size="40" />
+<Icon.BxsCircleThreeQuarter size="40" />
+<Icon.BxsCity size="40" />
+<Icon.BxsClinic size="40" />
+<Icon.BxsCloud size="40" />
+<Icon.BxsCloudDownload size="40" />
+<Icon.BxsCloudLightning size="40" />
+<Icon.BxsCloudRain size="40" />
+<Icon.BxsCloudUpload size="40" />
+<Icon.BxsCoffee size="40" />
+<Icon.BxsCoffeeAlt size="40" />
+<Icon.BxsCoffeeBean size="40" />
+<Icon.BxsCoffeeTogo size="40" />
+<Icon.BxsCog size="40" />
+<Icon.BxsCoin size="40" />
+<Icon.BxsCoinStack size="40" />
+<Icon.BxsCollection size="40" />
+<Icon.BxsColor size="40" />
+<Icon.BxsColorFill size="40" />
+<Icon.BxsComment size="40" />
+<Icon.BxsCommentAdd size="40" />
+<Icon.BxsCommentCheck size="40" />
+<Icon.BxsCommentDetail size="40" />
+<Icon.BxsCommentDots size="40" />
+<Icon.BxsCommentEdit size="40" />
+<Icon.BxsCommentError size="40" />
+<Icon.BxsCommentMinus size="40" />
+<Icon.BxsCommentX size="40" />
+<Icon.BxsCompass size="40" />
+<Icon.BxsComponent size="40" />
+<Icon.BxsConfused size="40" />
+<Icon.BxsContact size="40" />
+<Icon.BxsConversation size="40" />
+<Icon.BxsCookie size="40" />
+<Icon.BxsCool size="40" />
+<Icon.BxsCopy size="40" />
+<Icon.BxsCopyAlt size="40" />
+<Icon.BxsCopyright size="40" />
+<Icon.BxsCoupon size="40" />
+<Icon.BxsCreditCard size="40" />
+<Icon.BxsCreditCardAlt size="40" />
+<Icon.BxsCreditCardFront size="40" />
+<Icon.BxsCricketBall size="40" />
+<Icon.BxsCrop size="40" />
+<Icon.BxsCrown size="40" />
+<Icon.BxsCube size="40" />
+<Icon.BxsCubeAlt size="40" />
+<Icon.BxsCuboid size="40" />
+<Icon.BxsCustomize size="40" />
+<Icon.BxsCylinder size="40" />
+<Icon.BxsDashboard size="40" />
+<Icon.BxsData size="40" />
+<Icon.BxsDetail size="40" />
+<Icon.BxsDevices size="40" />
+<Icon.BxsDiamond size="40" />
+<Icon.BxsDice1 size="40" />
+<Icon.BxsDice2 size="40" />
+<Icon.BxsDice3 size="40" />
+<Icon.BxsDice4 size="40" />
+<Icon.BxsDice5 size="40" />
+<Icon.BxsDice6 size="40" />
+<Icon.BxsDirectionLeft size="40" />
+<Icon.BxsDirectionRight size="40" />
+<Icon.BxsDirections size="40" />
+<Icon.BxsDisc size="40" />
+<Icon.BxsDiscount size="40" />
+<Icon.BxsDish size="40" />
+<Icon.BxsDislike size="40" />
+<Icon.BxsDizzy size="40" />
+<Icon.BxsDockBottom size="40" />
+<Icon.BxsDockLeft size="40" />
+<Icon.BxsDockRight size="40" />
+<Icon.BxsDockTop size="40" />
+<Icon.BxsDog size="40" />
+<Icon.BxsDollarCircle size="40" />
+<Icon.BxsDonateBlood size="40" />
+<Icon.BxsDonateHeart size="40" />
+<Icon.BxsDoorOpen size="40" />
+<Icon.BxsDoughnutChart size="40" />
+<Icon.BxsDownArrow size="40" />
+<Icon.BxsDownArrowAlt size="40" />
+<Icon.BxsDownArrowCircle size="40" />
+<Icon.BxsDownArrowSquare size="40" />
+<Icon.BxsDownload size="40" />
+<Icon.BxsDownvote size="40" />
+<Icon.BxsDrink size="40" />
+<Icon.BxsDroplet size="40" />
+<Icon.BxsDropletHalf size="40" />
+<Icon.BxsDryer size="40" />
+<Icon.BxsDuplicate size="40" />
+<Icon.BxsEdit size="40" />
+<Icon.BxsEditAlt size="40" />
+<Icon.BxsEditLocation size="40" />
+<Icon.BxsEject size="40" />
+<Icon.BxsEnvelope size="40" />
+<Icon.BxsEnvelopeOpen size="40" />
+<Icon.BxsEraser size="40" />
+<Icon.BxsError size="40" />
+<Icon.BxsErrorAlt size="40" />
+<Icon.BxsErrorCircle size="40" />
+<Icon.BxsEvStation size="40" />
+<Icon.BxsExit size="40" />
+<Icon.BxsExtension size="40" />
+<Icon.BxsEyedropper size="40" />
+<Icon.BxsFace size="40" />
+<Icon.BxsFaceMask size="40" />
+<Icon.BxsFactory size="40" />
+<Icon.BxsFastForwardCircle size="40" />
+<Icon.BxsFile size="40" />
+<Icon.BxsFileArchive size="40" />
+<Icon.BxsFileBlank size="40" />
+<Icon.BxsFileCss size="40" />
+<Icon.BxsFileDoc size="40" />
+<Icon.BxsFileExport size="40" />
+<Icon.BxsFileFind size="40" />
+<Icon.BxsFileGif size="40" />
+<Icon.BxsFileHtml size="40" />
+<Icon.BxsFileImage size="40" />
+<Icon.BxsFileImport size="40" />
+<Icon.BxsFileJpg size="40" />
+<Icon.BxsFileJs size="40" />
+<Icon.BxsFileJson size="40" />
+<Icon.BxsFileMd size="40" />
+<Icon.BxsFilePdf size="40" />
+<Icon.BxsFilePlus size="40" />
+<Icon.BxsFilePng size="40" />
+<Icon.BxsFileTxt size="40" />
+<Icon.BxsFilm size="40" />
+<Icon.BxsFilterAlt size="40" />
+<Icon.BxsFirstAid size="40" />
+<Icon.BxsFlag size="40" />
+<Icon.BxsFlagAlt size="40" />
+<Icon.BxsFlagCheckered size="40" />
+<Icon.BxsFlame size="40" />
+<Icon.BxsFlask size="40" />
+<Icon.BxsFlorist size="40" />
+<Icon.BxsFolder size="40" />
+<Icon.BxsFolderMinus size="40" />
+<Icon.BxsFolderOpen size="40" />
+<Icon.BxsFolderPlus size="40" />
+<Icon.BxsFoodMenu size="40" />
+<Icon.BxsFridge size="40" />
+<Icon.BxsGame size="40" />
+<Icon.BxsGasPump size="40" />
+<Icon.BxsGhost size="40" />
+<Icon.BxsGift size="40" />
+<Icon.BxsGraduation size="40" />
+<Icon.BxsGrid size="40" />
+<Icon.BxsGridAlt size="40" />
+<Icon.BxsGroup size="40" />
+<Icon.BxsGuitarAmp size="40" />
+<Icon.BxsHand size="40" />
+<Icon.BxsHandDown size="40" />
+<Icon.BxsHandLeft size="40" />
+<Icon.BxsHandRight size="40" />
+<Icon.BxsHandUp size="40" />
+<Icon.BxsHappy size="40" />
+<Icon.BxsHappyAlt size="40" />
+<Icon.BxsHappyBeaming size="40" />
+<Icon.BxsHappyHeartEyes size="40" />
+<Icon.BxsHardHat size="40" />
+<Icon.BxsHdd size="40" />
+<Icon.BxsHeart size="40" />
+<Icon.BxsHeartCircle size="40" />
+<Icon.BxsHeartSquare size="40" />
+<Icon.BxsHelpCircle size="40" />
+<Icon.BxsHide size="40" />
+<Icon.BxsHome size="40" />
+<Icon.BxsHomeAlt2 size="40" />
+<Icon.BxsHomeCircle size="40" />
+<Icon.BxsHomeHeart size="40" />
+<Icon.BxsHomeSmile size="40" />
+<Icon.BxsHot size="40" />
+<Icon.BxsHotel size="40" />
+<Icon.BxsHourglass size="40" />
+<Icon.BxsHourglassBottom size="40" />
+<Icon.BxsHourglassTop size="40" />
+<Icon.BxsIdCard size="40" />
+<Icon.BxsImage size="40" />
+<Icon.BxsImageAdd size="40" />
+<Icon.BxsImageAlt size="40" />
+<Icon.BxsInbox size="40" />
+<Icon.BxsInfoCircle size="40" />
+<Icon.BxsInfoSquare size="40" />
+<Icon.BxsInjection size="40" />
+<Icon.BxsInstitution size="40" />
+<Icon.BxsInvader size="40" />
+<Icon.BxsJoystick size="40" />
+<Icon.BxsJoystickAlt size="40" />
+<Icon.BxsJoystickButton size="40" />
+<Icon.BxsKey size="40" />
+<Icon.BxsKeyboard size="40" />
+<Icon.BxsLabel size="40" />
+<Icon.BxsLandmark size="40" />
+<Icon.BxsLandscape size="40" />
+<Icon.BxsLaugh size="40" />
+<Icon.BxsLayer size="40" />
+<Icon.BxsLayerMinus size="40" />
+<Icon.BxsLayerPlus size="40" />
+<Icon.BxsLayout size="40" />
+<Icon.BxsLeaf size="40" />
+<Icon.BxsLeftArrow size="40" />
+<Icon.BxsLeftArrowAlt size="40" />
+<Icon.BxsLeftArrowCircle size="40" />
+<Icon.BxsLeftArrowSquare size="40" />
+<Icon.BxsLeftDownArrowCircle size="40" />
+<Icon.BxsLeftTopArrowCircle size="40" />
+<Icon.BxsLemon size="40" />
+<Icon.BxsLike size="40" />
+<Icon.BxsLocationPlus size="40" />
+<Icon.BxsLock size="40" />
+<Icon.BxsLockAlt size="40" />
+<Icon.BxsLockOpen size="40" />
+<Icon.BxsLockOpenAlt size="40" />
+<Icon.BxsLogIn size="40" />
+<Icon.BxsLogInCircle size="40" />
+<Icon.BxsLogOut size="40" />
+<Icon.BxsLogOutCircle size="40" />
+<Icon.BxsLowVision size="40" />
+<Icon.BxsMagicWand size="40" />
+<Icon.BxsMagnet size="40" />
+<Icon.BxsMap size="40" />
+<Icon.BxsMapAlt size="40" />
+<Icon.BxsMapPin size="40" />
+<Icon.BxsMask size="40" />
+<Icon.BxsMedal size="40" />
+<Icon.BxsMegaphone size="40" />
+<Icon.BxsMeh size="40" />
+<Icon.BxsMehAlt size="40" />
+<Icon.BxsMehBlank size="40" />
+<Icon.BxsMemoryCard size="40" />
+<Icon.BxsMessage size="40" />
+<Icon.BxsMessageAdd size="40" />
+<Icon.BxsMessageAlt size="40" />
+<Icon.BxsMessageAltAdd size="40" />
+<Icon.BxsMessageAltCheck size="40" />
+<Icon.BxsMessageAltDetail size="40" />
+<Icon.BxsMessageAltDots size="40" />
+<Icon.BxsMessageAltEdit size="40" />
+<Icon.BxsMessageAltError size="40" />
+<Icon.BxsMessageAltMinus size="40" />
+<Icon.BxsMessageAltX size="40" />
+<Icon.BxsMessageCheck size="40" />
+<Icon.BxsMessageDetail size="40" />
+<Icon.BxsMessageDots size="40" />
+<Icon.BxsMessageEdit size="40" />
+<Icon.BxsMessageError size="40" />
+<Icon.BxsMessageMinus size="40" />
+<Icon.BxsMessageRounded size="40" />
+<Icon.BxsMessageRoundedAdd size="40" />
+<Icon.BxsMessageRoundedCheck size="40" />
+<Icon.BxsMessageRoundedDetail size="40" />
+<Icon.BxsMessageRoundedDots size="40" />
+<Icon.BxsMessageRoundedEdit size="40" />
+<Icon.BxsMessageRoundedError size="40" />
+<Icon.BxsMessageRoundedMinus size="40" />
+<Icon.BxsMessageRoundedX size="40" />
+<Icon.BxsMessageSquare size="40" />
+<Icon.BxsMessageSquareAdd size="40" />
+<Icon.BxsMessageSquareCheck size="40" />
+<Icon.BxsMessageSquareDetail size="40" />
+<Icon.BxsMessageSquareDots size="40" />
+<Icon.BxsMessageSquareEdit size="40" />
+<Icon.BxsMessageSquareError size="40" />
+<Icon.BxsMessageSquareMinus size="40" />
+<Icon.BxsMessageSquareX size="40" />
+<Icon.BxsMessageX size="40" />
+<Icon.BxsMeteor size="40" />
+<Icon.BxsMicrochip size="40" />
+<Icon.BxsMicrophone size="40" />
+<Icon.BxsMicrophoneAlt size="40" />
+<Icon.BxsMicrophoneOff size="40" />
+<Icon.BxsMinusCircle size="40" />
+<Icon.BxsMinusSquare size="40" />
+<Icon.BxsMobile size="40" />
+<Icon.BxsMobileVibration size="40" />
+<Icon.BxsMoon size="40" />
+<Icon.BxsMouse size="40" />
+<Icon.BxsMouseAlt size="40" />
+<Icon.BxsMovie size="40" />
+<Icon.BxsMoviePlay size="40" />
+<Icon.BxsMusic size="40" />
+<Icon.BxsNavigation size="40" />
+<Icon.BxsNetworkChart size="40" />
+<Icon.BxsNews size="40" />
+<Icon.BxsNoEntry size="40" />
+<Icon.BxsNote size="40" />
+<Icon.BxsNotepad size="40" />
+<Icon.BxsNotification size="40" />
+<Icon.BxsNotificationOff size="40" />
+<Icon.BxsObjectsHorizontalCenter size="40" />
+<Icon.BxsObjectsHorizontalLeft size="40" />
+<Icon.BxsObjectsHorizontalRight size="40" />
+<Icon.BxsObjectsVerticalBottom size="40" />
+<Icon.BxsObjectsVerticalCenter size="40" />
+<Icon.BxsObjectsVerticalTop size="40" />
+<Icon.BxsOffer size="40" />
+<Icon.BxsPackage size="40" />
+<Icon.BxsPaint size="40" />
+<Icon.BxsPaintRoll size="40" />
+<Icon.BxsPalette size="40" />
+<Icon.BxsPaperPlane size="40" />
+<Icon.BxsParking size="40" />
+<Icon.BxsParty size="40" />
+<Icon.BxsPaste size="40" />
+<Icon.BxsPear size="40" />
+<Icon.BxsPen size="40" />
+<Icon.BxsPencil size="40" />
+<Icon.BxsPhone size="40" />
+<Icon.BxsPhoneCall size="40" />
+<Icon.BxsPhoneIncoming size="40" />
+<Icon.BxsPhoneOff size="40" />
+<Icon.BxsPhoneOutgoing size="40" />
+<Icon.BxsPhotoAlbum size="40" />
+<Icon.BxsPiano size="40" />
+<Icon.BxsPieChart size="40" />
+<Icon.BxsPieChartAlt size="40" />
+<Icon.BxsPieChartAlt2 size="40" />
+<Icon.BxsPin size="40" />
+<Icon.BxsPizza size="40" />
+<Icon.BxsPlane size="40" />
+<Icon.BxsPlaneAlt size="40" />
+<Icon.BxsPlaneLand size="40" />
+<Icon.BxsPlaneTakeOff size="40" />
+<Icon.BxsPlanet size="40" />
+<Icon.BxsPlaylist size="40" />
+<Icon.BxsPlug size="40" />
+<Icon.BxsPlusCircle size="40" />
+<Icon.BxsPlusSquare size="40" />
+<Icon.BxsPointer size="40" />
+<Icon.BxsPolygon size="40" />
+<Icon.BxsPopsicle size="40" />
+<Icon.BxsPrinter size="40" />
+<Icon.BxsPurchaseTag size="40" />
+<Icon.BxsPurchaseTagAlt size="40" />
+<Icon.BxsPyramid size="40" />
+<Icon.BxsQuoteAltLeft size="40" />
+<Icon.BxsQuoteAltRight size="40" />
+<Icon.BxsQuoteLeft size="40" />
+<Icon.BxsQuoteRight size="40" />
+<Icon.BxsQuoteSingleLeft size="40" />
+<Icon.BxsQuoteSingleRight size="40" />
+<Icon.BxsRadiation size="40" />
+<Icon.BxsRadio size="40" />
+<Icon.BxsReceipt size="40" />
+<Icon.BxsRectangle size="40" />
+<Icon.BxsRegistered size="40" />
+<Icon.BxsRename size="40" />
+<Icon.BxsReport size="40" />
+<Icon.BxsRewindCircle size="40" />
+<Icon.BxsRightArrow size="40" />
+<Icon.BxsRightArrowAlt size="40" />
+<Icon.BxsRightArrowCircle size="40" />
+<Icon.BxsRightArrowSquare size="40" />
+<Icon.BxsRightDownArrowCircle size="40" />
+<Icon.BxsRightTopArrowCircle size="40" />
+<Icon.BxsRocket size="40" />
+<Icon.BxsRuler size="40" />
+<Icon.BxsSad size="40" />
+<Icon.BxsSave size="40" />
+<Icon.BxsSchool size="40" />
+<Icon.BxsSearch size="40" />
+<Icon.BxsSearchAlt2 size="40" />
+<Icon.BxsSelectMultiple size="40" />
+<Icon.BxsSend size="40" />
+<Icon.BxsServer size="40" />
+<Icon.BxsShapes size="40" />
+<Icon.BxsShare size="40" />
+<Icon.BxsShareAlt size="40" />
+<Icon.BxsShield size="40" />
+<Icon.BxsShieldAlt2 size="40" />
+<Icon.BxsShieldMinus size="40" />
+<Icon.BxsShieldPlus size="40" />
+<Icon.BxsShieldX size="40" />
+<Icon.BxsShip size="40" />
+<Icon.BxsShocked size="40" />
+<Icon.BxsShoppingBag size="40" />
+<Icon.BxsShoppingBagAlt size="40" />
+<Icon.BxsShoppingBags size="40" />
+<Icon.BxsShow size="40" />
+<Icon.BxsShower size="40" />
+<Icon.BxsSkipNextCircle size="40" />
+<Icon.BxsSkipPreviousCircle size="40" />
+<Icon.BxsSkull size="40" />
+<Icon.BxsSleepy size="40" />
+<Icon.BxsSlideshow size="40" />
+<Icon.BxsSmile size="40" />
+<Icon.BxsSortAlt size="40" />
+<Icon.BxsSpa size="40" />
+<Icon.BxsSpeaker size="40" />
+<Icon.BxsSprayCan size="40" />
+<Icon.BxsSpreadsheet size="40" />
+<Icon.BxsSquare size="40" />
+<Icon.BxsSquareRounded size="40" />
+<Icon.BxsStar size="40" />
+<Icon.BxsStarHalf size="40" />
+<Icon.BxsSticker size="40" />
+<Icon.BxsStopwatch size="40" />
+<Icon.BxsStore size="40" />
+<Icon.BxsStoreAlt size="40" />
+<Icon.BxsSun size="40" />
+<Icon.BxsSushi size="40" />
+<Icon.BxsTShirt size="40" />
+<Icon.BxsTachometer size="40" />
+<Icon.BxsTag size="40" />
+<Icon.BxsTagAlt size="40" />
+<Icon.BxsTagX size="40" />
+<Icon.BxsTaxi size="40" />
+<Icon.BxsTennisBall size="40" />
+<Icon.BxsTerminal size="40" />
+<Icon.BxsThermometer size="40" />
+<Icon.BxsTime size="40" />
+<Icon.BxsTimeFive size="40" />
+<Icon.BxsTimer size="40" />
+<Icon.BxsTired size="40" />
+<Icon.BxsToTop size="40" />
+<Icon.BxsToggleLeft size="40" />
+<Icon.BxsToggleRight size="40" />
+<Icon.BxsTone size="40" />
+<Icon.BxsTorch size="40" />
+<Icon.BxsTraffic size="40" />
+<Icon.BxsTrafficBarrier size="40" />
+<Icon.BxsTrafficCone size="40" />
+<Icon.BxsTrain size="40" />
+<Icon.BxsTrash size="40" />
+<Icon.BxsTrashAlt size="40" />
+<Icon.BxsTree size="40" />
+<Icon.BxsTreeAlt size="40" />
+<Icon.BxsTrophy size="40" />
+<Icon.BxsTruck size="40" />
+<Icon.BxsTv size="40" />
+<Icon.BxsUniversalAccess size="40" />
+<Icon.BxsUpArrow size="40" />
+<Icon.BxsUpArrowAlt size="40" />
+<Icon.BxsUpArrowCircle size="40" />
+<Icon.BxsUpArrowSquare size="40" />
+<Icon.BxsUpsideDown size="40" />
+<Icon.BxsUpvote size="40" />
+<Icon.BxsUser size="40" />
+<Icon.BxsUserAccount size="40" />
+<Icon.BxsUserBadge size="40" />
+<Icon.BxsUserCheck size="40" />
+<Icon.BxsUserCircle size="40" />
+<Icon.BxsUserDetail size="40" />
+<Icon.BxsUserMinus size="40" />
+<Icon.BxsUserPin size="40" />
+<Icon.BxsUserPlus size="40" />
+<Icon.BxsUserRectangle size="40" />
+<Icon.BxsUserVoice size="40" />
+<Icon.BxsUserX size="40" />
+<Icon.BxsVector size="40" />
+<Icon.BxsVial size="40" />
+<Icon.BxsVideo size="40" />
+<Icon.BxsVideoOff size="40" />
+<Icon.BxsVideoPlus size="40" />
+<Icon.BxsVideoRecording size="40" />
+<Icon.BxsVideos size="40" />
+<Icon.BxsVirus size="40" />
+<Icon.BxsVirusBlock size="40" />
+<Icon.BxsVolume size="40" />
+<Icon.BxsVolumeFull size="40" />
+<Icon.BxsVolumeLow size="40" />
+<Icon.BxsVolumeMute size="40" />
+<Icon.BxsWallet size="40" />
+<Icon.BxsWalletAlt size="40" />
+<Icon.BxsWasher size="40" />
+<Icon.BxsWatch size="40" />
+<Icon.BxsWatchAlt size="40" />
+<Icon.BxsWebcam size="40" />
+<Icon.BxsWidget size="40" />
+<Icon.BxsWindowAlt size="40" />
+<Icon.BxsWine size="40" />
+<Icon.BxsWinkSmile size="40" />
+<Icon.BxsWinkTongue size="40" />
+<Icon.BxsWrench size="40" />
+<Icon.BxsXCircle size="40" />
+<Icon.BxsXSquare size="40" />
+<Icon.BxsYinYang size="40" />
+<Icon.BxsZap size="40" />
+<Icon.BxsZoomIn size="40" />
+<Icon.BxsZoomOut size="40" />
