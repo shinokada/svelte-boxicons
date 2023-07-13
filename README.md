@@ -12,6 +12,20 @@
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
+## Repo
+
+[GitHub repo](https://github.com/shinokada/svelte-boxicons)
+
+## Original source
+
+[atisawd/boxicons](https://github.com/atisawd/boxicons/)
+
+## License
+
+[Svelte-Boxicons License](https://github.com/shinokada/svelte-boxicons/LICENSE)
+
+[Boxicons License](https://github.com/atisawd/boxicons/blob/master/LICENSE)
+
 ## Installation
 
 ```sh
