@@ -1,38 +1,22 @@
-<h1 align="center">Svelte Boxicons</h1>
+# Svelte Boxicons
 
-<p align="center">
-<a href="https://github.com/shinokada/svelte-boxicons">Svelte-Boxicons</a>
-</p>
-
-<p align="center">
-<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25"></a>
-<a href="https://www.npmjs.com/package/svelte-boxicons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-boxicons" alt="npm" height="25"></a>
-<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25"></a>
-<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-boxicons" alt="License" height="25"></a>
-<a href="https://www.npmjs.com/package/svelte-boxicons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-boxicons.svg" alt="npm" height="25"></a>
-</p>
+<div class="flex gap-2 my-8">
+<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25" style="height: 25px !important;"></a>
+<a href="https://www.npmjs.com/package/svelte-boxicons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-boxicons" alt="npm" height="25" style="height: 25px !important;"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25" style="height: 25px !important;"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-boxicons" alt="License" height="25" style="height: 25px !important;"></a>
+<a href="https://www.npmjs.com/package/svelte-boxicons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-boxicons.svg" alt="npm" height="25" style="height: 25px !important;"></a>
+</div>
 
 1500+ SVG [boxicons](https://github.com/atisawd/boxicons/tree/master) components for Svelte. Svelte-boxicons support major CSS frameworks using the `class` props.
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
-<p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-boxicons/main/static/images/boxicons-450.webp" />
-</p>
-
 ## Installation
 
 ```sh
-npm i -D svelte-boxicons
-```q
-
-## Icon names
-
-[Icon list](/icon-list.md)
-
-## Icon images
-
-[Icon images](/icon-images.md)
+pnpm i -D svelte-boxicons
+```
 
 ## Usages
 
@@ -76,10 +60,6 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 }
 ```
 
-## REPL
-
-[Demo](https://svelte.dev/repl/924e767ea0cd419ab61de2ff4fad2075?version=4.0.1)
-
 ## Props
 
 - viewBox: string = '0 0 24 24';
@@ -100,6 +80,12 @@ Use the `size` prop to change the size of icons.
 <BxAbacus size="40" /> 
 ```
 
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
+
+```html
+<BxAbacus class="shrink-0 h-40 w-40" />
+```
+
 ## CSS HEX Colors
 
 Use the `color` prop to change colors with HEX color code.
@@ -110,12 +96,12 @@ Use the `color` prop to change colors with HEX color code.
 
 ## CSS framworks suport
 
-Use the `class` prop to change size, colors and add additional css.
+You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the class prop.
 
 Tailwind CSS example:
 
 ```html
-<BxAbacus class="h-24 w-24 text-blue-700 mr-4" />
+<BxAbacus class="text-red-700 dark:text-green-300 inline m-1" />
 ```
 
 Bootstrap examples:
@@ -222,5 +208,5 @@ Use `import * as Icon from 'svelte-boxicons`.
 
 ## Other icons
 
-- [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
 
