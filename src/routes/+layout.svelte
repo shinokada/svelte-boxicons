@@ -14,6 +14,9 @@
   import { MetaTags } from 'svelte-meta-tags';
 
   $: activeUrl = $page.url.pathname;
+
+  let divClass = 'w-full ml-auto lg:block lg:w-auto order-1 lg:order-none';
+  let ulClass = 'flex flex-col py-3 my-4 lg:flex-row lg:my-0 text-sm font-medium gap-4';
 </script>
 
 <MetaTags
@@ -36,26 +39,31 @@
     imageAlt: "Svelte Boxicons"
   }} />
   
-<Navbar let:hidden let:toggle class="dark:bg-cyan-950" >
-  <NavBrand href="/">
-    <span class="self-center whitespace-nowrap text-2xl font-semibold text-primary-700 dark:text-primary-500">
-      Svelte Boxicons
-    </span>
-  </NavBrand>
-  <NavHamburger on:click={toggle} />
-  <NavUl {hidden}>
+<header class="flex-none w-full mx-auto bg-white dark:bg-cyan-950">
+  <Navbar color="default" fluid let:hidden let:toggle class="dark:bg-cyan-950">
+    <NavBrand href="/">
+      <span class="self-center whitespace-nowrap text-2xl font-semibold text-primary-900 dark:text-primary-500"> Svelte CoreUI Icons </span>
+    </NavBrand>
+
+    <NavUl {hidden} {divClass} {ulClass} on:click={() => setTimeout(toggle, 1)} 
+      nonActiveClass="md:!pl-3 md:!py-2 lg:!pl-0 text-gray-700 hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 dark:text-white lg:dark:hover:text-primary-700 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent" activeClass="md:!pl-3 md:!py-2 lg:!pl-0 text-white dark:text-white bg-primary-700 lg:bg-transparent dark:bg-primary-600 lg:dark:bg-transparent cursor-default"
+      >
     <NavLi href="/" active={activeUrl === '/'}>Home</NavLi>
     <NavLi href="/icons" active={activeUrl === '/icons'}>Icons</NavLi>
     <NavLi href="https://github.com/shinokada/svelte-boxicons">GitHub</NavLi>
     <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
   </NavUl>
-  <DarkMode />
+  <div class="flex items-center ml-auto">
+    <DarkMode class="inline-block dark:hover:text-white hover:text-gray-900" />
+  </div>
+  <NavHamburger on:click={toggle} btnClass="ml-3 m-0 lg:hidden" />
 </Navbar>
-<div class="mx-16 mb-16">
+</header>
+<div class="mx-8 mb-16">
   <slot />
 </div>
 
-<Footer footerType="logo" class="dark:bg-cyan-950 mx-8">
+<Footer footerType="logo" class="dark:bg-cyan-950">
   <div class="sm:flex sm:items-center sm:justify-between">
     <FooterBrand
     href="https://svelte-boxicons.vercel.app/"
