@@ -8,7 +8,7 @@
 <a href="https://www.npmjs.com/package/svelte-boxicons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-boxicons.svg" alt="npm" height="25" style="height: 25px !important;"></a>
 </div>
 
-1500+ SVG [boxicons](https://github.com/atisawd/boxicons/tree/master) components for Svelte. Svelte-boxicons support major CSS frameworks using the `class` props.
+1500+ SVG [boxicons](https://github.com/atisawd/boxicons/tree/master) components for Svelte.
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
