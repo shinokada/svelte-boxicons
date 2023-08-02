@@ -64,13 +64,13 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 Use the `width` and `height` props to change the size of icons.
 
 ```html
-<Icon name="day-rain" width="100" height="100" />
+<Icon name="bx-alarm-regular" width="100" height="100" />
 ```
 
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
 ```html
-<Icon name="day-rain" class="shrink-0 h-20 w-20" />
+<Icon name="bx-alarm-regular" class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS HEX Colors
@@ -78,7 +78,7 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<Icon name="day-rain" color="#c61515" />
+<Icon name="bx-alarm-regular" color="#c61515" />
 ```
 
 ## CSS frameworks suport
@@ -88,13 +88,13 @@ You can apply CSS framework color and other attributes directly to the icon comp
 Tailwind CSS example:
 
 ```html
-<Icon name="day-rain" class="text-red-700 inline m-1" />
+<Icon name="bx-alarm-regular" class="text-red-700 inline m-1" />
 ```
 
 Bootstrap examples:
 
 ```html
-<Icon name="day-rain" class="position-absolute top-0 px-1" />
+<Icon name="bx-alarm-regular" class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -104,16 +104,16 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<Icon name="day-rain" class="text-blue-700 dark:text-red-500" />
+<Icon name="bx-alarm-regular" class="text-blue-700 dark:text-red-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `day-rain` has `aria-label="day-rain"`.
+All icons have aria-label. For example `bx-alarm-regular` has `aria-label="bx-alarm-regular"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<Icon name="day-rain" ariaLabel="red day-rain" color="#c61515"/>
+<Icon name="bx-alarm-regular" ariaLabel="red alarm" color="#c61515"/>
 ```
 
 ## Unfocusable icon
@@ -121,7 +121,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<Icon name="day-rain"  tabindex="-1" />
+<Icon name="bx-alarm-regular"  tabindex="-1" />
 ```
 
 ## Events
@@ -143,23 +143,23 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<Icon name="day-rain"  tabindex="0" />
+<Icon name="bx-alarm-regular"  tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<svelte:component this="{Icon}" name="day-rain" />
+<svelte:component this="{Icon}" name="bx-alarm-regular" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import {Icon} from 'svelte-weather';
+  import {Icon} from 'svelte-boxicons';
   import { onMount } from 'svelte';
   const props = {
-    name: 'day-rain',
+    name: 'bx-alarm-regular',
     size: '50',
     color: '#ff0000'
   };
@@ -172,11 +172,11 @@ You can pass other attibutes as well.
 
 ## Import all
 
-Use `import {Icon, icons} from 'svelte-weather';`.
+Use `import {Icon, icons} from 'svelte-boxicons';`.
 
 ```html
 <script>
-  import {Icon, icons} from 'svelte-weather';
+  import {Icon, icons} from 'svelte-boxicons';
 </script>
 
 {#each Object.keys(icons) as name}
