@@ -11,7 +11,7 @@
   const keywordsToExclude = ['-regular', '-solid'];
   const keyIcons = excludeItemsByKeywords(icons, keywordsToExclude);
   
-  const contentClass = 'rounded-lg dark:bg-stone-800 mt-4';
+  const contentClass = 'rounded-lg dark:bg-cyan-950 mt-4';
   let searchTerm = '';
 
   $: filteredIconNames = Object.keys(keyIcons).filter(name => {
