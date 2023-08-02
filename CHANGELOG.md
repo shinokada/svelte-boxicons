@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/shinokada/svelte-boxicons/compare/v0.1.3...v0.2.1) (2023-08-02)
+
+
+### Features
+
+* use three files ([ddf3296](https://github.com/shinokada/svelte-boxicons/commit/ddf329600f546bf71d0ea21e710f75e7d92a1215))
+
 ### [0.1.3](https://github.com/shinokada/svelte-boxicons/compare/v0.1.2...v0.1.3) (2023-07-20)
 
 
