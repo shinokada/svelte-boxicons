@@ -38,49 +38,22 @@ In a svelte file:
 
 ```html
 <script>
-  import { BxAbacus } from 'svelte-boxicons';
+  import { Icon } from 'svelte-boxicons';
 </script>
 
-<BxAbacus />
-```
-
-## Faster compiling
-
-If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
-
-```html
-<script>
-  import BxAbacus from 'svelte-boxicons/BxAbacus.svelte';
-</script>
-
-<BxAbacus />
-```
-
-If you are a TypeScript user, install **typescript version 5.0.0 or above**.
-
-```sh
-pnpm i -D typescript@latest
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
+<Icon name="bxl-amazon" />
+<Icon name="bx-alarm-regular" />
+<Icon name="bx-alarm-solid" />
 ```
 
 ## Props
 
-- viewBox: string = '0 0 24 24';
-- role = 'img';
-- strokeWidth = '1.5';
-- color = 'currentColor';
-- ariaLabel = 'icon file name';
+- @prop name;
+- @prop width = "24";
+- @prop height = "24";
+- @prop role = 'img';
+- @prop color = 'currentColor'
+- @prop ariaLabel='icon name'
 
 ## IDE support
 
@@ -88,16 +61,16 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 
 ## Size
 
-Use the `size` prop to change the size of icons.
+Use the `width` and `height` props to change the size of icons.
 
 ```html
-<BxAbacus size="40" /> 
+<Icon name="day-rain" width="100" height="100" />
 ```
 
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
 ```html
-<BxAbacus class="shrink-0 h-40 w-40" />
+<Icon name="day-rain" class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS HEX Colors
@@ -105,23 +78,23 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<BxAbacus color="#c61515" /> 
+<Icon name="day-rain" color="#c61515" />
 ```
 
-## CSS framworks suport
+## CSS frameworks suport
 
-You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the class prop.
+You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
 Tailwind CSS example:
 
 ```html
-<BxAbacus class="text-red-700 dark:text-green-300 inline m-1" />
+<Icon name="day-rain" class="text-red-700 inline m-1" />
 ```
 
 Bootstrap examples:
 
 ```html
-<BxAbacus class="position-absolute top-0 px-1" />
+<Icon name="day-rain" class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -131,16 +104,16 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<BxAbacus class="text-blue-700 dark:text-red-500" />
+<Icon name="day-rain" class="text-blue-700 dark:text-red-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `BxAbacus` has `aria-label="bx abacus"`.
+All icons have aria-label. For example `day-rain` has `aria-label="day-rain"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<BxAbacus ariaLabel="abacus svg icon" />
+<Icon name="day-rain" ariaLabel="red day-rain" color="#c61515"/>
 ```
 
 ## Unfocusable icon
@@ -148,7 +121,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<BxAbacus tabindex="-1" />
+<Icon name="day-rain"  tabindex="-1" />
 ```
 
 ## Events
@@ -170,57 +143,50 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<BxAbacus tabindex="0" />
+<Icon name="day-rain"  tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<script>
-  import { BxAbacus } from 'svelte-boxicons';
-</script>
-
-<svelte:component this="{BxAbacus}" />
+<svelte:component this="{Icon}" name="day-rain" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { BxAbacus } from 'svelte-boxicons';
+  import {Icon} from 'svelte-weather';
   import { onMount } from 'svelte';
   const props = {
+    name: 'day-rain',
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new BxAbacus({ target: document.body, props });
+    const icon = new Icon({ target: document.body, props });
   });
 </script>
 ```
 
+
 ## Import all
 
-Use `import * as Icon from 'svelte-boxicons`.
+Use `import {Icon, icons} from 'svelte-weather';`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-boxicons';
+  import {Icon, icons} from 'svelte-weather';
 </script>
 
-<Icon.BxAbacus />
-
-<h1>Size</h1>
-<Icon.BxAbacus size="30" />
-
-<h1>CSS HEX color</h1>
-<Icon.BxAbacus color="#c61515" size="40" />
-
-<h1>Tailwind CSS</h1>
-<Icon.BxAbacus class="text-blue-500" />
+{#each Object.keys(icons) as name}
+<div class="flex gap-4 items-center text-lg">
+  <Icon name={name} bind:width={size} bind:height={size} class="shrink-0"/>
+  {name}
+</div>
+{/each}
 ```
 
 ## Other icons
 
 [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
-
