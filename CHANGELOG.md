@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.3](https://github.com/shinokada/svelte-boxicons/compare/v0.2.2...v0.2.3) (2023-08-02)
+
+
+### Bug Fixes
+
+* bg color ([03f617b](https://github.com/shinokada/svelte-boxicons/commit/03f617b97bd4d4255750c80da0ce7028ef411a0b))
+* component doc update ([02117b1](https://github.com/shinokada/svelte-boxicons/commit/02117b163832a564d4c170134abad74fbf051a70))
+
 ### [0.2.2](https://github.com/shinokada/svelte-boxicons/compare/v0.2.1...v0.2.2) (2023-08-02)
 
 ### [0.2.1](https://github.com/shinokada/svelte-boxicons/compare/v0.1.3...v0.2.1) (2023-08-02)
