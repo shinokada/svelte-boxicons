@@ -1,0 +1,47 @@
+<script>
+  export let size = '24';
+  export let viewBox = '0 0 24 24';
+  export let role = 'img';
+  export let strokeWidth = '1.5';
+  export let color = 'currentColor';
+  export let ariaLabel = 'bxs webcam';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  {...$$restProps}
+  {role}
+  aria-label={ariaLabel}
+  {viewBox}
+  fill={color}
+  stroke-width={strokeWidth}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+>
+  <path
+    d="M12 2c-4.963 0-9 4.037-9 9 0 3.328 1.82 6.232 4.513 7.79l-2.067 1.378A1 1 0 0 0 6 22h12a1 1 0 0 0 .555-1.832l-2.067-1.378C19.18 17.232 21 14.328 21 11c0-4.963-4.037-9-9-9zm0 16c-3.859 0-7-3.141-7-7s3.141-7 7-7 7 3.141 7 7-3.141 7-7 7z"
+  /><path
+    d="M12 6c-2.757 0-5 2.243-5 5s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5zm-1.5 5a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 10.5 11z"
+  />
+</svg>
+
+<!--
+@component
+[Go to docs](https://svelte-boxicons.vercel.app)
+## Props
+@prop export let size = '24';
+@prop export let viewBox = '0 0 24 24';
+@prop export let role = 'img';
+@prop export let strokeWidth = '1.5';
+@prop export let color = 'currentColor';
+@prop export let ariaLabel = 'bxs webcam';
+-->

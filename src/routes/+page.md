@@ -38,22 +38,49 @@ In a svelte file:
 
 ```html
 <script>
-  import { Icon } from 'svelte-boxicons';
+  import { BxAbacus } from 'svelte-boxicons';
 </script>
 
-<Icon name="bxl-amazon" />
-<Icon name="bx-alarm-regular" />
-<Icon name="bx-alarm-solid" />
+<BxAbacus />
+```
+
+## Faster compiling
+
+If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
+
+```html
+<script>
+  import BxAbacus from 'svelte-boxicons/BxAbacus.svelte';
+</script>
+
+<BxAbacus />
+```
+
+If you are a TypeScript user, install **typescript version 5.0.0 or above**.
+
+```sh
+pnpm i -D typescript@latest
+```
+
+To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
+
+```json
+{
+  //...
+  "compilerOptions": {
+    // ...
+    "moduleResolution": "nodenext"
+  }
+}
 ```
 
 ## Props
 
-- @prop name;
-- @prop width = "24";
-- @prop height = "24";
-- @prop role = 'img';
-- @prop color = 'currentColor'
-- @prop ariaLabel='icon name'
+- viewBox: string = '0 0 24 24';
+- role = 'img';
+- strokeWidth = '1.5';
+- color = 'currentColor';
+- ariaLabel = 'icon file name';
 
 ## IDE support
 
@@ -61,16 +88,16 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 
 ## Size
 
-Use the `width` and `height` props to change the size of icons.
+Use the `size` prop to change the size of icons.
 
 ```html
-<Icon name="bx-alarm-regular" width="100" height="100" />
+<BxAbacus size="40" />
 ```
 
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
 ```html
-<Icon name="bx-alarm-regular" class="shrink-0 h-20 w-20" />
+<BxAbacus class="shrink-0 h-40 w-40" />
 ```
 
 ## CSS HEX Colors
@@ -78,23 +105,23 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<Icon name="bx-alarm-regular" color="#c61515" />
+<BxAbacus color="#c61515" />
 ```
 
-## CSS frameworks suport
+## CSS framworks suport
 
-You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
+You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the class prop.
 
 Tailwind CSS example:
 
 ```html
-<Icon name="bx-alarm-regular" class="text-red-700 inline m-1" />
+<BxAbacus class="text-red-700 dark:text-green-300 inline m-1" />
 ```
 
 Bootstrap examples:
 
 ```html
-<Icon name="bx-alarm-regular" class="position-absolute top-0 px-1" />
+<BxAbacus class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -104,16 +131,16 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<Icon name="bx-alarm-regular" class="text-blue-700 dark:text-red-500" />
+<BxAbacus class="text-blue-700 dark:text-red-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `bx-alarm-regular` has `aria-label="bx-alarm-regular"`.
+All icons have aria-label. For example `BxAbacus` has `aria-label="bx abacus"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<Icon name="bx-alarm-regular" ariaLabel="red alarm" color="#c61515"/>
+<BxAbacus ariaLabel="abacus svg icon" />
 ```
 
 ## Unfocusable icon
@@ -121,7 +148,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<Icon name="bx-alarm-regular"  tabindex="-1" />
+<BxAbacus tabindex="-1" />
 ```
 
 ## Events
@@ -143,48 +170,54 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<Icon name="bx-alarm-regular"  tabindex="0" />
+<BxAbacus tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<svelte:component this="{Icon}" name="bx-alarm-regular" />
+<script>
+  import { BxAbacus } from 'svelte-boxicons';
+</script>
+
+<svelte:component this="{BxAbacus}" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import {Icon} from 'svelte-boxicons';
+  import { BxAbacus } from 'svelte-boxicons';
   import { onMount } from 'svelte';
   const props = {
-    name: 'bx-alarm-regular',
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new Icon({ target: document.body, props });
+    const icon = new BxAbacus({ target: document.body, props });
   });
 </script>
 ```
 
-
 ## Import all
 
-Use `import {Icon, icons} from 'svelte-boxicons';`.
+Use `import * as Icon from 'svelte-boxicons`.
 
 ```html
 <script>
-  import {Icon, icons} from 'svelte-boxicons';
+  import * as Icon from 'svelte-boxicons';
 </script>
 
-{#each Object.keys(icons) as name}
-<div class="flex gap-4 items-center text-lg">
-  <Icon name={name} class="shrink-0"/>
-  {name}
-</div>
-{/each}
+<Icon.BxAbacus />
+
+<h1>Size</h1>
+<Icon.BxAbacus size="30" />
+
+<h1>CSS HEX color</h1>
+<Icon.BxAbacus color="#c61515" size="40" />
+
+<h1>Tailwind CSS</h1>
+<Icon.BxAbacus class="text-blue-500" />
 ```
 
 ## Other icons

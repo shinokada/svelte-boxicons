@@ -6,46 +6,40 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.2.3](https://github.com/shinokada/svelte-boxicons/compare/v0.2.2...v0.2.3) (2023-08-02)
 
-
 ### Bug Fixes
 
-* bg color ([03f617b](https://github.com/shinokada/svelte-boxicons/commit/03f617b97bd4d4255750c80da0ce7028ef411a0b))
-* component doc update ([02117b1](https://github.com/shinokada/svelte-boxicons/commit/02117b163832a564d4c170134abad74fbf051a70))
+- bg color ([03f617b](https://github.com/shinokada/svelte-boxicons/commit/03f617b97bd4d4255750c80da0ce7028ef411a0b))
+- component doc update ([02117b1](https://github.com/shinokada/svelte-boxicons/commit/02117b163832a564d4c170134abad74fbf051a70))
 
 ### [0.2.2](https://github.com/shinokada/svelte-boxicons/compare/v0.2.1...v0.2.2) (2023-08-02)
 
 ### [0.2.1](https://github.com/shinokada/svelte-boxicons/compare/v0.1.3...v0.2.1) (2023-08-02)
 
-
 ### Features
 
-* use three files ([ddf3296](https://github.com/shinokada/svelte-boxicons/commit/ddf329600f546bf71d0ea21e710f75e7d92a1215))
+- use three files ([ddf3296](https://github.com/shinokada/svelte-boxicons/commit/ddf329600f546bf71d0ea21e710f75e7d92a1215))
 
 ### [0.1.3](https://github.com/shinokada/svelte-boxicons/compare/v0.1.2...v0.1.3) (2023-07-20)
 
-
 ### Features
 
-* add docs ([63414a9](https://github.com/shinokada/svelte-boxicons/commit/63414a9ee69b4a4595b5578b10d3171f2cc55b35))
-
+- add docs ([63414a9](https://github.com/shinokada/svelte-boxicons/commit/63414a9ee69b4a4595b5578b10d3171f2cc55b35))
 
 ### Bug Fixes
 
-* homepage update ([bd8e4ed](https://github.com/shinokada/svelte-boxicons/commit/bd8e4ed409b2ea9448822c48daf3d01a2e336ee7))
-* range bar width update ([95ffa84](https://github.com/shinokada/svelte-boxicons/commit/95ffa84929f9a28609efcd21d2c3af5447c9c1d4))
-* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([c15017e](https://github.com/shinokada/svelte-boxicons/commit/c15017e2de748fd393c52bd28001b5b69816265e))
-* update license ([a8bbc54](https://github.com/shinokada/svelte-boxicons/commit/a8bbc54c3e7427273bd420da634c4a538df2bbf7))
+- homepage update ([bd8e4ed](https://github.com/shinokada/svelte-boxicons/commit/bd8e4ed409b2ea9448822c48daf3d01a2e336ee7))
+- range bar width update ([95ffa84](https://github.com/shinokada/svelte-boxicons/commit/95ffa84929f9a28609efcd21d2c3af5447c9c1d4))
+- update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([c15017e](https://github.com/shinokada/svelte-boxicons/commit/c15017e2de748fd393c52bd28001b5b69816265e))
+- update license ([a8bbc54](https://github.com/shinokada/svelte-boxicons/commit/a8bbc54c3e7427273bd420da634c4a538df2bbf7))
 
 ### [0.1.2](https://github.com/shinokada/svelte-boxicons/compare/v0.1.1...v0.1.2) (2023-07-10)
 
-
 ### Bug Fixes
 
-* icon-images page ([abb614d](https://github.com/shinokada/svelte-boxicons/commit/abb614d16faabda4c5467b50acce0184d2e044d1))
+- icon-images page ([abb614d](https://github.com/shinokada/svelte-boxicons/commit/abb614d16faabda4c5467b50acce0184d2e044d1))
 
 ### 0.1.1 (2023-06-19)
 
-
 ### Features
 
-* add component ([9609314](https://github.com/shinokada/svelte-boxicons/commit/96093145572c0056900ec07d4527777914e81224))
+- add component ([9609314](https://github.com/shinokada/svelte-boxicons/commit/96093145572c0056900ec07d4527777914e81224))
