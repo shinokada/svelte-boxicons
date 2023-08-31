@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.3.1](https://github.com/shinokada/svelte-boxicons/compare/v0.2.4...v0.3.1) (2023-08-31)
 
-
 ### Features
 
-* smaller compiled size and Icon component ([167f661](https://github.com/shinokada/svelte-boxicons/commit/167f661c7c2165f3e1a40ab04e7434543637768c))
+- smaller compiled size and Icon component ([167f661](https://github.com/shinokada/svelte-boxicons/commit/167f661c7c2165f3e1a40ab04e7434543637768c))
 
 ### [0.2.4](https://github.com/shinokada/svelte-boxicons/compare/v0.2.3...v0.2.4) (2023-08-03)
 
