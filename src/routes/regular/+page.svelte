@@ -8,11 +8,12 @@
     excludeItemsByKeywords,
     random_tailwind_color,
     random_hex_color_code
-  } from '../utils.js';
+  } from '../utils/utils.js';
   import * as Icons from '$lib';
   const keywordsToExclude = ['Bxl', 'Bxs'];
   const keyIcons = excludeItemsByKeywords(Icons, keywordsToExclude);
-  const contentClass = 'rounded-lg dark:bg-sky-950 mt-4';
+
+  const contentClass = 'rounded-lg dark:bg-cyan-950 mt-4';
   let searchTerm = '';
 
   $: filteredEntries = Object.entries(keyIcons).filter(([name, component]) => {
@@ -21,6 +22,7 @@
   let size = '24';
 </script>
 
+<div class="m-8 w-full">
 <h1>Svelte Boxicons: Regular</h1>
 <TableSearch
   placeholder="Search by icon name"
@@ -85,3 +87,4 @@
     </TabItem>
   </Tabs>
 </TableSearch>
+</div>
