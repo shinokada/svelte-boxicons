@@ -80,11 +80,12 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 
 ## Props
 
-- viewBox: string = '0 0 24 24';
-- role = 'img';
-- strokeWidth = '1.5';
-- color = 'currentColor';
-- ariaLabel = 'icon file name';
+- @prop export let size = ctx.size || '24';
+- @prop export let viewBox = ctx.viewBox || '0 0 24 24';
+- @prop export let role = ctx.role || 'img';
+- @prop export let color = ctx.color || 'currentColor';
+- @prop export let strokeWidth = ctx.strokeWidth || '1.5';
+- @prop export let ariaLabel = 'bx video';
 
 ## IDE support
 

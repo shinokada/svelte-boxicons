@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.3.5](https://github.com/shinokada/svelte-boxicons/compare/v0.3.4...v0.3.5) (2023-09-14)
 
-
 ### Bug Fixes
 
-* update props ([f798bed](https://github.com/shinokada/svelte-boxicons/commit/f798bed690c36530d2a7021d004679d2e427f709))
+- update props ([f798bed](https://github.com/shinokada/svelte-boxicons/commit/f798bed690c36530d2a7021d004679d2e427f709))
 
 ### [0.3.4](https://github.com/shinokada/svelte-boxicons/compare/v0.3.3...v0.3.4) (2023-09-14)
 
