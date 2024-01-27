@@ -1,5 +1,3 @@
-
-
 # Svelte Boxicons
 
 <div class="flex gap-2 my-8">

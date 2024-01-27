@@ -7,7 +7,6 @@
     color: '#ff4488'
   };
   setContext('iconCtx', iconCtx);
-
 </script>
 
 <div>
@@ -16,4 +15,3 @@
     <BxWinkSmile />
   </div>
 </div>
-
