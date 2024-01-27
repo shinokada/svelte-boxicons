@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.7](https://github.com/shinokada/svelte-boxicons/compare/v0.3.6...v0.3.7) (2024-01-27)
+
+
+### Features
+
+* add context example ([085b5d7](https://github.com/shinokada/svelte-boxicons/commit/085b5d7ec23ef12ee267c25fdcaf44713384448b))
+* add data-sveltekit-reload to Home link so that it reloads sidebar menu and afterNavigate scrollTo in the +layout.svelte ([e26d227](https://github.com/shinokada/svelte-boxicons/commit/e26d227b688cc4826945295b302e0052288c33f8))
+
+
+### Bug Fixes
+
+* add {activeUrl} to NavUl ([c979316](https://github.com/shinokada/svelte-boxicons/commit/c979316b2c56e7ca8b5bb5675cf1a918c02e8018))
+* NavHamburger class="ml-3 m-0 lg:hidden md:block" ([bcb2a82](https://github.com/shinokada/svelte-boxicons/commit/bcb2a82680bc903542e0677c10d0c21c9aab7aaa))
+
 ### [0.3.6](https://github.com/shinokada/svelte-boxicons/compare/v0.3.5...v0.3.6) (2023-09-14)
 
 ### [0.3.5](https://github.com/shinokada/svelte-boxicons/compare/v0.3.4...v0.3.5) (2023-09-14)
