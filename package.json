@@ -1,6 +1,6 @@
 {
   "name": "svelte-boxicons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "description": "Svelte SVG boxicons components",
   "author": {
