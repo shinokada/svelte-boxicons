@@ -20,16 +20,6 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [GitHub repo](https://github.com/shinokada/svelte-boxicons)
 
-## Original source
-
-[atisawd/boxicons](https://github.com/atisawd/boxicons/)
-
-## License
-
-[Svelte-Boxicons License](https://github.com/shinokada/svelte-boxicons/LICENSE)
-
-[Boxicons License](https://github.com/atisawd/boxicons/blob/master/LICENSE)
-
 ## Installation
 
 ```sh
@@ -360,6 +350,16 @@ Use `import * as Icon from 'svelte-boxicons`.
 <Icon.BxAbacus class="text-blue-500" />
 ```
 
+## Original source
+
+[atisawd/boxicons](https://github.com/atisawd/boxicons/)
+
+## License
+
+[Svelte-Boxicons License](https://github.com/shinokada/svelte-boxicons/LICENSE)
+
+[Boxicons License](https://github.com/atisawd/boxicons/blob/master/LICENSE)
+
 ## Other icons
 
-[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
